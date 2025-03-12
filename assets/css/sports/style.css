@@ -1,0 +1,126 @@
+/* Header Styling */
+.s-h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #3099da, #2d8db9);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Subheader Styling */
+h2 {
+    color: white;
+    
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Styling */
+.s-about {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.s-about p {
+    margin: 0;
+    color: #333;
+}
+
+/* Table Styling */
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+th {
+    background: linear-gradient(135deg, #43a4d1, #429ad1);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f7fc;
+}
+
+tr:hover {
+    background-color: #e3eef5;
+}
+
+/* Column Widths */
+.name-column {
+    min-width: 200px;
+}
+
+.date-column {
+    min-width: 120px;
+}
+
+.title-column {
+    min-width: 160px;
+}
+
+.organizer-column {
+    min-width: 200px;
+}
+
+.event-column {
+    min-width: 160px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .s-about {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}

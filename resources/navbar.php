@@ -111,7 +111,7 @@
                         <a class="dropdown-item" href="#">UGc ODL online Programs</a>
                         <a class="dropdown-item" href="#">IQAC</a>
                         <a class="dropdown-item" href="#">Academic Collab</a>
-                        <a class="dropdown-item" href="#">Library</a>
+                        <a class="dropdown-item" href="/library/index.php">Library</a>
 
 
                     </div>
@@ -124,12 +124,16 @@
 <div class="dropdown">
 <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Admissions
+                    Admissions & Fee
                 </button>
                 <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Programmes Offered</a>
-                    <a class="dropdown-item" href="#">Eligibility</a>
-                    <a class="dropdown-item" href="#">Enquiry Form</a>
+                    <a class="dropdown-item"  href="/admission/index.php">Admission details</a>
+                    <a class="dropdown-item" href="#">Prospectus</a>
+                    <a class="dropdown-item" href="#">Admission process</a>
+                    <a class="dropdown-item" href="#">Fee Refund Policy</a>
+                    
+
+
                 </div>
 </div>
 
@@ -146,7 +150,7 @@
                 </button>
                 <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Administration Services</a>
-                    <a class="dropdown-item" href="#">Library</a>
+                    <!-- <a class="dropdown-item" href="#">Library</a> -->
                     <!-- <a class="dropdown-item" href="#">Canteen</a> -->
                     <!-- <a class="dropdown-item" href="#">Hostel</a> -->
                     <a class="dropdown-item" href="#">Transport</a>
