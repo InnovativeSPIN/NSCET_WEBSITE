@@ -1,0 +1,89 @@
+@import url('./main.css');
+/* hero section */
+#hero_main_content {
+    height: 70vh;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+
+}
+
+.hero_section_content {
+    background: #1292e2ab;
+    padding: 3rem;
+    border-radius: 5px;
+    width: 980px;
+    z-index: 1;
+    height: 160px;
+    overflow: hidden;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero_section_content h2 {
+    font-size: clamp(25px, 2em, 30px);
+    color: var(--text-color);
+    font-weight: 700;
+
+}
+
+.hero_section_content p {
+    font-size: clamp(15px, 2em, 18px);
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.custom_swiper-button-next,
+.custom_swiper-button-prev {
+    color: var(--text-color) !important;
+    width: 80px;
+    height: 80px;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 1px solid var(--dark-color);
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+    transition: 0.2s;
+}
+
+.custom_swiper-button-next:hover,
+.custom_swiper-button-prev:hover {
+    transform: scale(0.8);
+}
+
+
+/* about us */
+.institute-about{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.content-main h2{
+font-size: clamp(20px,2vw,30px);
+font-weight: 700;
+color: var(--dark-color);
+text-decoration: underline;
+padding: 10px;
+}
+.vision-content p{
+margin-top: 1rem;
+line-height: 1.5rem;
+}
+.mission-content ul {
+    margin-top: 1rem;
+}
+.mission-content ul li{
+    line-height: 1.5rem;
+    list-style:circle;
+    margin-bottom: 5px;
+}
+.video-section iframe{
+border-radius: 5px;
+}
