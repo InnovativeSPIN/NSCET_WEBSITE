@@ -39,7 +39,32 @@
 <ul>
 <ul>
     <li><a href="#">About</a></li>
-    <li><a href="#">Department</a></li>
+    <li>
+
+    <div class="dropdown">
+    <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Department
+                    </button>
+                    <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/department/?dept=cse">Computer Science &amp;
+                            Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=civil">Civil Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=ece">Electronics &amp;
+                            Communication Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=eee">Electrical and Electronics
+                            Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=mech">Mechanical Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=ai-and-ds">Artificial Intelligence
+                            &amp; Data Science </a>
+                        <a class="dropdown-item" href="/department/?dept=it">Information Technology</a>
+                        <a class="dropdown-item" href="/department/?dept=s-and-h">Science and Humanities</a>
+                        <a class="dropdown-item" href="/department/?dept=se">Structural Engineering</a>
+                        <a class="dropdown-item" href="/department/?dept=mfe">Manufacturing Engineering</a>
+                    </div>
+    </div>
+
+</li>
     <li><a href="#">COE</a></li>
     <li><a href="#">Academics</a></li>
     <li><a href="#">Admissions</a></li>

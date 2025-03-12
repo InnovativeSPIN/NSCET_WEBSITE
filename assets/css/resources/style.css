@@ -1,65 +1,73 @@
 @import url('./main.css');
 
 /* navbar */
-.main_top_header{
+.main_top_header {
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
     display: flex;
-  align-items: center;
-  gap: 3rem;
-  padding: 14px;
-  border-bottom: 1px solid var(--dark-color);
-  border-top: 5px solid var(--primary-color);
+    align-items: center;
+    gap: 7rem;
+    padding: 14px;
+    border-bottom: 1px solid var(--dark-color);
+    border-top: 5px solid var(--primary-color);
 }
-.college_logo img{
-    width: 180px;
+
+.college_logo img {
+    width: 160px;
 
 }
-.header_img img{
-    width: 380px;
+
+.header_img img {
+    width: 360px;
 }
-.karmarajar_logo img{
+
+.karmarajar_logo img {
     width: 100px;
 }
-.naac_logo img{
+
+.naac_logo img {
     width: 130px;
 }
-.rank_logo img{
+
+.rank_logo img {
     width: 70px;
 }
-.college_main_logo{
+
+.college_main_logo {
     display: flex;
-justify-content: center;
+    justify-content: center;
+    margin-left: 3rem;
 }
-.college_logos{
+
+.college_logos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 /* social media */
-.social_media{
+.social_media {
     position: absolute;
-top: 0;
-right: 4rem;
-background: var(--primary-color);
-padding: 10px;
-border-bottom-left-radius:50px ;
-padding-left: 2rem;
+    top: 0;
+    right: 0;
+    background: var(--primary-color);
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    padding-left: 2rem;
 
-box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
 }
-.top-social{
+
+.top-social {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 
 }
-.top-social a{
-    font-size: clamp(15px,1em,18px);
+
+.top-social a {
+    font-size: clamp(15px, 1em, 18px);
     color: var(--text-color);
     border: 1px solid var(--text-color);
     padding: 1rem;
@@ -70,45 +78,68 @@ box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
     width: 20px;
     height: 20px;
 }
+
 /* second navbar */
-#navbar{
+#navbar {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
 
 }
-#navbar ul{
+
+#navbar ul {
     display: flex;
     width: 100%;
-   align-items: center;
-   gap: 1rem;
-   justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
 
 }
-#navbar ul li{
-    font-size: clamp(15px,2vw,18px);
+
+#navbar ul li,#navbar ul li  button {
+    font-size: clamp(15px, 2vw, 18px);
     font-family: 'Poppins', 'Roboto', sans-serif;
-
-padding: 4px;
-
-display: flex;
-justify-content: center;
-align-items: center;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#navbar ul li a{
+
+#navbar ul li a,#navbar ul li button {
     color: var(--dark-color);
 }
+#navbar ul li button:focus{
+    color: var(--text-color);
 
+}
+.custom_dropdown {
+    background: none;
+
+}
+
+.custom_dropdown:focus {
+    background: var(--primary-color);
+    box-shadow: none;
+}
+.custome-dropdown-menu a{
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.custome-dropdown-menu a:hover{
+    background: var(--primary-color);
+}
 
 /* footer */
-.footer_main{
-background: url('.././../img/main/college_footer.png') no-repeat center/cover;
-padding: 3rem;
-position: relative;
-z-index: 1;
+.footer_main {
+    background: url('.././../img/main/college_footer.png') no-repeat center/cover;
+    padding: 3rem;
+    position: relative;
+    z-index: 1;
 }
-.footer_main::before{
+
+.footer_main::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -119,31 +150,35 @@ z-index: 1;
     z-index: -1;
 }
 
-.main_footer{
+.main_footer {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
-.footer_section{
+
+.footer_section {
     flex-flow: 1;
 }
-.footer_sec_1 p{
-  text-align: justify;
-  line-height: 1.3rem;
-  color: var(--text-color);
+
+.footer_sec_1 p {
+    text-align: justify;
+    line-height: 1.3rem;
+    color: var(--text-color);
 
 }
-.footer-social{
+
+.footer-social {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
     gap: 2rem;
 }
-.footer-social div a{
+
+.footer-social div a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,40 +188,57 @@ z-index: 1;
     border-radius: 50%;
     border: 1px solid var(--text-color);
     transition: 0.4s;
-   
+
 }
-.footer-social div a:hover{
+
+.footer-social div a:hover {
     background: var(--primary-color);
     transform: scale(1.05);
 }
-.footer_section h2{
-    font-size: clamp(20px,2em,22px);
-    margin-bottom:1.5rem;
-  color: var(--text-color);
-  font-weight: 700;
-  text-transform: uppercase;
+
+.footer_section h2 {
+    font-size: clamp(20px, 2em, 22px);
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    text-transform: uppercase;
 }
-.usefull_links_list{
+
+.usefull_links_list {
     display: flex;
-   gap: 3rem;
+    gap: 3rem;
     align-items: center;
 }
-.usefull_links_list li,.footer_sec_3 li{
+
+.usefull_links_list li,
+.footer_sec_3 li {
     margin-bottom: 1rem;
 
 }
-.usefull_links_list li a{
-    font-size: clamp(15px,2em,18px);  
-    color: var(--text-color);  
+
+.usefull_links_list li a {
+    font-size: clamp(15px, 2em, 18px);
+    color: var(--text-color);
 }
-.footer_sec_3 ul li a{
-    font-size: clamp(15px,2em,18px);  
-    color: var(--text-color); 
+
+.footer_sec_3 ul li a {
+    font-size: clamp(15px, 2em, 18px);
+    color: var(--text-color);
 }
-.contact-section ul{
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
+
+.contact-section ul {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.copy_right_section {
+    display: flex;
+    margin-top: 2rem;
+justify-content: center;
+align-items: center;
+    color: var(--text-color);
+    text-align: center;
+    width: 100%;
 }

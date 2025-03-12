@@ -68,7 +68,7 @@
                         <p><i class="fa fa-phone"></i> 04546-263900, 901, 902 </p>
                     </li>
                     <li>
-                        <p>
+                        <p class="footer_email_id">
                             <i class="fa fa-envelope"></i>
                             <a href="#" class="__cf_email__" style="color: #f6783a;"
                                 data-cfemail="335a5d555c5756564150415652475a455673545e525a5f1d505c5e">principal@nscet.org</a>
@@ -77,5 +77,11 @@
                 </ul>
             </div>
         </div>
+        
     </footer>
+    <div class="copy_right_section">
+<p>
+Copyright © 2025 All rights reserved.
+
+</p>        </div>
 </div>
