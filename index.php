@@ -71,42 +71,41 @@ include('./resources/conn.php');
   </div>
 
   <!-- about -->
-   
-<div class="institute-about ">
+  <div class="institute-about ">
 
-<div class="insititute-vision content-main "  >
+    <div class="insititute-vision content-main ">
 
-<h2>
-VISION
-</h2>
-<div class="vision-content" >
-  <p>To establish ourselves as a leading technological institutions.
-  </p>
-</div>
+      <h2>
+        VISION
+      </h2>
+      <div class="vision-content">
+        <p>To establish ourselves as a leading technological institutions.
+        </p>
+      </div>
 
-</div>
-<div class="insititute-mission content-main">
-  <h2>MISSION</h2>
-<div class="mission-content ">
-  <ul>
-  <li>To provide professional, Constructive and learner centered education.</li>
-<li>To make learners contribute to the development of nation through academic and industrial excellence.</li>
-<li>To encourage learners involve in innovative researches with ethics.</li>
-<li>To produce competitive and confident graduates to face the ever growing challenges of the labor market.</li>
-  </ul>
-</div>
-</div>
-<div class="video-section">
-<iframe width="380" height="200" 
-    src="https://www.youtube.com/embed/WzJ1evTcBVE?modestbranding=1&rel=0&controls=0" 
-    title="NSCET - NAAC PEER TEAM VISIT - DAY 1 - 06.06.24" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-</iframe>
-</div>
-<!-- <div class="insititute-values content-main">
+    </div>
+    <div class="insititute-mission content-main">
+      <h2>MISSION</h2>
+      <div class="mission-content ">
+        <ul>
+          <li>To provide professional, Constructive and learner centered education.</li>
+          <li>To make learners contribute to the development of nation through academic and industrial excellence.</li>
+          <li>To encourage learners involve in innovative researches with ethics.</li>
+          <li>To produce competitive and confident graduates to face the ever growing challenges of the labor market.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="video-section">
+      <iframe width="380" height="200"
+        src="https://www.youtube.com/embed/WzJ1evTcBVE?modestbranding=1&rel=0&controls=0"
+        title="NSCET - NAAC PEER TEAM VISIT - DAY 1 - 06.06.24"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <!-- <div class="insititute-values content-main">
 <h2>VALUES</h2>
 <div class="values-content">
   <ul>
@@ -121,20 +120,113 @@ VISION
 
 </div>
    -->
+  </div>
+
+  <!-- news updates -->
+  <div id="news_section">
+  <h2 class="news_section_title">News & Updates</h2>
+    <div class="news_section">
+   
+    <div class="new_updates marquee-container">
+      
+    <div class="marquee-wrapper">
+    <?php
+    $data = mysqli_fetch_array(mysqli_query($conn, "SELECT `content` FROM `home_page` WHERE `sectionName`='newsSection'"));
+    $jsonData = json_decode($data['content'], true);
+    $jsonData = array_reverse($jsonData);
+    ?>
+    <?php foreach ($jsonData as $data) { ?>
+      <div class="new_updates_main_content ">
+        <div class="new_update_img">
+          <img src="./admin/<?php echo $data['imgUrl'] ?>" alt="" class="new_image">
+        </div>
+        <div class="new_updates_content">
+          <a href="#">
+            <?php echo $data['date'] ?>
+          </a>
+          <span class="mx-1">/</span>
+          <a href="#">
+            <?php echo $data['tags'] ?>
+          </a>
+          <h3 class="post-heading mt-2">
+            <a href="#">
+              <?php echo $data['title'] ?>
+            </a>
+          </h3>
+        </div>
+      </div>
+    <?php } ?>
+    
 </div>
+</div>
+      <!-- <div class="news_section_content">
+        <h3 style="text-align: center;" class="news-wrapper-head">NSCET - NEWS</h3>
+        <marquee height="360px" behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="padding:12px">
+
+          <ul>
+            <li><img width="65px" src="assets/img/main/new.gif" alt=""> Join the Two-Day Workshop on "Design and Development of Antennas and RF Systems for 5G Wireless Communication: From Concept to Reality" on 20-21 February 2025.</li>
+            <li><img width="65px" src="assets/img/main/new.gif" alt=""> Pongal Celebration 2025 at NSCET on 11.01.2025, 9:30 AM. Join us for a joyous traditional gathering and festivities!</li>
+            <li><img width="65px" src="assets/img/main/new.gif" alt=""> Join the 3rd International Conference on Advanced Material Processing and Sustainable Energy (AMPSE-2025) on 25th April 2025. Explore innovations and sustainability!</li>
+          </ul>
+        </marquee>
+      </div> -->
+
+    </div>
+  </div>
+
+
+  <!-- facts section -->
+
+  
+  <section class="fact-section spad set-bg " data-setbg="img/fact-bg.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 fact">
+          <div class="fact-icon">
+          <i class="fas fa-crown"></i>
+          </div>
+          <div class="fact-text">
+            <h2>14</h2>
+            <p>YEARS</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fact">
+          <div class="fact-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="fact-text">
+            <h2>87+</h2>
+            <p>TEACHERS</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fact">
+          <div class="fact-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="fact-text">
+            <h2>1000+</h2>
+            <p>STUDENTS</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 fact">
+          <div class="fact-icon">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <div class="fact-text">
+            <h2>15+</h2>
+            <p>MOU'S</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
 
   <?php
-
   include('./resources/footer.php');
-
-
   ?>
-
-
-
 
   <!-- custom js -->
   <script src="./assets/js/resources/script.js"></script>
