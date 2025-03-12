@@ -1,13 +1,11 @@
-
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f4;
-    padding: 40px 0;
+    padding: 40px 20px; /* Adjust padding for smaller screens */
 }
-
 
 .container {
     background: #ffffff;
@@ -16,20 +14,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 900px;
     text-align: center;
+    width: 100%; /* Ensures full width on small screens */
 }
 
 .container img {
-    width: 220px;
-    height: 220px;
+    width: 180px; /* Reduce size for smaller screens */
+    height: 180px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
     border: 4px solid #007bff;
 }
 
-
 h2 {
-    font-size: 26px;
+    font-size: 24px; /* Slightly reduce size for mobile */
     font-weight: bold;
     color: #333;
     margin-bottom: 15px;
@@ -37,15 +35,14 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 20px; /* Adjust heading size for mobile */
     font-weight: bold;
     color: #007bff;
     margin-bottom: 10px;
 }
 
-
 p {
-    font-size: 16px;
+    font-size: 15px; /* Reduce font size for better readability */
     color: #555;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -60,7 +57,7 @@ ul {
 }
 
 li {
-    font-size: 16px;
+    font-size: 15px;
     color: #444;
     margin-bottom: 5px;
 }
@@ -81,7 +78,7 @@ li {
 }
 
 .contact-info p {
-    font-size: 16px;
+    font-size: 15px;
     color: #333;
 }
 
@@ -93,4 +90,72 @@ li {
 
 .contact-info a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .container {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .container img {
+        width: 140px; /* Reduce image size for mobile */
+        height: 140px;
+    }
+
+    h2 {
+        font-size: 22px; /* Reduce heading size */
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px; /* Adjust text size */
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .profile-details {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p, li {
+        font-size: 13px;
+    }
+
+    .profile-details {
+        padding: 10px;
+    }
 }

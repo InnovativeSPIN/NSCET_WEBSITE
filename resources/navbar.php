@@ -54,8 +54,7 @@
                         <a class="dropdown-item" href="#">Committees</a>
                         <a class="dropdown-item" href="/assets/pdf/ANNUAL REPORT.pdf">Annual Reports</a>
                         <a class="dropdown-item" href="/assets/pdf/ANNUAL ACCOUNTS.pdf">Annual Accounds</a>
-                        <a class="dropdown-item" href="#">Teaching Faculty</a>
-                        <a class="dropdown-item" href="#">Non-Teaching Faculty</a>
+                        
 
 
 
@@ -105,9 +104,16 @@
                         Academics
                     </button>
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Regulations</a>
-                        <a class="dropdown-item" href="#">Curriculum and Syllabus</a>
-                        <a class="dropdown-item" href="#">Academic Schedule</a>
+                        <a class="dropdown-item" href="#">Details of Academic</a>
+                        <a class="dropdown-item" href="#">Academic Calender</a>
+                        <a class="dropdown-item" href="/teaching/index.php">Teaching Faculty</a>
+                        <a class="dropdown-item" href="/non-teaching/index.php">Non-Teaching Faculty</a>
+                        <a class="dropdown-item" href="#">UGc ODL online Programs</a>
+                        <a class="dropdown-item" href="#">IQAC</a>
+                        <a class="dropdown-item" href="#">Academic Collab</a>
+                        <a class="dropdown-item" href="#">Library</a>
+
+
                     </div>
     </div>
 
