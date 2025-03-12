@@ -1,1 +1,102 @@
 @import url('./main.css');
+
+/* navbar */
+.main_top_header{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 14px;
+  border-bottom: 1px solid var(--dark-color);
+  border-top: 5px solid var(--primary-color);
+}
+.college_logo img{
+    width: 180px;
+
+}
+.header_img img{
+    width: 380px;
+}
+.karmarajar_logo img{
+    width: 100px;
+}
+.naac_logo img{
+    width: 130px;
+}
+.rank_logo img{
+    width: 70px;
+}
+.college_main_logo{
+    display: flex;
+justify-content: center;
+}
+.college_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* social media */
+.social_media{
+    position: absolute;
+top: 0;
+right: 4rem;
+background: var(--primary-color);
+padding: 10px;
+border-bottom-left-radius:50px ;
+padding-left: 2rem;
+
+box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
+}
+.top-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.top-social a{
+    font-size: clamp(15px,1em,18px);
+    color: var(--text-color);
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    border: 1px solid var(--text-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+/* second navbar */
+#navbar{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+#navbar ul{
+    display: flex;
+    width: 100%;
+   align-items: center;
+   gap: 1rem;
+   justify-content: center;
+
+}
+#navbar ul li{
+    font-size: clamp(15px,2vw,18px);
+    font-family: 'Poppins', 'Roboto', sans-serif;
+
+padding: 4px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#navbar ul li a{
+    color: var(--dark-color);
+}

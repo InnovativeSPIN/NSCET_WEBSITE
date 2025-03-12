@@ -21,7 +21,7 @@ include('./resources/conn.php');
 
 
 <!-- custom js -->
-
+<script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
