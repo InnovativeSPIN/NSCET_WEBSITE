@@ -1,23 +1,23 @@
 <div class="main_top_header">
     <div class="college_main_logo">
 <div class="college_logo">
-    <img src="./assets/img/main/College_logo.webp" alt="">
+    <img src="https://nscet.org/main_images/College_logo.webp" alt="">
     </div>
 
     <div class="header_img">
-        <img src="./assets/img/main/header.png" alt="">
+        <img src="https://nscet.org/main_images/header.png" alt="">
     </div>
     </div>
     <div class="college_logos">
     <div class="karmarajar_logo">
-        <img src="./assets/img/main/kamarajar_logo.webp" alt="">
+        <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="">
     </div>
     <div class="naac_logo">
-        <img src="./assets/img/main/naac.png" alt="">
+        <img src="https://nscet.org/main_images/naac.png" alt="">
     </div>
 
     <div class="rank_logo">
-        <img src="./assets/img/main/rank.png" alt="">
+        <img src="https://nscet.org/main_images/rank.png" alt="">
     </div>
     </div>
 

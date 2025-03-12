@@ -19,7 +19,6 @@ include('../resources/conn.php');
 
   <!-- custom css -->
   <link rel="stylesheet" href="../assets/css/resources/style.css">
-  <link rel="stylesheet" href="../assets/css/home/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
