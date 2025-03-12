@@ -31,6 +31,11 @@ body {
 }
 ol, ul {
 	list-style: none;
+
+}
+ol li,ul li{
+	font-family: 'Poppins', 'Roboto', sans-serif;
+
 }
 blockquote, q {
 	quotes: none;
@@ -46,11 +51,14 @@ table {
 }
 a{
     text-decoration: none;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+
 }
 
 /* custom codes */
 :root {
     --primary-color: #1292e2;
+	--light_primary:rgba(18, 146, 226, 0.2);
     --dark-color: #104565;
     --secondary-color: #f6783a;
     --text-color:#ffff;

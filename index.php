@@ -37,6 +37,13 @@ include('./resources/navbar.php');
 
 
 
+<?php 
+
+include('./resources/footer.php');
+
+
+?>
+
 
 
 
