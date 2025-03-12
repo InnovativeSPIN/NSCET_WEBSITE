@@ -19,6 +19,7 @@ include('../resources/conn.php');
 
   <!-- custom css -->
   <link rel="stylesheet" href="../assets/css/resources/style.css">
+  <link rel="stylesheet" href="../assets/css/about/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
@@ -35,8 +36,90 @@ include('../resources/conn.php');
 
 
   ?>
-  <h2>About page </h2>
 
+
+        <div class="main">
+
+        <h2>About the College</h2>
+        <img src="/assets/img/about/nscetmain.jpg" alt="">
+
+        <p>
+    Nadar Saraswathi College of Engineering and Technology (NSCET), located in Theni, Tamil Nadu, is a premier institution dedicated to academic excellence and technological advancements. The college is affiliated with Anna University and offers a world-class learning environment with state-of-the-art infrastructure, well-equipped laboratories, and a serene campus that fosters creativity and innovation. With a strong commitment to holistic education, NSCET provides a vibrant atmosphere for students to excel in both academics and extracurricular activities. The institution boasts seven specialized departments, each designed to equip students with industry-relevant knowledge and hands-on experience. The lush greenery, modern facilities, and student-friendly environment make NSCET a preferred choice for aspiring engineers.
+</p>
+
+<p>
+    NSCET stands as a beacon of quality education, guided by a clear vision and mission. The college envisions itself as a leading technological institution, fostering innovation and excellence in engineering education. With a mission to provide professional, constructive, and learner-centered education, NSCET aims to shape students into skilled professionals who can contribute to national development. The institution encourages students to engage in innovative research with ethical values while preparing them to confidently face the ever-evolving challenges of the labor market. By blending academic rigor with industrial exposure, NSCET nurtures future-ready graduates who are not just technically proficient but also socially responsible.
+</p>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
   <?php
 

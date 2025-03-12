@@ -47,13 +47,13 @@
                         About
                     </button>
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">About Us</a>
-                        <a class="dropdown-item" href="#">Principal</a>
+                        <a class="dropdown-item" href="/about/index.php">About Us</a>
+                        <a class="dropdown-item" href="/principal/index.php">Principal</a>
                         <a class="dropdown-item" href="#">Mous</a>
                         <a class="dropdown-item" href="#">Organisation</a>
                         <a class="dropdown-item" href="#">Committees</a>
-                        <a class="dropdown-item" href="#">Annual Reports</a>
-                        <a class="dropdown-item" href="#">Annual Accounds</a>
+                        <a class="dropdown-item" href="/assets/pdf/ANNUAL REPORT.pdf">Annual Reports</a>
+                        <a class="dropdown-item" href="/assets/pdf/ANNUAL ACCOUNTS.pdf">Annual Accounds</a>
                         <a class="dropdown-item" href="#">Teaching Faculty</a>
                         <a class="dropdown-item" href="#">Non-Teaching Faculty</a>
 
