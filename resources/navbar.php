@@ -54,7 +54,6 @@
                         <a class="dropdown-item" href="#">Committees</a>
                         <a class="dropdown-item" href="#">Annual Reports</a>
                         <a class="dropdown-item" href="#">Annual Accounds</a>
-                        <a class="dropdown-item" href="#">Sponsoring Body</a>
                         <a class="dropdown-item" href="#">Teaching Faculty</a>
                         <a class="dropdown-item" href="#">Non-Teaching Faculty</a>
 

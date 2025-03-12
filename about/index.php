@@ -1,6 +1,6 @@
 <?php
 
-include('../../resources/conn.php');
+include('../resources/conn.php');
 
 
 ?>
@@ -18,51 +18,30 @@ include('../../resources/conn.php');
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
   <!-- custom css -->
-  <link rel="stylesheet" href="../../assets/css/resources/style.css">
-  <link rel="stylesheet" href="../../assets/css/about/style.css">
-
+  <link rel="stylesheet" href="../assets/css/resources/style.css">
+  <link rel="stylesheet" href="../assets/css/home/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
 
   <?php
 
-  include('../../resources/navbar.php');
+  include('../resources/navbar.php');
 
 
   ?>
-
- 
-<div class="col-md-3 leftsidebar">
-       
-       <div class="left-bar">
-<ul>
-<li class="left-bar-title"><a>About Us</a></li>
-<li class=""><a href="profile-message.php">Principal</a></li>
-<li class=""><a href="profile-principal.php">Mous</a></li>
-<li class="active"><a href="profile-college.php">Organisation</a></li>
-<li class=""><a href="profile-accreditations.php">Committees</a></li>
-<li class=""><a href="profile-certifications.php">Annual Reports</a></li>
-<li class=""><a href="profile-govrn-body.php">Annual Accounds</a></li>
-<li class=""><a href="profile-acad-council.php">Teaching Faculty</a></li>
-<li class=""><a href="profile-mou.php">Non-Teaching Faculty</a></li>
-</ul>
-</div>        
-   </div>
-
- 
+  <h2>About page </h2>
 
 
   <?php
 
-  include('../../resources/footer.php');
+  include('../resources/footer.php');
 
 
   ?>
@@ -71,7 +50,7 @@ include('../../resources/conn.php');
 
 
   <!-- custom js -->
-  <script src="../../assets/js/resources/script.js"></script>
+  <script src="../assets/js/resources/script.js"></script>
   <!-- swiper -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
