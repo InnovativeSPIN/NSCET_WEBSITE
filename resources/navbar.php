@@ -1,11 +1,11 @@
 <div class="main_top_header">
     <div class="college_main_logo">
 <div class="college_logo">
-    <img src="https://nscet.org/main_images/College_logo.webp" alt="">
+   <a href="https://www.nscet.org/"> <img src="https://nscet.org/main_images/College_logo.webp" alt=""></a>
     </div>
 
     <div class="header_img">
-        <img src="https://nscet.org/main_images/header.png" alt="">
+       <a href="https://www.nscet.org/"> <img src="https://nscet.org/main_images/header.png" alt=""></a>
     </div>
     </div>
     <div class="college_logos">

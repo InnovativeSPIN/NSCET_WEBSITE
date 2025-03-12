@@ -39,7 +39,7 @@ include('../resources/conn.php');
 
 <div class="main">
     <div class="container">
-        <img src="/assets/img/main/Principal.jpg" alt="Principal Photo">
+        <img src="../assets/img/main/Principal.jpg" alt="Principal Photo">
         <h2>Dr. C. Mathalai Sundaram</h2>
         <p><strong>Principal, NSCET</strong></p>
 
@@ -109,26 +109,7 @@ include('../resources/conn.php');
   <!-- custom js -->
   <script src="../assets/js/resources/script.js"></script>
   <!-- swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      effect: "fade",
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      autoplay: {
-        delay: 2000,
-      },
-    });
-  </script>
+ 
 </body>
 
 </html>

@@ -97,7 +97,14 @@ VISION
 </div>
 </div>
 <div class="video-section">
-<iframe width="380" height="200" src="https://www.youtube.com/embed/WzJ1evTcBVE" title="NSCET - NAAC PEER TEAM VISIT - DAY 1 - 06.06.24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="380" height="200" 
+    src="https://www.youtube.com/embed/WzJ1evTcBVE?modestbranding=1&rel=0&controls=0" 
+    title="NSCET - NAAC PEER TEAM VISIT - DAY 1 - 06.06.24" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
 </div>
 <!-- <div class="insititute-values content-main">
 <h2>VALUES</h2>
