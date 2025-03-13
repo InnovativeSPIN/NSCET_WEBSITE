@@ -154,8 +154,7 @@
             Student Life
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-            <a class="dropdown-item" href="/sports/">Sports</a>
+        <a class="dropdown-item" href="/sports/">Sports</a>
             <a class="dropdown-item" href="#">Nss</a>
             <a class="dropdown-item" href="#">Hostel</a>
             <a class="dropdown-item" href="#">Placement Cell Activities</a>
