@@ -158,6 +158,7 @@ border-top-left-radius: 5px;
 
 /* footer */
 .footer_main {
+    margin-top: 3rem;
     background: url('.././../img/main/college_footer.png') no-repeat center/cover;
     padding: 3rem;
     position: relative;
