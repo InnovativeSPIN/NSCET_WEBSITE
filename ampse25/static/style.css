@@ -1,0 +1,336 @@
+/* ------------
+main page
+------------- */
+
+.main-content{
+    max-width: 980px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+}
+.intro{
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.intro p{
+    color: rgb(0, 0, 109);
+    text-align: justify;
+}
+
+/* ------------
+About Page
+------------- */
+.about-content{ 
+    max-width: 980px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.about-content h3{
+    font-size: clamp(15px,2.5vw,29px);
+    padding: 10px;
+    color: rgb(0, 0, 109);
+
+}
+.about-content p{
+    text-align: justify;
+    padding: 10px;
+    color: rgb(0, 0, 109);
+}
+
+/* ------------
+committees Page
+------------- */
+
+.committees-content{
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+.g-wrapper {
+    padding: 20px;
+}
+
+.g-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.g-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.g-block.size-100 {
+    width: 100%;
+}
+
+.g-content {
+    padding: 10px;
+}
+
+.page-header h1,
+.page-header h4 {
+    color: rgb(0, 0, 109);
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: rgb(0, 0, 109);
+   
+}
+
+p {
+    line-height: 1.6;
+    color: #333333;
+    margin: 10px 0;
+}
+
+ul.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li a {
+    color: #339966;
+    font-size: 20px;
+}
+
+.social-icons li a:hover {
+    color: #555555;
+}
+
+/* ------------
+important-dates Page
+------------- */
+
+
+/* General styling for the section */
+.info-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .info-section h2 {
+    font-size: 24px;
+    color: #0cb1ff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-list {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .info-list li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  .info-list a {
+    color: #993300;
+    text-decoration: none;
+  }
+  
+  .info-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for Important Dates table */
+  .dates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dates-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .dates-table td:first-child {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .dates-table td:last-child {
+    text-align: right;
+    color: #339966;
+    font-weight: bold;
+  }
+  
+  /* ------------
+Registration Page
+------------- */
+
+.registration-section {
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .registration-section h2 {
+    font-size: 24px;
+    color: #0cb1ff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .registration-section a {
+    color: #993300;
+    text-decoration: none;
+  }
+  
+  .registration-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #0d0808;
+    margin-top: 20px;
+  }
+  
+  .payment-table th, .payment-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #0d0808;
+    color: #993300;
+  }
+  
+/* ------------
+Contact Page
+------------- */
+
+.contact-section {
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    color: #0cb1ff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-person {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #0d0808;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-person h3 {
+    color: #993300;
+    margin-bottom: 10px;
+  }
+  
+  .contact-email h3 {
+    color: #993300;
+    margin-bottom: 10px;
+  }
+  
+  .contact-email a {
+    color: #0cb1ff;
+    text-decoration: none;
+  }
+  
+  .contact-email a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ------------
+author-guidance Page
+------------- */
+
+.author-guidelines-section {
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .author-guidelines-section h2 {
+    font-size: 24px;
+    color: #0cb1ff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .author-guidelines-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .author-guidelines-section a {
+    color: #0cb1ff;
+    text-decoration: none;
+  }
+  
+  .author-guidelines-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .author-guidelines-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .author-guidelines-section h3 {
+    margin-top: 20px;
+    color: #993300;
+  }
+  
+
+

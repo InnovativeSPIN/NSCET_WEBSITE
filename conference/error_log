@@ -1,0 +1,15 @@
+[22-Feb-2025 11:35:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/conference/registeration.php:7
+Stack trace:
+#0 /home/nscet/public_html/conference/registeration.php(7): mysqli->__construct('localhost', 'root', '', 'research_db')
+#1 {main}
+  thrown in /home/nscet/public_html/conference/registeration.php on line 7
+[22-Feb-2025 11:37:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nscet_conference.research_papers' doesn't exist in /home/nscet/public_html/conference/registeration.php:27
+Stack trace:
+#0 /home/nscet/public_html/conference/registeration.php(27): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+  thrown in /home/nscet/public_html/conference/registeration.php on line 27
+[22-Feb-2025 11:41:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nscet_conference.research_papers' doesn't exist in /home/nscet/public_html/conference/registeration.php:27
+Stack trace:
+#0 /home/nscet/public_html/conference/registeration.php(27): mysqli->prepare('INSERT INTO res...')
+#1 {main}
+  thrown in /home/nscet/public_html/conference/registeration.php on line 27

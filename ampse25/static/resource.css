@@ -1,0 +1,132 @@
+a:hover,a:focus,a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+nav{
+    margin-top: 5px;
+    background: #d4d4d4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav p{
+    font-size: clamp(14px,1.4vw,18px);
+}
+nav a{
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+    border-bottom: 2px solid #121212;
+    border-top: 2px solid #121212;
+    background: rgb(0,212,255);background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,0.8772759103641457) 42%, rgba(0,198,238,1) 74%, rgba(247,254,255,1) 99%);
+}
+header .content{
+    padding: 10px;
+}
+.marquee{
+    background: #d4d4d4;
+    margin-top:5px;
+}
+.in-content{
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+.in-content marquee{
+    font-size: clamp(14px,1.4vw,18px);
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 45px 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-footer h6 {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.site-footer p.text-justify {
+    text-align: justify;
+    font-size: 14px;
+    color: #dcdcdc;
+    line-height: 1.6;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-links li {
+    line-height: 1.8;
+}
+
+.footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffa07a;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    color: #ffa07a;
+}
+
+.copyright-text {
+    font-size: 13px;
+    color: #dcdcdc;
+    margin-top: 10px;
+}
+
+.container img {
+    margin: 10px 10px 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .site-footer {
+        text-align: center;
+    }
+    .container .row > div {
+        margin-bottom: 20px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
