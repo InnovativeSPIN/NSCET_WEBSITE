@@ -3,7 +3,7 @@
 .hero-section{
     width: 100%;
     position: relative;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
     z-index: 2;
     font-weight: 700;
     text-transform:uppercase;
-    font-size: clamp(25px,2em,30px);
+    font-size: clamp(38px,2em,48px);
 }
 
 /* main body */
