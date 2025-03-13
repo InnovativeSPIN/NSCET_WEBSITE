@@ -219,3 +219,8 @@ background: var(--light_primary);
     color: #fff;
   }
   
+
+
+  @media screen and (max-width:768px) {
+    
+  }
