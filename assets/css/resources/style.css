@@ -9,6 +9,7 @@
     padding: 14px;
     border-bottom: 1px solid var(--dark-color);
     border-top: 5px solid var(--primary-color);
+    position: relative;
 }
 
 .college_logo img {
@@ -44,6 +45,21 @@
     align-items: center;
     gap: 2rem;
 }
+.alerts_section{
+    position: absolute;
+right: 0;
+bottom: 0;
+background: var(--primary-color);
+border-top-left-radius: 5px;
+}
+.alerts_section button{
+    color: var(--text-color);
+}
+.alerts_section button:hover{
+    color: var(--dark-color);
+
+}
+
 
 /* social media */
 .social_media {
