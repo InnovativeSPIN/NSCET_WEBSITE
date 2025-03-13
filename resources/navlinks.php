@@ -154,10 +154,6 @@
             <a class="dropdown-item" href="#">EO cell</a>
             <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a>
-
-
-
-
         </div>
     </div>
 
