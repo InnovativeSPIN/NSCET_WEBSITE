@@ -1,4 +1,3 @@
-
 <li>
 
     <div class="dropdown">
@@ -20,10 +19,10 @@
 
 </li>
 <li>
-<button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Administration
-        </button>
+    <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Administration
+    </button>
 </li>
 
 <li>
@@ -52,13 +51,24 @@
     </div>
 
 </li>
+
+
 <li>
-<button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+
+    <div class="dropdown">
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Conference
         </button>
-       </li>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/ICRTT2025/">ICRTT 25</a>
+            <a class="dropdown-item" href="/ampse25">AMPSE25 </a>
+            <a class="dropdown-item" href="/icams2k25/">ICAMS 2K25</a>
 
+        </div>
+    </div>
+
+</li>
 
 <li>
 
@@ -114,7 +124,7 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Administration Services</a>
-            <a class="dropdown-item" href="#">Sports Facilities</a>
+            <a class="dropdown-item" href="/sports_facilites/index.php">Sports Facilities</a>
             <a class="dropdown-item" href="#">Health Facilities</a>
             <!-- <a class="dropdown-item" href="#">Library</a> -->
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
@@ -144,7 +154,8 @@
             Student Life
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="/sports/">Sports</a>
+
+            <a class="dropdown-item" href="/sports/">Sports</a>
             <a class="dropdown-item" href="#">Nss</a>
             <a class="dropdown-item" href="#">Hostel</a>
             <a class="dropdown-item" href="#">Placement Cell Activities</a>
@@ -160,10 +171,10 @@
 </li>
 
 <li>
-<button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Placements
-        </button>
+    <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Placements
+    </button>
 
 </li>
 
@@ -177,6 +188,9 @@
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
             <a href="/research/" class="dropdown-item">Research</a>
             <a href="#" class="dropdown-item">Alumni</a>
+            <a href="#" class="dropdown-item">Clubs & Chapters</a>
+            <a href="#" class="dropdown-item">NIRF</a>
+
         </div>
     </div>
 </li>

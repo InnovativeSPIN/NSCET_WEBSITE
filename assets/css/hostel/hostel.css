@@ -1,0 +1,226 @@
+@import url('../resources/main.css');
+
+
+.hero-section{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.4);
+
+}
+.hero-section h1{
+    color: white;
+    z-index: 2;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size: clamp(38px,2em,48px);
+}
+
+
+
+.hostel_container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hostel_container .about-container {
+    padding: 20px;
+    border-left: 6px solid var(--primary-color);
+    background: var(--light-primary);
+    border-radius: 10px;
+}
+
+.hostel_container .about-container h1 {
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.hostel_container .about-container p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--dark-color);
+}
+
+.hostel_container .table-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.hostel_container .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.hostel_container .table-bordered th, 
+.hostel_container .table-bordered td {
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.hostel_container .table th {
+    background: var(--primary-color);
+    color: var(--text-color);
+}
+
+.hostel_container .table td {
+    background: var(--light-primary);
+    
+}
+
+.hostel_container .facilities {
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--light-primary);
+    border-left: 6px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.hostel_container .facilities h3 {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.event-text h3{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hostel_container .facilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hostel_container .facilities ul li {
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 5px 0;
+    font-size: 17px;
+    color: var(--dark-color);
+    transition: 0.3s ease-in-out;
+}
+
+.hostel_container .facilities ul li:hover {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    transform: translateY(-2px);
+}
+
+.hostel_container .hostel-event {
+    margin-top: 30px;
+    padding: 20px;
+    border-left: 6px solid var(--primary-color);
+    border-radius: 10px;
+    background: var(--light-primary);
+}
+
+.hostel_container .hostel-event-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hostel_container .event-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.hostel_container .event-text {
+    flex: 1;
+}
+
+.hostel_container .event-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hostel_container .rules-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--light-primary);
+    border-left: 6px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.hostel_container .rules-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hostel_container .rules-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hostel_container .rules-list li {
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 5px 0;
+    font-size: 17px;
+    color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.hostel_container .rules-list li:hover {
+    background: var(--secondary-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .hostel_container {
+        padding: 15px;
+    }
+
+    .hostel_container h1 {
+        font-size: 24px;
+    }
+
+    .hostel_container h2 {
+        font-size: 20px;
+    }
+
+    .hostel_container h3 {
+        font-size: 18px;
+    }
+
+    .hostel_container .table-responsive {
+        flex-direction: column;
+    }
+
+    .hostel_container .event-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hostel_container .event-image img {
+        max-width: 100%;
+    }
+}
