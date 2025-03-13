@@ -49,18 +49,13 @@
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="/about/index.php">About Us</a>
                         <a class="dropdown-item" href="/principal/index.php">Principal</a>
-                        <a class="dropdown-item" href="#">Mous</a>
+                        <a class="dropdown-item" href="/gallery">Gallery</a>
+                        <a class="dropdown-item" href="#">Mou's</a>
                         <a class="dropdown-item" href="#">Organisation</a>
                         <a class="dropdown-item" href="#">Committees</a>
                         <a class="dropdown-item" href="/assets/pdf/ANNUAL REPORT.pdf">Annual Reports</a>
                         <a class="dropdown-item" href="/assets/pdf/ANNUAL ACCOUNTS.pdf">Annual Accounds</a>
                         
-
-
-
-
-
-
 
 
                     </div>

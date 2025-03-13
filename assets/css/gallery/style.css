@@ -1,0 +1,204 @@
+@import url('./main.css');
+
+/* hero section */
+.hero-section{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    
+}
+.hero-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.4);
+
+}
+.hero-section h1{
+    color: white;
+    z-index: 2;
+    font-weight: 700;
+    font-size: clamp(35px,2em,48px);
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-name {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker background for more focus */
+    z-index: 1000;
+    padding: 0;
+    opacity: 0; /* Initial state invisible */
+    transform: scale(0.8) translateY(-50px); /* Start scaled down and off-screen */
+    transition: opacity 0.4s ease, transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth fade and scale transition */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+    opacity: 1; /* Fade in */
+    transform: scale(1) translateY(0); /* Scale to full size and slide in */
+}
+
+/* Slider (Image) styles inside the modal */
+.slider {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Adjust the positioning of the images */
+}
+
+/* Image styles */
+.slider img {
+    width: 100%;
+    height: auto; /* Keep aspect ratio intact */
+    object-fit: contain; /* Ensure the image fits within the container */
+    opacity: 0; /* Hide images by default */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition for opacity and transform */
+    position: absolute; /* Position all images absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Active image styling */
+.slider img.active {
+    opacity: 1; /* Show the active image */
+    transform: scale(1); /* Ensure the image stays at normal scale */
+}
+
+/* Optional: to add a sliding effect instead of fading in/out */
+.slider img.next {
+    transform: translateX(100%); /* Start from right for the next image */
+}
+
+.slider img.prev {
+    transform: translateX(-100%); /* Start from left for the previous image */
+}
+
+/* Close button */
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+    z-index: 101; /* Ensure it's above modal content */
+}
+
+.close-btn:hover {
+    background: #555;
+}
+
+
+/* Navigation buttons for the image slider */
+.navigation {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+
+.nav-btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    z-index: 100;
+}
+
+.nav-btn:hover {
+    background: #555;
+}
+
+.nav-btn:focus {
+    outline: none; /* Remove outline when focused */
+}
+.gallery_title{
+    font-size: clamp(25px,2em,28px);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px) {
+    .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+
+    }
+}
