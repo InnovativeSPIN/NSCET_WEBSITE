@@ -274,9 +274,19 @@ border-top-left-radius: 5px;
     display: none;
 }
 
-
-
-
+.counselling_code{
+    position: absolute;
+right: 0;
+bottom: 0;
+background: var(--primary-color);
+z-index: 99;
+padding: 10px;
+color: var(--text-color);
+font-size: clamp(15px,2em,18px);
+}
+.mobile_counselling_code{
+    display: none;
+}
 
 
 
@@ -288,9 +298,13 @@ border-top-left-radius: 5px;
       grid-template-columns: repeat(1,1fr);
     }
     /* navbar */
-    #navbar,.main_top_header {
+    #navbar,.main_top_header,.alerts_section ,.counselling_code{
         display: none;
     }
+    .mobile_counselling_code{
+        display: block;
+    }
+
     #mobile_navigation_bar{
         display: block;
         position: fixed;

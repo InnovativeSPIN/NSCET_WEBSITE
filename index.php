@@ -35,6 +35,13 @@ include('./resources/conn.php');
 
   ?>
 
+<div class="counselling_code">
+    <h2>
+        <strong>
+        Counselling code : 
+        </strong> 9210
+    </h2>
+</div>
   <!-- hero section -->
 
   <div class="hero_section">
