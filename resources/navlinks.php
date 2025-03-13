@@ -187,7 +187,7 @@
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
             <a href="/research/" class="dropdown-item">Research</a>
             <a href="#" class="dropdown-item">Alumni</a>
-            <a href="#" class="dropdown-item">Clubs & Chapters</a>
+            <a href="/CLUBS & CHAPTERS/index.php" class="dropdown-item">Clubs & Chapters</a>
             <a href="#" class="dropdown-item">NIRF</a>
 
         </div>
