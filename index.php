@@ -22,8 +22,6 @@ include('./resources/conn.php');
   <link rel="stylesheet" href="./assets/css/home/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-
-
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>

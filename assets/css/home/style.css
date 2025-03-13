@@ -171,6 +171,7 @@ background: var(--light_primary);
     background-position: center center;
     position: relative;
     padding: 3rem;
+    margin-bottom: -4rem;
   }
   
   .fact-section:after {
@@ -221,6 +222,3 @@ background: var(--light_primary);
   
 
 
-  @media screen and (max-width:768px) {
-    
-  }

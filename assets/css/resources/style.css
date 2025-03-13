@@ -269,3 +269,104 @@ border-top-left-radius: 5px;
     text-align: center;
     width: 100%;
 }
+
+#mobile_navigation_bar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    /* footer */
+    .main_footer {
+      grid-template-columns: repeat(1,1fr);
+    }
+    /* navbar */
+    #navbar,.main_top_header {
+        display: none;
+    }
+    #mobile_navigation_bar{
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 88;
+        border-bottom: 1px solid var(--text-color);
+        background: url('.././../img/main/college_footer.png') no-repeat center/cover;
+    }
+    .mobile_navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .college_logo img{
+        width: 100px;
+    }
+    .nav_switch{
+        width: 40px;
+        height: 40px;
+        z-index: 99;
+        background: var(--primary-color);
+        color: var(--text-color);
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigations_lists{
+        position: absolute;
+    height: 100%;
+        width: 100%;
+        background: var(--text-color);
+        transition: 0.4s ease-in-out;
+        opacity: 0;
+        transform: translateY(-50px);
+        visibility: hidden;
+
+    }
+    .navigations_lists.active{
+        display: block;
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+        
+
+    }
+    .navigations_lists ul{
+        background: var(--text-color);
+    }
+    .navigations_lists button{
+        margin-left: -3px;
+    }
+    .mobile_top_social{
+        display: flex;
+        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 4rem;
+        background: var(--primary-color);
+        padding: 1rem;
+    }
+    .mobile_top_social div{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        
+        border: 1px solid var(--text-color);
+    }
+    .mobile_top_social div a{
+        color: var(--text-color);
+    }
+  }

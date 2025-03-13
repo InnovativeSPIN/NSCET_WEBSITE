@@ -54,8 +54,8 @@
 </div>
 <div class="navbar" id="navbar">
     <ul>
-        <ul>
 
+<<<<<<< Updated upstream
             <li>
 
                 <div class="dropdown">
@@ -224,10 +224,68 @@
                     </div>
                 </div>
             </li>
+=======
+            <?php include("navlinks.php") ?>
+>>>>>>> Stashed changes
 
         </ul>
 
 
-    </ul>
 
 </div>
+
+<!-- mobile navigaton bar -->
+ <div id="mobile_navigation_bar">
+     <div class="mobile_navigation">
+
+        <div class="college_logo">
+            <a href="https://www.nscet.org/"> <img src="https://nscet.org/main_images/College_logo_white.webp" alt=""></a>
+        </div>
+
+    <div class="nav_switch">
+    <i class="fa-solid fa-bars"></i>
+    </div>
+     
+     <div class="navigations_lists">
+     <div class="college_logos">
+        <div class="karmarajar_logo">
+            <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="">
+        </div>
+        <div class="naac_logo">
+            <img src="https://nscet.org/main_images/naac.png" alt="">
+        </div>
+    </div>
+     <ul>
+     <?php include("navlinks.php") ?>
+
+<div class="mobile_social_media ">
+        <div class="mobile_top_social">
+            <div>
+                <a href="https://www.linkedin.com/company/nscet/" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/@NSCETeConnect" class="fixed-instagrem" target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div>
+                <a href="#" class="fixed-twitter" target="_blank"><i class="fa fa-instagram"></i> </a>
+            </div>
+        </div>
+    </div>
+</ul>
+
+
+     </div>
+ </div>
+ </div>
+
+
+ <script>
+    document.addEventListener("DOMContentLoaded",()=>{
+      const nav_switch=document.querySelector(".nav_switch")
+      const navigations_lists=document.querySelector(".navigations_lists")
+      nav_switch.addEventListener('click',()=>{
+            navigations_lists.classList.toggle('active')
+
+      })
+    })
+ </script>
