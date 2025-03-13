@@ -194,7 +194,7 @@
 </li>
     
     <li><a href="#">Placements</a></li>
-    <li><a href="#">Research</a></li>
+    <li><a href="/research/">Research</a></li>
     <li><a href="#">Administration</a></li>
     
     <li>
@@ -204,7 +204,7 @@
                     NAAC
                 </button>
                 <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">SSR</a>
+                    <a class="dropdown-item" href="/naac/ssr/">SSR</a>
                 </div>
 </div>
     </li>
