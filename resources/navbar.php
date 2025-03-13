@@ -196,9 +196,21 @@
     <li><a href="#">Placements</a></li>
     <li><a href="#">Research</a></li>
     <li><a href="#">Administration</a></li>
+    
+    <li>
+    <div class="dropdown">
+<button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    NAAC
+                </button>
+                <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">SSR</a>
+                </div>
+</div>
+    </li>
     <li><a href="#">Alumni</a></li>
-    <li><a href="#">NAAC</a></li>
 </ul>
+
 
 </ul>
 

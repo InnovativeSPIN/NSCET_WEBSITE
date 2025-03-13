@@ -87,6 +87,7 @@
     padding: 5px;
 
 
+
 }
 
 #navbar ul {
@@ -137,6 +138,7 @@
 .custome-dropdown-menu a:hover {
     background: var(--primary-color);
 }
+
 
 /* footer */
 .footer_main {

@@ -25,23 +25,13 @@ include('./resources/conn.php');
 </head>
 <body>
 
-<?php
-
-  include('./resources/navbar.php');
-
-
-  ?>
+<?php include('./resources/navbar.php');?>
 
 
 
 
 
-<?php
-
-  include('./resources/footer.php');
-
-
-  ?>
+<?php include('./resources/footer.php'); ?>
 
 <!-- custom js -->
 <script src="./assets/js/resources/script.js"></script>
