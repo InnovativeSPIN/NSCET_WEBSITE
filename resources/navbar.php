@@ -161,6 +161,8 @@
                     </button>
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Administration Services</a>
+                        <a class="dropdown-item" href="#">Sports Facilities</a>
+                        <a class="dropdown-item" href="#">Health Facilities</a>
                         <!-- <a class="dropdown-item" href="#">Library</a> -->
                         <!-- <a class="dropdown-item" href="#">Canteen</a> -->
                         <!-- <a class="dropdown-item" href="#">Hostel</a> -->
@@ -189,12 +191,11 @@
                         Student Life
                     </button>
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Sports Facilities</a>
+                    <a class="dropdown-item" href="/sports/">Sports</a>
                         <a class="dropdown-item" href="#">Nss</a>
                         <a class="dropdown-item" href="#">Hostel</a>
                         <a class="dropdown-item" href="#">Placement Cell Activities</a>
                         <a class="dropdown-item" href="#">SGRC</a>
-                        <a class="dropdown-item" href="#">Health Facilities</a>
                         <a class="dropdown-item" href="#">ICC</a>
                         <a class="dropdown-item" href="#">Anti-Ragging Cell</a>
                         <a class="dropdown-item" href="#">EO cell</a>
@@ -209,7 +210,7 @@
 
             </li>
 
-            <li><a href="#">Placements</a></li>
+            <li><a href="/placement/">Placements</a></li>
 
 
             <li>

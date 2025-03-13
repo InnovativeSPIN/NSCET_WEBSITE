@@ -38,6 +38,9 @@ include('../resources/conn.php');
   ?>
 
 
+<section class="hero-section" style="background: url('../assets/img/sports/sports.JPG') no-repeat center/cover;">
+  <h1 class="dept-heading">Sports Facilities</h1>
+</section>
 
 <h1 class="s-h1" > About Our Sports Program</h1>
     <div class="s-about">
