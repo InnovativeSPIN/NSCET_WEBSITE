@@ -20,14 +20,14 @@
 }
 
 .hero_section_content h2 {
-    font-size: clamp(25px, 2em, 30px);
+    font-size: clamp(14px, 2em, 30px);
     color: var(--text-color);
     font-weight: 700;
 
 }
 
 .hero_section_content p {
-    font-size: clamp(15px, 2em, 18px);
+    font-size: clamp(12px, 1em, 18px);
     color: var(--text-color);
     margin-top: 1rem;
 }
@@ -57,6 +57,7 @@
 /* about us */
 .institute-about{
     display: flex;
+flex-wrap: wrap;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -66,15 +67,16 @@
     gap: 2rem;
 }
 .content-main h2{
-font-size: clamp(20px,2vw,30px);
+font-size: clamp(24px,2vw,30px);
 font-weight: 700;
 color: var(--dark-color);
 text-decoration: underline;
 padding: 10px;
 }
-.vision-content p{
+.vision-content li{
 margin-top: 1rem;
 line-height: 1.5rem;
+list-style:circle;
 }
 .mission-content ul {
     margin-top: 1rem;
@@ -172,6 +174,7 @@ background: var(--light_primary);
     position: relative;
     padding: 3rem;
     margin-bottom: -4rem;
+    
   }
   
   .fact-section:after {
@@ -184,6 +187,12 @@ background: var(--light_primary);
     background: var(--dark-color);
     border-bottom: 1px solid var(--text-color);
   }
+  .fact_section_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
   
   .fact-section .container {
     position: relative;
@@ -195,8 +204,8 @@ background: var(--light_primary);
   }
   
   .fact-icon {
-    font-size: 48px;
-    color: #fff;
+    font-size: clamp(35px,2em,48px);
+    color: var(--text-color);
     width: 50px;
     display: inline-block;
   }
@@ -208,7 +217,7 @@ background: var(--light_primary);
   }
   
   .fact-text h2 {
-    color: #f6783a;
+    color: var(--secondary-color);
     font-weight: 400;
     font-size: clamp(18px,2em,22px);
     margin-bottom: 5px;
@@ -221,4 +230,27 @@ background: var(--light_primary);
   }
   
 
+@media screen and (max-width:768px) {
+  .news_section_title{
+    text-align: center;
+  }
 
+  /* hero section */
+  .hero_section_content{
+    width: 380px;
+    height: 100px;
+    padding: 10px;
+  }
+  .hero_section_content p {
+    margin-top: 5px;
+  }
+  .institute-about{
+    margin-top: 1rem;
+  }
+  .fact_section_main{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+}

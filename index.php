@@ -84,8 +84,10 @@ include('./resources/conn.php');
         VISION
       </h2>
       <div class="vision-content">
-        <p>To establish ourselves as a leading technological institutions.
-        </p>
+      <ul>
+          <li>To establish ourselves as a leading technological institutions.</li>
+            </ul>
+
       </div>
 
     </div>
@@ -129,7 +131,7 @@ include('./resources/conn.php');
 
   <!-- news updates -->
   <div id="news_section">
-  <h2 class="news_section_title">News & Updates</h2>
+  <h2 class="news_section_title p-2">News & Updates</h2>
     <div class="news_section">
    
     <div class="new_updates marquee-container">
@@ -185,8 +187,8 @@ include('./resources/conn.php');
   
   <section class="fact-section spad set-bg " data-setbg="img/fact-bg.jpg">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-lg-3 fact">
+      <div class="fact_section_main">
+        <div class="fact">
           <div class="fact-icon">
           <i class="fas fa-crown"></i>
           </div>
@@ -195,7 +197,7 @@ include('./resources/conn.php');
             <p>YEARS</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 fact">
+        <div class="fact">
           <div class="fact-icon">
             <i class="fas fa-briefcase"></i>
           </div>
@@ -204,7 +206,7 @@ include('./resources/conn.php');
             <p>TEACHERS</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 fact">
+        <div class=" fact">
           <div class="fact-icon">
             <i class="fas fa-user"></i>
           </div>
@@ -213,7 +215,7 @@ include('./resources/conn.php');
             <p>STUDENTS</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 fact">
+        <div class=" fact">
           <div class="fact-icon">
             <i class="fas fa-pencil-alt"></i>
           </div>

@@ -2,6 +2,7 @@
     session_start();
 
     $colle_Name ="NSCET";
+    
     $db_host = "localhost";
     $db_user = "root";
     $db_pass = "";
