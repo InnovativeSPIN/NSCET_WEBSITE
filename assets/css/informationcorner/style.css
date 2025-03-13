@@ -1,0 +1,69 @@
+@import url('../../resources/main.css');
+
+
+
+
+.content-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.info-h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+.info-p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.departments-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.department {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.department:hover { 
+    transform: scale(1.05);
+}
+
+
+.department img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.department p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}

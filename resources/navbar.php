@@ -36,21 +36,20 @@
     </div>
 
     <div class="alerts_section">
-        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Information Corner
-        </button>
-        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="/about/index.php">About Us</a>
-            <a class="dropdown-item" href="/principal/index.php">Principal</a>
-            <a class="dropdown-item" href="/gallery">Gallery</a>
-            <a class="dropdown-item" href="#">Mou's</a>
-            <a class="dropdown-item" href="#">Organisation</a>
-            <a class="dropdown-item" href="#">Committees</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL REPORT.pdf">Annual Reports</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL ACCOUNTS.pdf">Annual Accounds</a>
-        </div>
+    <button class="btn custom_dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Information Corner
+    </button>
+    <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Circular and Notices</a>
+        <a class="dropdown-item" href="#">Announcements</a>
+        <a class="dropdown-item" href="#">Newsletters</a>
+        <a class="dropdown-item" href="#">News & Recent events</a>
+        
+        <a class="dropdown-item" href="#">Reservation Roster</a>
+        <a class="dropdown-item" href="#">Job Openings</a>
     </div>
+</div>
 
 </div>
 <div class="navbar" id="navbar">
@@ -120,7 +119,7 @@
                         <a class="dropdown-item" href="/teaching/index.php">Teaching Faculty</a>
                         <a class="dropdown-item" href="/non-teaching/index.php">Non-Teaching Faculty</a>
                         <a class="dropdown-item" href="#">UGc ODL online Programs</a>
-                        <a class="dropdown-item" href="#">IQAC</a>
+                        <a class="dropdown-item" href="/iqac/">IQAC</a>
                         <a class="dropdown-item" href="#">Academic Collab</a>
                         <a class="dropdown-item" href="/library/index.php">Library</a>
 
