@@ -24,7 +24,7 @@
     <div class="social_media">
         <div class="top-social">
         <div>
-                <a href="#" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
+                <a href="/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
             </div>
             <div>
                 <a href="https://www.linkedin.com/company/nscet/" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -106,10 +106,21 @@
         <a class="dropdown-item" href="#">Job Openings</a>
     </div>
 </div>
+<div class="Code_college">
+    <button class="btn custom_dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+    
+        <strong>Counselling code</strong> : 9210
+ 
+    </button>
+</div>
 
 <!-- social -->
 <div class="mobile_social_media ">
         <div class="mobile_top_social">
+        <div>
+                <a href="/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
+            </div>
             <div>
                 <a href="https://www.linkedin.com/company/nscet/" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
