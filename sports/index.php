@@ -7,12 +7,9 @@ include('../resources/conn.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | <?php echo $colle_Name; ?></title>
-    <!-- Bootstrap CSS -->
+    <title>Sports | <?php echo $colle_Name; ?></title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/resources/style.css">
     <link rel="stylesheet" href="../assets/css/sport/style.css">
     <!-- Font Awesome -->
@@ -70,19 +67,19 @@ include('../resources/conn.php');
             </div>
             <div class="sport-item">
                 <h4 class="sport-title">Kabaddi</h4>
-                <img src="/assets/img/sports/kabadi.png" alt="Kabaddi" class="sport-img">
+                <img src="../assets/img/sports/kabadi.png" alt="Kabaddi" class="sport-img">
             </div>
             <div class="sport-item">
                 <h4 class="sport-title">Table Tennis</h4>
-                <img src="/assets/img/sports/table.png" alt="Kho Kho" class="sport-img">
+                <img src="../assets/img/sports/table.png" alt="Kho Kho" class="sport-img">
             </div>
             <div class="sport-item">
                 <h4 class="sport-title">Kho Kho</h4>
-                <img src="/assets/img/sports/khokho.png" alt="Kho Kho" class="sport-img">
+                <img src="../assets/img/sports/khokho.png" alt="Kho Kho" class="sport-img">
             </div>
             <div class="sport-item">
                 <h4 class="sport-title">Handball</h4>
-                <img src="/assets/img/sports/handball.png" alt="Kho Kho" class="sport-img">
+                <img src="../assets/img/sports/handball.png" alt="Kho Kho" class="sport-img">
             </div>
         </div>
     </div>

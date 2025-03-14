@@ -363,3 +363,12 @@ font-weight: 700;
 #Overview{
     display: block;
 }
+@media screen and (max-width:768px) {
+    #main-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .office-table td {
+        font-size: 14px;
+    }
+}
