@@ -8,7 +8,7 @@
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="/about/">About Us</a>
             <a class="dropdown-item" href="/principal/">Principal</a>
-            <a class="dropdown-item" href="/gallery">Gallery</a>
+            <a class="dropdown-item" href="/gallery/">Gallery</a>
             <a class="dropdown-item" href="#">Mou's</a>
             <!-- <a class="dropdown-item" href="#">Organisation</a>
             <a class="dropdown-item" href="#">Committees</a> -->
@@ -79,11 +79,11 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Details of Academic</a>
-            <a class="dropdown-item" href="#">Academic Calender</a>
+            <a class="dropdown-item" href="/academic_calendar/">Academic Calender</a>
             <a class="dropdown-item" href="/teaching/">Teaching Faculty</a>
             <a class="dropdown-item" href="/non-teaching/">Non-Teaching Faculty</a>
             <a class="dropdown-item" href="#">UGc ODL online Programs</a>
-            <a class="dropdown-item" href="#">IQAC</a>
+            <a class="dropdown-item" href="/iqac/">IQAC</a>
             <a class="dropdown-item" href="#">Academic Collab</a>
             <a class="dropdown-item" href="/library/">Library</a>
 
@@ -125,11 +125,11 @@
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Administration Services</a>
             <a class="dropdown-item" href="/sports_facilites/">Sports Facilities</a>
-            <a class="dropdown-item" href="#">Health Facilities</a>
+            <a class="dropdown-item" href="/health/">Health Facilities</a>
             <!-- <a class="dropdown-item" href="#">Library</a> -->
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
-            <a class="dropdown-item" href="#">Transport</a>
+            <a class="dropdown-item" href="/transport/">Transport</a>
             <!-- <a class="dropdown-item" href="#">IT Infrastructure</a> -->
             <!-- <a class="dropdown-item" href="#">Health Centre</a> -->
             <!-- <a class="dropdown-item" href="#">Security</a> -->
@@ -137,7 +137,7 @@
             <!-- <a class="dropdown-item" href="#">Green Campus</a>
         <a class="dropdown-item" href="#">Energy Conservation</a>
         <a class="dropdown-item" href="#">Water Conservation</a> -->
-            <a class="dropdown-item" href="#">Infrastructure</a>
+            <a class="dropdown-item" href="/infrastructure">Infrastructure</a>
             <!-- <a class="dropdown-item" href="#">Maintenance</a> -->
 
         </div>
@@ -156,14 +156,14 @@
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="/sports/">Sports</a>
             <a class="dropdown-item" href="#">Nss</a>
-            <a class="dropdown-item" href="#">Hostel</a>
-            <a class="dropdown-item" href="#">Placement Cell Activities</a>
+            <a class="dropdown-item" href="/hostel/boys_hostel/">Boys Hostel</a>
+            <a class="dropdown-item" href="/hostel/girls_hostel/">Girls Hostel</a>
             <a class="dropdown-item" href="#">SGRC</a>
             <a class="dropdown-item" href="#">ICC</a>
-            <a class="dropdown-item" href="#">Anti-Ragging Cell</a>
+            <a class="dropdown-item" href="/anti_ragging/">Anti-Ragging Cell</a>
             <a class="dropdown-item" href="#">EO cell</a>
-            <a class="dropdown-item" href="#">SEDG</a>
-            <a class="dropdown-item" href="#"> Specially-Abled Support </a>
+            <!-- <a class="dropdown-item" href="#">SEDG</a>
+            <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
         </div>
     </div>
 
@@ -186,9 +186,9 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
             <a href="/research/" class="dropdown-item">Research</a>
-            <a href="#" class="dropdown-item">Alumni</a>
-            <a href="/CLUBS & CHAPTERS/index.php" class="dropdown-item">Clubs & Chapters</a>
-            <a href="#" class="dropdown-item">NIRF</a>
+            <a href="/alumni/" class="dropdown-item">Alumni</a>
+            <a href="/clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
+            <a href="/NIRF/" class="dropdown-item">NIRF</a>
 
         </div>
     </div>

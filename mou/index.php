@@ -41,7 +41,7 @@ include('../resources/conn.php');
 
 <div class="main">
         <div class="mou">
-            <img src="/assets/img/mou/MoU.jpg" alt="mou">
+            <img src="../assets/img/mou/MoU.jpg" alt="mou">
             <p>
                 A Memorandum of Understanding (MOU) in a college is an agreement between the institution and another organization, such as a company, university, or government body. It outlines the terms of collaboration, including areas like student internships, faculty exchange, research projects, and training programs. While an MOU is not legally binding like a contract, it serves as a formal way to establish partnerships and mutual goals.
                 <br><br>

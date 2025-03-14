@@ -46,12 +46,11 @@ include('../resources/conn.php');
             At NSCET, we prioritize the health of our students, both boys and girls. We have dedicated staff to ensure well-being, special rooms equipped for health services, and readily available first aid kits to handle emergencies effectively.
         </p>
 
-        <img src="../assets/img/sports/Malaini.jpg" alt="Health Facility" class="health-img">
+        <img src="../assets/img/sports/Malaini.jpg" alt="Health Facility" class="health-img" width="180px">
 
         <h2 class="section-heading">Incharge</h2>
         <div class="incharge-container">
             <div class="incharge-item">
-                <img src="../assets/img/health/incharge.jpg" alt="Health Incharge" class="incharge-img">
                 <p class="incharge-name">Dr. [Name]</p>
                 <p class="incharge-title">Health Officer</p>
             </div>
