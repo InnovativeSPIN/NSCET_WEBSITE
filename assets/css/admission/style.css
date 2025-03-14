@@ -1,1 +1,254 @@
 @import url('../resources/main.css');
+.hero-section{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.hero-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.4);
+
+}
+.hero-section h1{
+    color: var(--text-color);
+    z-index: 2;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size: clamp(38px,4em,58px);
+}
+
+.hero-section p{
+    color: var(--text-color);
+margin-top: 2rem;
+z-index: 2;
+    text-transform:uppercase;
+    font-size: clamp(18px,2em,28px);
+}
+
+
+.eligibility {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: var(--light_primary);
+    border-radius: 5px;
+}
+
+.main_head_text {
+    color: var(--dark-color);
+    z-index: 2;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size: clamp(28px,2em,38px);
+}
+.eligibility_container  h2{
+    font-size: clamp(18px,2em,22px);
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.eligibility_container ul {
+    list-style-type:circle;
+    padding-left: 20px;
+}
+.eligibility_container ul li{
+  line-height: 1.3rem;
+
+}
+/* main navigation */
+.main_body_section{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 1300px;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.sidebar_navigate{
+    position: relative;
+}
+.sidebar_navigate ul{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--text-color);
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    width: 340px;
+    height: 280px;
+   position: sticky;
+   top: 0;
+}
+.sidebar_navigate ul li{
+    line-height: 3rem;
+    border-bottom: 2px solid var(--text-color);
+}
+.sidebar_navigate ul li:hover{
+    background: var(--secondary-color);
+}
+.sidemenu_item{
+    padding: 10px;
+    color: var(--text-color);
+    font-size: clamp(18px,2em,20px);
+}
+.sidemenu_item:hover{
+    color: var(--text-color);
+}
+.content-section{
+    display: none;
+}  #overview{
+    display: block;
+}
+
+/* prospectus */
+.fee-structure h2,.additional-info h2{
+    font-size: clamp(23px,2em,28px);
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    margin-top: 2rem;
+    color: var(--dark-color);
+}
+.fee-structure ul li,.additional-info ul li{
+line-height: 1.5rem;
+color: var(--primary-color);
+}
+.additional-info ul li strong{
+    color: var(--dark-color);
+}
+
+/* enquiry */
+.enquiry-section {
+    background: var(--text-color);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.admission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
+.admission-container {
+    background: #ffffff;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+.admission-box {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.admission-box h3 {
+    font-size: clamp(18px,2em,20px);
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.admission-box p {
+    color: #555;
+}
+
+.admission-box ol {
+    padding-left: 20px;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    
+}
+
+.admission-box ol li {
+    line-height: 1.5rem;
+}
+.admission-box ol li strong{
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .enquiry-section {
+        max-width: 90%;
+        padding: 20px;
+    } .admission-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+    .main_body_section{
+        flex-direction: column;
+    }
+    .hero-section{
+        text-align: center;
+    }
+}

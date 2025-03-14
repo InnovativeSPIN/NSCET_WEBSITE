@@ -106,8 +106,6 @@
             <a class="dropdown-item" href="#">Admission process</a>
             <a class="dropdown-item" href="#">Fee Refund Policy</a>
 
-
-
         </div>
     </div>
 
