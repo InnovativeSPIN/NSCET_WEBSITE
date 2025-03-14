@@ -12,7 +12,7 @@ include('../resources/conn.php');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | <?php echo $colle_Name; ?></title>
+  <title>Sports Facilites | <?php echo $colle_Name; ?></title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
@@ -48,6 +48,9 @@ include('../resources/conn.php');
             The College is committed to promote sports activities towards the all-round growth of its students. The campus has 6000 sq.ft. indoor facilities for Chess, Carom, Table Tennis, Volley Ball and Badminton and out-Door facilities for Volley Ball, Foot Ball, Tennis, Ball Badminton. We have two qualified Physical Education staff to train the students.
             Students sent for participating in the Inter-Collegiate Sports and games have won many trophies in various events. Our Volley ball team is an unbeaten State Champion and has won many tournaments in national level inter-collegiate matches.
         </p>
+        <button class="">
+        Sports Achievements
+        </button>
     </div>
 
 
