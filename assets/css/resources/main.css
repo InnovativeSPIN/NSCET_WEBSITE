@@ -48,7 +48,7 @@ ol, ul {
 	list-style: none;
 
 }
-ol li,ul li,label,input,select,td{
+ol li,ul li,label,input,select,td,th{
 	font-family: 'Poppins', 'Roboto', sans-serif;
 
 }

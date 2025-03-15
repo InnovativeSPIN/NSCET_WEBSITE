@@ -129,7 +129,9 @@ border-top-left-radius: 5px;
 #navbar ul li button {
     color: var(--dark-color);
 }
-
+#navbar ul li button  a{
+    color: var(--dark-color);
+}
 #navbar ul li button:focus {
     color: var(--text-color);
 
@@ -358,6 +360,9 @@ font-size: clamp(15px,2em,18px);
     }
     .navigations_lists button{
         margin-left: -3px;
+    }
+    .navigations_lists button a{
+        color: var(--dark-color);
     }
     .mobile_top_social{
         display: flex;

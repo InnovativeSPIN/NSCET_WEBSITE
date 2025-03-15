@@ -12,20 +12,24 @@ include('../resources/conn.php');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | <?php echo $colle_Name; ?></title>
+  <title>Non-Teaching Faculty List | <?php echo $colle_Name; ?></title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
   <!-- custom css -->
   <link rel="stylesheet" href="../assets/css/resources/style.css">
-  <link rel="stylesheet" href="../assets/css/non-teaching/style.css">
+  <link rel="stylesheet" href="../assets/css/teaching/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
+
+  <style>
+    
+  </style>
 </head>
 
 <body>
@@ -36,11 +40,8 @@ include('../resources/conn.php');
 
 
   ?>
-
-
-
-<section class="tablesoffac mt-5">
-        <div class="heading d-flex justify-content-center text-uppercase mb-5">Non-Teaching Faculty</div>
+<section class="tablesoffac non_teaching">
+        <h2 class="dept_text text-uppercase mb-5">Non-Teaching Faculty</h2>
 
         <?php
 
@@ -55,7 +56,7 @@ include('../resources/conn.php');
                 $staff_list[] = $row;
             }
         ?>
-
+<div class="main_container">
             <table>
                 <thead>
                     <th>No</th>
@@ -74,6 +75,7 @@ include('../resources/conn.php');
                     <?php } ?>
                 </tbody>
             </table>
+            </div>
         <?php
         } else {
             echo "<p>No staff found for the $dept_name department.</p>";

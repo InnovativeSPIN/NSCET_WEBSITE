@@ -124,6 +124,7 @@
             Facilities
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="/demo/infrastructure">Infrastructure</a>
             <a class="dropdown-item" href="#">Administration Services</a>
             <a class="dropdown-item" href="/demo/sports_facilites/">Sports Facilities</a>
             <a class="dropdown-item" href="/demo/health/">Health Facilities</a>
@@ -138,7 +139,7 @@
             <!-- <a class="dropdown-item" href="#">Green Campus</a>
         <a class="dropdown-item" href="#">Energy Conservation</a>
         <a class="dropdown-item" href="#">Water Conservation</a> -->
-            <a class="dropdown-item" href="/demo/infrastructure">Infrastructure</a>
+            
             <!-- <a class="dropdown-item" href="#">Maintenance</a> -->
 
         </div>
@@ -171,9 +172,11 @@
 </li>
 
 <li>
-    <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button class="btn custom_dropdown " 
+        aria-haspopup="true" aria-expanded="false">
+        <a href="/placement/">
         Placements
+        </a>
     </button>
 
 </li>
@@ -190,6 +193,7 @@
             <a href="/demo/alumni/" class="dropdown-item">Alumni</a>
             <a href="/demo/clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="/demo/NIRF/" class="dropdown-item">NIRF</a>
+            <a href="/demo/assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
 
         </div>
     </div>

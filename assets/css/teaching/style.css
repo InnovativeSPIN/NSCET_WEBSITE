@@ -4,7 +4,6 @@ table{
     max-width: 880px;
     margin: 0 auto;
     padding: 20px;
-  
   }
   .headings{
     font-size:clamp(18px,2.1vw,27px) ;
@@ -27,20 +26,44 @@ table{
     margin-top: 3px;
   }
   tr{
-    background: #ededed;
+    background: var(--light_primary);
     border-radius: 2px;
   }
   th{
-    background: #d2d2d2;
+    background: var(--primary-color);
   border: 1px solid #121212;
   padding: 10px;
+  font-size: clamp(18px,2em,20px);
+  color: var(--text-color);
+  font-weight: 700;
   
   }
   td{
   
   border: 1px solid #121212;
   padding: 10px;
+
   }
-  h2{
+  .dept_text{
     text-align: center;
+    font-size: clamp(18px,2em,38px);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+color: var(--dark-color);
+font-weight: 700;
+  }
+
+  @media screen and (max-width:768px) {
+  .main_container{
+    overflow-x: scroll;
+  }
+  .dept_tex{
+    font-size: 15px;
+  }
+  .tablesoffac{
+    margin-top: 3rem;
+  }
+  .non_teaching{
+    margin-top: 6rem;
+  }
   }

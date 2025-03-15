@@ -33,7 +33,7 @@
                 <a href="https://www.youtube.com/@NSCETeConnect" class="fixed-instagrem" target="_blank"><i class="fa fa-youtube"></i></a>
             </div>
             <div>
-                <a href="#" class="fixed-twitter" target="_blank"><i class="fa fa-instagram"></i> </a>
+                <a href="https://www.instagram.com/nscettmhnu/" class="fixed-twitter" target="_blank"><i class="fa fa-instagram"></i> </a>
             </div>
         </div>
     </div>
@@ -125,7 +125,7 @@
                             <a href="https://www.youtube.com/@NSCETeConnect" class="fixed-instagrem" target="_blank"><i class="fa fa-youtube"></i></a>
                         </div>
                         <div>
-                            <a href="#" class="fixed-twitter" target="_blank"><i class="fa fa-instagram"></i> </a>
+                            <a href="https://www.instagram.com/nscettmhnu/" class="fixed-twitter" target="_blank"><i class="fa fa-instagram"></i> </a>
                         </div>
                     </div>
                 </div>

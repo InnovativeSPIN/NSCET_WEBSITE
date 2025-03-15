@@ -12,7 +12,7 @@ include('../resources/conn.php');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | <?php echo $colle_Name; ?></title>
+  <title>Principal | <?php echo $colle_Name; ?></title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
@@ -37,11 +37,11 @@ include('../resources/conn.php');
 
   ?>
 
-<div class="main">
+<div class="main main_container">
     <div class="container">
         <img src="../assets/img/main/Principal.jpg" alt="Principal Photo">
         <h2>Dr. C. Mathalai Sundaram</h2>
-        <p><strong>Principal, NSCET</strong></p>
+        <p class="text-center"><strong>Principal, NSCET</strong></p>
 
         <p>
             As a 21st century organization, NSCET desires to set an approach to learning that incorporates inquiry, research, 
