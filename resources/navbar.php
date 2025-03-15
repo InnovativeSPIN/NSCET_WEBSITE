@@ -44,13 +44,12 @@
             Information Corner
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Circular and Notices</a>
-            <a class="dropdown-item" href="#">Announcements</a>
-            <a class="dropdown-item" href="#">Newsletters</a>
-            <a class="dropdown-item" href="#">News & Recent events</a>
-
-            <a class="dropdown-item" href="#">Reservation Roster</a>
-            <a class="dropdown-item" href="#">Job Openings</a>
+            <a class="dropdown-item" href="/Information_corner/#Circular">Circular and Notices</a>
+            <a class="dropdown-item" href="/Information_corner/#Announcements">Announcements</a>
+            <a class="dropdown-item" href="/Information_corner/#Newsletters">Newsletters</a>
+            <a class="dropdown-item" href="/Information_corner/#News & Recent events">News & Recent events</a>
+            <a class="dropdown-item" href="/Information_corner/#Job Openings">Reservation Roster</a>
+            <a class="dropdown-item" href="/Information_corner/#Reservation Roster">Job Openings</a>
         </div>
     </div>
 
@@ -96,13 +95,12 @@
                         Information Corner
                     </button>
                     <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Circular and Notices</a>
-                        <a class="dropdown-item" href="#">Announcements</a>
-                        <a class="dropdown-item" href="#">Newsletters</a>
-                        <a class="dropdown-item" href="#">News & Recent events</a>
-
-                        <a class="dropdown-item" href="#">Reservation Roster</a>
-                        <a class="dropdown-item" href="#">Job Openings</a>
+                        <a class="dropdown-item" href="/Information_corner/#Circular">Circular and Notices</a>
+                        <a class="dropdown-item" href="/Information_corner/#Announcements">Announcements</a>
+                        <a class="dropdown-item" href="/Information_corner/#Newsletters">Newsletters</a>
+                        <a class="dropdown-item" href="/Information_corner/#News & Recent events">News & Recent events</a>
+                        <a class="dropdown-item" href="/Information_corner/#Job Openings">Reservation Roster</a>
+                        <a class="dropdown-item" href="/Information_corner/#Reservation Roster">Job Openings</a>
                     </div>
                 </div>
                 <div class="Code_college">
