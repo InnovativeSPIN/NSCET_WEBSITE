@@ -9,21 +9,23 @@
             <a class="dropdown-item" href="/about/">About Us</a>
             <a class="dropdown-item" href="/principal/">Principal</a>
             <a class="dropdown-item" href="/gallery/">Gallery</a>
-            <a class="dropdown-item" href="#">Mou's</a>
+            <a class="dropdown-item" href="/mou/">Mou's</a>
             <!-- 
             <a class="dropdown-item" href="#">Organisation</a>
             <a class="dropdown-item" href="#">Committees</a> -->
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL REPORT.pdf">Annual Reports</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL ACCOUNTS.pdf">Annual Accounds</a>
+            <a class="dropdown-item" href="/assets/pdf/ANNUAL_REPORT.pdf">Annual Reports</a>
+            <a class="dropdown-item" href="/assets/pdf/ANNUAL_ACCOUNTS.pdf">Annual Accounds</a>
         </div>
     </div>
 
 </li>
 <li>
-    <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Administration
+    
+    <button class="btn custom_dropdown " type="button" 
+         aria-haspopup="true" aria-expanded="false">
+        <a href="/administration/">  Administration</a>
     </button>
+    
 </li>
 
 <li>

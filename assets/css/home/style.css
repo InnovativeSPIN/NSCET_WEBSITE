@@ -251,6 +251,9 @@ background: var(--light_primary);
     display: flex;
     justify-content: center;
     gap: 1rem;
+  }iframe{
+    width: 280px;
+    height: 180px;
   }
   
 }

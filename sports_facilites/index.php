@@ -41,7 +41,7 @@ include('../resources/conn.php');
 <section class="hero-section" style="background: url('../assets/img/sports/main.JPG') no-repeat center/cover;">
   <h1 class="dept-heading">Sports Facilities</h1>
 </section>
-
+<div class="sport_facilites">
 <h1 class="s-h1" > About Our Sports Program</h1>
     <div class="s-about">
         <p>
@@ -186,7 +186,7 @@ include('../resources/conn.php');
     </table>
 
 
-    <h1 class="s-h1"     >Sports Achievements – 2023-24</h1>
+    <h1 class="s-h1">Sports Achievements – 2023-24</h1>
     <div class="table-container">
         <table>
             <thead>
@@ -476,7 +476,7 @@ include('../resources/conn.php');
         </table>
     </div>
 
-
+    </div>
 
   <?php
 

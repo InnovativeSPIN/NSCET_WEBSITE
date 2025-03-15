@@ -1,7 +1,7 @@
 @import url('../resources/main.css');
 
 
-/* General Container */
+
 .main {
     max-width: 1200px;
     margin: 0 auto;
@@ -9,12 +9,12 @@
     font-family: Arial, sans-serif;
 }
 
-/* Health Section */
+
 .health {
     text-align: center;
 }
 
-/* Hero Section */
+
 .hero-section {
     width: 100%;
     height: 70vh;
@@ -31,7 +31,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(50, 50, 50, 0.4); /* Overlay for readability */
+    background: rgba(50, 50, 50, 0.4); 
 }
 
 .dept-heading {
@@ -43,7 +43,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* Intro Paragraph */
+
 .health-intro {
     text-align: justify;
     font-size: 18px;
@@ -53,7 +53,7 @@
     margin: 30px auto;
     padding: 20px;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    border-left: 5px solid #2ecc71; /* Green accent for health theme */
+    border-left: 5px solid var(--light_primary); /* Green accent for health theme */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -115,18 +115,18 @@
 .incharge-name {
     font-size: 20px;
     font-weight: 600;
-    color: #2c3e50;
+    color: var(--dark-color);
     margin: 0 0 5px;
 }
 
 .incharge-title {
     font-size: 16px;
     font-weight: 500;
-    color: #2ecc71; /* Green to match health theme */
+    color: var(--primary-color);
     margin: 0;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .hero-section {
         height: 50vh;
