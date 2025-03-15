@@ -38,7 +38,31 @@
     margin-top: 20px;
 }
 
+#main_section{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
 
+}
+.navigate_section ul {
+    background: var(--primary-color);
+    color: var(--text-color);
+    width: 380px;
+    height: 280px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.4);
+    border: 1px solid var(--dark-color);
+    position: sticky;
+    top: 0;
+}
+.navigate_section ul li{
+    line-height: 1.5rem;
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+}.navigate_section ul li a{
+    color: var(--text-color);
+}
 .department {
     background: #f9f9f9;
     padding: 15px;

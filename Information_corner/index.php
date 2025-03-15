@@ -36,7 +36,17 @@ include('../resources/conn.php');
 
 
   ?>
-
+<div id="main_section">
+<div class="navigate_section">
+  <ul>
+    <li class="navigate_item"><a href="#circular">Circular and Notices</a></li>
+    <li class="navigate_item"><a href="#announcements">Announcements</a></li>
+    <li class="navigate_item"><a href="#Newsletters">Newsletters</a></li>
+    <li class="navigate_item"><a href="#News_Recent_events">News & Recent events</a></li>
+    <li class="navigate_item"><a href="#Job_Openings">Reservation Roster</a></li>
+    <li class="navigate_item"><a href="#Reservation_Roster">Job Openings</a></li>
+  </ul>
+</div>
 
 <div class="main">
 
@@ -123,7 +133,7 @@ include('../resources/conn.php');
     </div>
 
 
-
+    </div>
 
 
 
@@ -161,29 +171,35 @@ document.addEventListener("DOMContentLoaded", function () {
     showSection("Circular");
 
   
-    document.querySelectorAll(".dropdown-item").forEach(item => {
-        item.addEventListener("click", function (event) {
-            event.preventDefault();
-            let target = this.textContent.trim();
+    document.querySelectorAll(".navigate_item a").forEach(item => {
+    item.addEventListener("click", function (event) {
+        event.preventDefault();
+        let target = this.textContent.trim();
 
-            if (target === "Circular and Notices") {
+        switch (target) {
+            case "Circular and Notices":
                 showSection("Circular");
-            } else if (target === "Announcements") {
+                break;
+            case "Announcements":
                 showSection("Announcements");
-            }else if (target === "Newsletters"){
+                break;
+            case "Newsletters":
                 showSection("Newsletters");
-            }else if (target ==="News & Recent events"){
-                showSection("News & Recent events");
-            }else if (target ==="Job Openings"){ 
-                showSection("Job Openings");
-            }else if (target ==="Reservation Roster"){
-                showSection("Reservation Roster");
-            }
-
-
-        });
+                break;
+            case "News & Recent events":
+                showSection("News_Recent_events"); 
+                break;
+            case "Job Openings":
+                showSection("Job_Openings");
+                break;
+            case "Reservation Roster":
+                showSection("Reservation_Roster");
+                break;
+        }
     });
 });
+
+    });
 </script>
 
 </body>
