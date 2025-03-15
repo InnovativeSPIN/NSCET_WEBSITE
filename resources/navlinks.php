@@ -174,7 +174,7 @@
 <li>
     <button class="btn custom_dropdown " 
         aria-haspopup="true" aria-expanded="false">
-        <a href="/placement/">
+        <a href="/demo/placement/">
         Placements
         </a>
     </button>

@@ -91,3 +91,10 @@
     font-weight: bold;
     color: #333;
 }
+
+@media screen and (max-width:768px){
+    #main_section{
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+}
