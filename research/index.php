@@ -34,7 +34,7 @@ include('../resources/conn.php');
 </section>
 
 <div class="main_contents">
-    <aside>
+    <!-- <aside>
     <nav class="side-nav">
     <ul>
         <li><a href="#overview">Overview</a></li>
@@ -47,7 +47,7 @@ include('../resources/conn.php');
     </ul>
 </nav>
     </aside>
-    
+     -->
 <main>
         <section class="overview">
             <h2>Overview</h2>

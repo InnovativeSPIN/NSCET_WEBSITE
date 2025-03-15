@@ -35,7 +35,7 @@
 
 
 <div class="main">
-    <h2>Internal Quality Assurance Cell (IQAC)</h2>
+    <h2 class="main_head">Internal Quality Assurance Cell (IQAC)</h2>
 
     <h3>About IQAC</h3>
     <p>

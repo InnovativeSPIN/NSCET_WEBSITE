@@ -59,20 +59,20 @@ include('../resources/conn.php');
       <div id="libraryCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner slides">
           <div class="carousel-item active slide">
-            <img src="../../assets/img/library/3.jpeg" alt="Library Image 1">
+            <img src="../assets/img/library/3.jpeg" alt="Library Image 1">
           </div>
           <div class="carousel-item slide">
-            <img src="../../assets/img/library/2.jpeg" alt="Library Image 2">
+            <img src="../assets/img/library/2.jpeg" alt="Library Image 2">
           </div>
           <div class="carousel-item slide">
-            <img src="../../assets/img/library/1.jpeg" alt="Library Image 3">
+            <img src="../assets/img/library/1.jpeg" alt="Library Image 3">
           </div>
           <div class="carousel-item slide">
-            <img src="../../assets/img/library/4.jpeg" alt="Library Image 5">
+            <img src="../assets/img/library/4.jpeg" alt="Library Image 5">
           </div>
 
           <div class="carousel-item slide">
-            <img src="../../assets/img/library/5.jpeg" alt="Library Image 5">
+            <img src="../assets/img/library/5.jpeg" alt="Library Image 5">
           </div>
 
         </div>
@@ -89,19 +89,19 @@ include('../resources/conn.php');
         <div id="libraryCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner slides">
                 <div class="carousel-item active slide">
-                    <img src="../../assets/img/library/background.jpeg" alt="Library Image 1">
+                    <img src="../assets/img/library/background.jpeg" alt="Library Image 1">
                 </div>
                 <div class="carousel-item slide">
-                    <img src="../../assets/img/library/2.jpeg" alt="Library Image 2">
+                    <img src="../assets/img/library/2.jpeg" alt="Library Image 2">
                 </div>
                 <div class="carousel-item slide">
-                    <img src="../../assets/img/library/3.jpeg" alt="Library Image 3">
+                    <img src="../assets/img/library/3.jpeg" alt="Library Image 3">
                 </div>
                 <div class="carousel-item slide">
-                    <img src="../../assets/img/library/5.jpeg" alt="Library Image 4">
+                    <img src="../assets/img/library/5.jpeg" alt="Library Image 4">
                 </div>
                 <div class="carousel-item slide">
-                    <img src="../../assets/img/library/4.jpeg" alt="Library Image 5">
+                    <img src="../assets/img/library/4.jpeg" alt="Library Image 5">
                 </div>
             </div>
         </div>
@@ -259,7 +259,7 @@ include('../resources/conn.php');
     <div class="row align-items-center">
       <div class="col-md-5">
         <div class="librarian-container">
-          <img src="../../assets/img/library/Sinthan.jpg" alt="Dr. Sinthan" width="90px">
+          <img src="../assets/img/library/Sinthan.jpg" alt="Dr. Sinthan" width="90px">
           <div class="name">
             Dr.S.Sinthan<br>Librarian<br>
           </div>
@@ -283,43 +283,43 @@ include('../resources/conn.php');
     <h3 class="library-gallery-header">LIBRARY GALLERY</h3>
 
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/1.jpeg" data-lightbox="library" data-title="Image 1">
-            <img src="../../assets/img/library/1.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/1.jpeg" data-lightbox="library" data-title="Image 1">
+            <img src="../assets/img/library/1.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/2.jpeg" data-lightbox="library" data-title="Image 2">
-            <img src="../../assets/img/library/2.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/2.jpeg" data-lightbox="library" data-title="Image 2">
+            <img src="../assets/img/library/2.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/3.jpeg" data-lightbox="library" data-title="Image 3">
-            <img src="../../assets/img/library/3.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/3.jpeg" data-lightbox="library" data-title="Image 3">
+            <img src="../assets/img/library/3.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/4.jpeg" data-lightbox="library" data-title="Image 4">
-            <img src="../../assets/img/library/4.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/4.jpeg" data-lightbox="library" data-title="Image 4">
+            <img src="../assets/img/library/4.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/5.jpeg" data-lightbox="library" data-title="Image 5">
-            <img src="../../assets/img/library/5.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/5.jpeg" data-lightbox="library" data-title="Image 5">
+            <img src="../assets/img/library/5.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/6.jpeg" data-lightbox="library" data-title="Image 6">
-            <img src="../../assets/img/library/6.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/6.jpeg" data-lightbox="library" data-title="Image 6">
+            <img src="../assets/img/library/6.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/7.jpeg" data-lightbox="library" data-title="Image 7">
-            <img src="../../assets/img/library/7.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/7.jpeg" data-lightbox="library" data-title="Image 7">
+            <img src="../assets/img/library/7.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a href="../../assets/img/library/background.jpeg" data-lightbox="library" data-title="Background Image">
-            <img src="../../assets/img/library/background.jpeg" class="zoom img-fluid" alt="">
+        <a href="../assets/img/library/background.jpeg" data-lightbox="library" data-title="Background Image">
+            <img src="../assets/img/library/background.jpeg" class="zoom img-fluid" alt="">
         </a>
     </div>
 </div>
