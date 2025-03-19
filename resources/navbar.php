@@ -24,7 +24,7 @@
     <div class="social_media">
         <div class="top-social">
             <div>
-                <a href="/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
+                <a href="/demo/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
             </div>
             <div>
                 <a href="https://www.linkedin.com/company/nscet/" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -116,7 +116,7 @@
                 <div class="mobile_social_media ">
                     <div class="mobile_top_social">
                         <div>
-                            <a href="/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
+                            <a href="/demo/contact/" class="fixed-twitter" target="_blank"><i class="fa-solid fa-address-book"></i></a>
                         </div>
                         <div>
                             <a href="https://www.linkedin.com/company/nscet/" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
