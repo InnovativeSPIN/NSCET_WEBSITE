@@ -10,9 +10,9 @@
             <a class="dropdown-item" href="/demo/principal/">Principal</a>
             <a class="dropdown-item" href="/demo/gallery/">Gallery</a>
             <a class="dropdown-item" href="/demo/mou/">Mou's</a>
-            <!-- 
-            <a class="dropdown-item" href="#">Organisation</a>
-            <a class="dropdown-item" href="#">Committees</a> -->
+            
+            <!-- <a class="dropdown-item" href="#">Organisation</a> -->
+            <a class="dropdown-item" href="/Idp/">IDP</a>
             <a class="dropdown-item" href="/demo/assets/pdf/ANNUAL_REPORT.pdf">Annual Reports</a>
             <a class="dropdown-item" href="/demo/assets/pdf/ANNUAL_ACCOUNTS.pdf">Annual Accounds</a>
         </div>
