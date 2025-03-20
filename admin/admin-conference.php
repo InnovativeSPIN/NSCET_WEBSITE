@@ -1,165 +1,171 @@
 <?php
-require_once("../resources/connection.php");
-if (!isset($_SESSION['username'])) {
-  header("Location: ./login.php");
-  exit();
+include('../resources/conn.php');
+
+if (isset($_SESSION['username'])) {
+    header("Location: ./");
+    exit();
 }
 
-$sql = "SELECT id, main_author_name, paper_authors, paper_id, paper_title, paper_pdf, transaction_id, receipt, created_at, phone_no, college_Name FROM papers_list";
-$result = $conn->query($sql);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
 
-function safe_htmlspecialchars($value){
-  echo htmlspecialchars($value !==null ? $value : "-",ENT_QUOTES,'UTF-8');
+    if (empty($username) || empty($password)) {
+        echo "<script>alert('All fields are required');</script>";
+    } else {
+        $stmt = $conn->prepare("SELECT password FROM users WHERE name = ?");
+        $stmt->bind_param("s", $username);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        if ($result->num_rows > 0) {
+            $user = $result->fetch_assoc();
+        
+            if ($password==$user['password']) {
+                $_SESSION['username'] = $username;
+                header("Location: ./admin-conference.php");
+                exit();
+            } else {
+                echo "<script>alert('Incorrect password. Please try again');</script>";
+            }
+        } else {
+            echo "<script>alert('User not found. Please check your username');</script>";
+        }
+
+        $stmt->close();
+    }
 }
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin</title>
-  <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-<style>
-    * {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../assets/css/resources/resource.css">
+    <style>
+    body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    background: var(--background-color);
+    overflow: hidden;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-margin: 0 auto;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.login-container {
+    background: var(--dark-bglight-color);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 320px;
+    box-shadow: 0 8px 32px rgba(0, 16, 191, 0.5);
+    border: 1px solid var(--bglight-color);
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-in-out;
 }
 
-h2 {
+.login-container h2 {
+    color: var(--white);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px var(--primary-color);
 }
 
-table {
+.login-container label {
+    color: var(--white-text);
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+}
+
+.login-container input {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background: var(--bglight-color);
+    color: var(--white);
+    font-size: 16px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), 
+                inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+.login-container input:focus {
+    outline: none;
+    background: rgba(0, 16, 191, 0.5);
+    box-shadow: 0 0 15px var(--primary-color);
 }
 
-th {
-    background-color: #007BFF;
-    color: white;
+.login-container input::placeholder {
+    color: var(--white-text);
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 16, 191, 0.5);
 }
 
-a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
+.login-container button:hover {
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 16, 191, 0.5);
 }
 
-a:hover {
-    text-decoration: underline;
-}
-.logout-btn{
-    position: absolute;
-    left: 0;
-    bottom: 10;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-</style>
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+    </style>
 </head>
 <body>
-<div class="container">
-        <h2>Research Papers</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Main Author</th>
-                    <th>Co-Authors</th>
-                    <th>Paper ID</th>
-                    <th>Title</th>
-                    <th>PDF</th>
-                    <th>Transaction ID</th>
-                    <th>Receipt</th>
-                    <th>Submitted Date</th>
-                    <th>Phone</th>
-                    <th>College</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php if ($result->num_rows > 0): ?>
-                    <?php while ($row = $result->fetch_assoc()): ?>
-                        <tr>
-                            <td><?= safe_htmlspecialchars($row['id']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['main_author_name']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['paper_authors']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['paper_id']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['paper_title']) ?></td>
-                            <td><a href="<?= safe_htmlspecialchars($row['paper_pdf']) ?>" target="_blank">Download</a></td>
-                            <td><?= safe_htmlspecialchars($row['transaction_id']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['receipt']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['created_at']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['phone_no']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['college_Name']) ?></td>
-                        </tr>
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    <tr><td colspan="11">No papers found</td></tr>
-                <?php endif; ?>
-            </tbody>
-        </table>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
     </div>
-
-    <div class="logout-btn">
-            <form action="./logout.php" method="post">
-                <button class="btn btn-outline-info"> <i class="fa fa-sign-out" aria-hidden="true"></i> </button>
-            </form>
-        </div><!-- End Logo -->
-
-</body>
-</html>
-
-<?php
-$conn->close();
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

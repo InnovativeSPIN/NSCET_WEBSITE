@@ -1,5 +1,5 @@
 <?php
-require_once("../resources/connection.php");
+include('../resources/conn.php');
 if (!isset($_SESSION['username'])) {
   header("Location: ./login.php");
   exit();
