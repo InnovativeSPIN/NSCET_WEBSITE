@@ -3,15 +3,15 @@
 
     $colle_Name ="NSCET";
     
-    // $db_host = "localhost";
-    // $db_user = "root";
-    // $db_pass = "";
-    // $db_name = "nscet_web";
-
     $db_host = "localhost";
-    $db_user = "nscet_web";
-    $db_pass = "Vd#Dn)~Dz)hdN5H";
+    $db_user = "root";
+    $db_pass = "";
     $db_name = "nscet_web";
+
+    // $db_host = "localhost";
+    // $db_user = "nscet_web";
+    // $db_pass = "Vd#Dn)~Dz)hdN5H";
+    // $db_name = "nscet_web";
 
     $conn = mysqli_connect($db_host,$db_user,$db_pass,$db_name);
     if(mysqli_connect_error())
