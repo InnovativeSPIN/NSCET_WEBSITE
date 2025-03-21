@@ -1,21 +1,17 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "nscet_conference_2";
 
-$conn = new mysqli($host, $user, $pass, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
+include('../resources/conn.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $main_author_name = $_POST['main_author_name'];
     $paper_id = $_POST['paper_Id'];
     $paper_title = $_POST['paper_title'];
     $transaction_id = $_POST['transaction_id'];
     $phone_no= $_POST['phone_no'];
-    $college_Name=$_POST=['college_Name'];
+    $college_Name=$_POST['college_Name'];
+   $department=$_POST['department'];
+   if (isset($_POST['department']) && $_POST['department'] === "Other" && !empty($_POST['other_department'])) {
+    $department = $_POST['other_department'];
+}
 
     $upload_dir = "uploads/";
     if (!is_dir($upload_dir)) {
@@ -52,13 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $authors = isset($_POST['authors_name']) ? json_encode($_POST['authors_name'], JSON_UNESCAPED_UNICODE) : json_encode([]);
 
 
-    $stmt = $conn->prepare("INSERT INTO papers_list (main_author_name, paper_id, paper_title, paper_pdf, transaction_id, receipt, paper_authors,phone_no,college_Name) VALUES (?, ?, ?, ?, ?, ?, ?,?,?)");
-    $stmt->bind_param("sssssssss", $main_author_name, $paper_id, $paper_title, $paper_pdf_path, $transaction_id, $receipt_path, $authors,$phone_no,$college_Name);
+$stmt = $conn->prepare("INSERT INTO papers_list (main_author_name, paper_id, paper_title, paper_pdf, transaction_id, receipt, paper_authors, phone_no, college_Name, department) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssssssssss", $main_author_name, $paper_id, $paper_title, $paper_pdf_path, $transaction_id, $receipt_path, $authors,$phone_no,$college_Name,$department);
 
     if ($stmt->execute()) {
         echo "<script>alert('Research paper submitted successfully.')</script>";
+        header("Location:./ICRTT2025/");
     } else {
-        header("Location: ./index.php");
+             echo "<script>alert('Document Upload Error.Try Again')</script>";
+        echo header("Location: ./registration.php");
     }
 
     $stmt->close();
@@ -90,14 +88,14 @@ $conn->close();
     </style>
 </head>
 
-<body class="body container mt-5" style="background: url('https://nscet.org/assets/img/main/college.jpg');">
+<body class="body container mt-5" style="background: url('https://nscet.org/assets/img/main/college_intro.png');">
     <div class="fixed-top-left">
-        <img src="https://nscet.org/assets/img/main/College_logo.png" alt="Left Icon" width="190px">
+        <img src="https://nscet.org/main_images/College_logo.webp" alt="Left Icon" width="190px">
     </div>
     <div class="fixed-top-right">
-        <img src="https://nscet.org/assets/img/main/kamarajar-logo.webp" alt="Right Icon" width="190px">
+        <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="Right Icon" width="190px">
     </div>
-    <h2 class="text-center">ICRTT 2025 - Conference Paper Submission</h2>
+    <h2 class="text-center" style='color:#fff;'>ICRTT 2025 - Conference Paper Submission</h2>
     <div style="display: flex;justify-content:center;" class="mt-5">
         <form method="POST" enctype="multipart/form-data" class="p-4 border rounded shadow" style="background-color:#ffffffc9;">
             <div class="mb-3">
@@ -121,6 +119,41 @@ $conn->close();
             <div class="mb-3">
                 <label class="form-label">College Name (Main Author):</label>
                 <input type="text" name="college_Name" class="form-control" required>
+            </div>
+            
+            
+            <div class="mb-3">
+               
+           <label for="department">Department</label>
+<select name="department" id="department" class="form-control" onchange="toggleOtherInput(this)">
+  <option value="" selected disabled>Select Department</option>
+  <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+  <option value="Information Technology">Information Technology</option>
+  <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+  <option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+  <option value="Mechanical Engineering">Mechanical Engineering</option>
+  <option value="Civil Engineering">Civil Engineering</option>
+  <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+  <option value="Automobile Engineering">Automobile Engineering</option>
+  <option value="Biomedical Engineering">Biomedical Engineering</option>
+  <option value="Chemical Engineering">Chemical Engineering</option>
+  <option value="Aeronautical Engineering">Aeronautical Engineering</option>
+  <option value="Aerospace Engineering">Aerospace Engineering</option>
+  <option value="Agricultural Engineering">Agricultural Engineering</option>
+  <option value="Marine Engineering">Marine Engineering</option>
+  <option value="Robotics and Automation">Robotics and Automation</option>
+  <option value="Artificial Intelligence and Data Science">Artificial Intelligence and Data Science</option>
+  <option value="Electronics and Instrumentation Engineering">Electronics and Instrumentation Engineering</option>
+  <option value="Environmental Engineering">Environmental Engineering</option>
+  <option value="Industrial Engineering">Industrial Engineering</option>
+  <option value="Structural Engineering">Structural Engineering</option>
+  <option value="Other">Other</option>
+</select>
+
+
+<div id="other-dept-div" style="display: none; margin-top: 10px;">
+  <input type="text" name="other_department" id="other_department" class="form-control" placeholder="Please specify your department">
+</div>
             </div>
 
             <div class="mb-3">
@@ -176,6 +209,16 @@ $conn->close();
                 alert('You can only add a maximum of 7 authors.');
             }
         });
+          function toggleOtherInput(select) {
+    const otherDiv = document.getElementById("other-dept-div");
+    if (select.value === "Other") {
+      otherDiv.style.display = "block";
+    } else {
+      otherDiv.style.display = "none";
+      document.getElementById("other_department").value = "";
+    }
+  }
+
     </script>
 </body>
 

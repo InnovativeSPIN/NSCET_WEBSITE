@@ -5,7 +5,7 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 
-$sql = "SELECT id, main_author_name, paper_authors, paper_id, paper_title, paper_pdf, transaction_id, receipt, created_at, phone_no, college_Name FROM papers_list  ORDER BY `submitted_at` DESC";
+$sql = "SELECT id, main_author_name, paper_authors, paper_id, paper_title, paper_pdf, transaction_id, receipt, created_at, phone_no, college_Name,department FROM papers_list  ORDER BY `created_at` DESC";
 $result = $conn->query($sql);
 
 function safe_htmlspecialchars($value)
@@ -107,6 +107,7 @@ function safe_htmlspecialchars($value)
                     <th>Submitted Date</th>
                     <th>Phone</th>
                     <th>College</th>
+                    <th>Department</th>
                 </tr>
             </thead>
             <tbody>
@@ -121,10 +122,12 @@ function safe_htmlspecialchars($value)
                             <td><?= safe_htmlspecialchars($row['paper_title']) ?></td>
                             <td><a href="../ICRTT2025/<?= safe_htmlspecialchars($row['paper_pdf']) ?>" target="_blank">Download</a></td>
                             <td><?= safe_htmlspecialchars($row['transaction_id']) ?></td>
-                            <td><?= safe_htmlspecialchars($row['receipt']) ?></td>
+                            <td><a href="../ICRTT2025/<?= safe_htmlspecialchars($row['receipt']) ?>" target="_blank">Download</a></td>
+                        
                             <td><?= safe_htmlspecialchars($row['created_at']) ?></td>
                             <td><?= safe_htmlspecialchars($row['phone_no']) ?></td>
                             <td><?= safe_htmlspecialchars($row['college_Name']) ?></td>
+                            <td><?= safe_htmlspecialchars($row['department']) ?></td>
                         </tr>
                     <?php endwhile; ?>
                 <?php else: ?>
