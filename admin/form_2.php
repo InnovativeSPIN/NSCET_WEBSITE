@@ -5,7 +5,7 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 
-$sql = "SELECT id, main_author_name, paper_authors, paper_id, paper_title, paper_pdf, transaction_id, receipt, created_at, phone_no, college_Name FROM papers_list";
+$sql = "SELECT id, main_author_name, paper_authors, paper_id, paper_title, paper_pdf, transaction_id, receipt, created_at, phone_no, college_Name FROM papers_list  ORDER BY `submitted_at` DESC";
 $result = $conn->query($sql);
 
 function safe_htmlspecialchars($value)
@@ -111,14 +111,15 @@ function safe_htmlspecialchars($value)
             </thead>
             <tbody>
                 <?php if ($result->num_rows > 0): ?>
+                    <?php $index = 1; ?>
                     <?php while ($row = $result->fetch_assoc()): ?>
                         <tr>
-                            <td><?= safe_htmlspecialchars($row['id']) ?></td>
+                            <td><?= safe_htmlspecialchars($index++) ?></td>
                             <td><?= safe_htmlspecialchars($row['main_author_name']) ?></td>
                             <td><?= safe_htmlspecialchars($row['paper_authors']) ?></td>
                             <td><?= safe_htmlspecialchars($row['paper_id']) ?></td>
                             <td><?= safe_htmlspecialchars($row['paper_title']) ?></td>
-                            <td><a href="<?= safe_htmlspecialchars($row['paper_pdf']) ?>" target="_blank">Download</a></td>
+                            <td><a href="../ICRTT2025/<?= safe_htmlspecialchars($row['paper_pdf']) ?>" target="_blank">Download</a></td>
                             <td><?= safe_htmlspecialchars($row['transaction_id']) ?></td>
                             <td><?= safe_htmlspecialchars($row['receipt']) ?></td>
                             <td><?= safe_htmlspecialchars($row['created_at']) ?></td>

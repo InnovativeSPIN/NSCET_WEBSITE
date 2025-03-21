@@ -1,4 +1,5 @@
 <?php
+
 $host = "localhost";  
 $user = "nscet_conference"; 
 $pass = "conference_nscet";  
@@ -8,12 +9,15 @@ $conn = new mysqli($host, $user, $pass, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
+session_start();
+
 if (!isset($_SESSION['username'])) {
     header("Location: ./login.php");
     exit();
 }
 
-$sql = "SELECT `author_name`, `author_college`, `department`, `email`, `author_mobile`, `paper_title`, `pdf_link`, `submitted_at` FROM `research_papers`";
+$sql = "SELECT `author_name`, `author_college`, `department`, `email`, `author_mobile`, `paper_title`, `pdf_link`, `submitted_at` FROM `research_papers`  ORDER BY `submitted_at` DESC";
 $result = $conn->query($sql);
 
 function safe_htmlspecialchars($value)
@@ -106,32 +110,29 @@ function safe_htmlspecialchars($value)
             <tr>
                 <th>ID</th>
                 <th>Main Author</th>
-                <th>Co-Authors</th>
-                <th>Paper ID</th>
-                <th>Title</th>
-                <th>PDF</th>
-                <th>Transaction ID</th>
-                <th>Receipt</th>
-                <th>Submitted Date</th>
-                <th>Phone</th>
                 <th>College</th>
+                <th>Department</th>
+                <th>E-Mail</th>
+                <th>Mobile</th>
+                <th>Paper Title</th>
+                <th>PDF</th>
+               <th>Submit Date</th>
             </tr>
         </thead>
         <tbody>
             <?php if ($result && $result->num_rows > 0): ?>
-                <?php while ($row = $result->fetch_assoc()): ?>
+              <?php $index = 1; ?>
+                <?php while ($row =$result->fetch_assoc()): ?>
                     <tr>
-                        <td><?= safe_htmlspecialchars($row['id']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['main_author_name']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['paper_authors']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['paper_id']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['paper_title']) ?></td>
-                        <td><a href="<?= safe_htmlspecialchars($row['paper_pdf']) ?>" target="_blank">Download</a></td>
-                        <td><?= safe_htmlspecialchars($row['transaction_id']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['receipt']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['created_at']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['phone_no']) ?></td>
-                        <td><?= safe_htmlspecialchars($row['college_Name']) ?></td>
+                        <td><?= safe_htmlspecialchars($index++) ?></td>
+                        <td><?= safe_htmlspecialchars($row['author_name']) ?></td>
+                        <td><?= safe_htmlspecialchars($row['author_college']) ?></td>
+                        <td><?= safe_htmlspecialchars($row['department']) ?></td>
+                        <td><?= safe_htmlspecialchars($row['email']) ?></td>
+                           <td><?= safe_htmlspecialchars($row['author_mobile']) ?></td>
+                            <td><?= safe_htmlspecialchars($row['paper_title']) ?></td>
+                        <td><a href="../conference/<?= safe_htmlspecialchars($row['pdf_link']) ?>" target="_blank">Download</a></td>
+                            <td><?= safe_htmlspecialchars($row['submitted_at']) ?></td>
                     </tr>
                 <?php endwhile; ?>
             <?php else: ?>
