@@ -464,7 +464,7 @@ include('../resources/conn.php');
             <td>Dr. B. Radha Krishnan</td>
             <td>M.E., Ph.D., MISTE., MIE.</td>
             <td>MECH</td>
-            <td>Associate Professor & Head [I/C]</td>
+            <td> Professor & Head [I/C]</td>
             <td>hodmech@nscet.org</td>
             <td>9095100227</td>
         </tr>

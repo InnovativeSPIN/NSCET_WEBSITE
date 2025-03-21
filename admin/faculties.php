@@ -77,25 +77,27 @@ $stmt_for_staff->close();
                               <input type="file" name="staff_Image" id="">
                             <input type="hidden" value="<?= safe_htmlspecialchars($staff_member['dept_short']); ?>" name="dept_short">
                               <input type="hidden" value="<?= safe_htmlspecialchars($staff_member['id']); ?>" name="staff_Id">
-                              <button type="submit"><i class="fa-solid fa-arrows-rotate"></i></button>
+                              <button type="submit" class="update_btn"><i class="fa-solid fa-arrows-rotate"></i></button>
                             </form>
                         </div>
                         <div class="faculties-content">
-                          <input type="hidden" name="formName"  value="staff_detail
-                          ">
-                            <p><b>Name:</b> </p><input type="text" value="<?= safe_htmlspecialchars($staff_member['name']); ?>">
+                        <form action="./routes/faculiteHandler.php" method="post" enctype="multipart/form-data">
+                          <input type="hidden" name="formName"  value="staff_detail">
+                          <input type="text" value="<?= safe_htmlspecialchars($staff_member['id']); ?>" name="staff_Id">
+                            <p><b>Name:</b> </p><input type="text" name="name" value="<?= safe_htmlspecialchars($staff_member['name']); ?>">
                             <p><b>Designation:</b> </p>
-                            <input type="text" value="<?= safe_htmlspecialchars($staff_member['position']); ?>">
+                            <input type="text" name="position" value="<?= safe_htmlspecialchars($staff_member['position']); ?>">
                             <p><b>Qualificatizon:</b>  </p>
-                            <input type="" name="" value="<?= safe_htmlspecialchars($staff_member['qualification']); ?>">
+                            <input type="" name="qualification" value="<?= safe_htmlspecialchars($staff_member['qualification']); ?>">
                             <p><b>Email:</b> </p>
-                            <input type="text" value=" <?= safe_htmlspecialchars($staff_member['email']); ?>">
+                            <input type="text" name="email" value="<?= safe_htmlspecialchars($staff_member['email']); ?>">
                             <p><b>Phone:</b> </p>
-                            <input type="" name="" value="<?= safe_htmlspecialchars($staff_member['phone']); ?> ">
+                            <input type="" name="phone"  value="<?= safe_htmlspecialchars($staff_member['phone']); ?> ">
                             <p><b>Department Short:</b>  </p>
-                            <input type="text" value="<?= safe_htmlspecialchars($staff_member['dept_short']); ?>">
-                            <p><b>Department Name:</b>  </p>
-                            <input type="text" value="<?= safe_htmlspecialchars($dept_name); ?>">
+                            <input type="text" name='dept_short' value="<?= safe_htmlspecialchars($staff_member['dept_short']); ?>">
+                            
+                            <button type="submit" class="update_btn"><i class="fa-solid fa-arrows-rotate"></i></button>
+                            </form>
                         </div>
                     </div>
                 <?php } ?>

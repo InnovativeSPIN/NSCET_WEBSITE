@@ -8,9 +8,7 @@
   </a>
 </div>
 <div class="logout-btn">
-            <form action="./logout.php" method="post">
-                <button class="btn btn-outline-info"> <i class="fa fa-sign-out" aria-hidden="true"></i> </button>
-            </form>
+         
         </div><!-- End Logo -->
 
 </header><!-- End Header -->

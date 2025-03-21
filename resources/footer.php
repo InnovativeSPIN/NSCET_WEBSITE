@@ -81,7 +81,7 @@
     </footer>
     <div class="copy_right_section">
 <p>
-Copyright © 2025 All rights reserved.
+Copyright © 2025 All rights reserved. Design and Developed By <a href='/ispin'style="color: #f6783a;">Innovative Software Product Industry of NSCET </a>
 
 </p>        </div>
 </div>
