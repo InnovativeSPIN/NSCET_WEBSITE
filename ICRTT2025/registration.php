@@ -70,33 +70,72 @@ $conn->close();
 <html>
 
 <head>
-    <title>Submit Conference Paper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Conference Paper Submission</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        .fixed-top-left {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-        }
+       nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fefefe;
+        width: 100%;
+        position: fixed;
+        top: 0;
+       }
+       nav img{
+        width: 120px;
 
-        .fixed-top-right {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-        }
+       }
+       .head_text{
+        color:#074067;
+        font-weight: bold;
+        font-size: clamp(18px,2vw,25px);
+       }
+       .main_content{
+        margin-top: 7rem;
+       }
+       .fee-table {
+      max-width: 500px;
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .fee-table th, .fee-table td {
+      border: 1px solid #ccc;
+      padding: 10px 15px;
+      text-align: left;
+    }
+    .fee-table th {
+      background-color: #f4f4f4;
+    }
+    .note {
+      margin-top: 15px;
+      font-style: italic;
+      color: #555;
+    }
+       @media screen and (max-width:768px) {
+        
+       }
     </style>
 </head>
 
-<body class="body container mt-5" style="background: url('https://nscet.org/assets/img/main/college_intro.png');">
-    <div class="fixed-top-left">
-        <img src="https://nscet.org/main_images/College_logo.webp" alt="Left Icon" width="190px">
+<body class="body  " style="background: url('https://nscet.org/assets/img/main/college_intro.png');">
+ <nav>
+ <div class="fixed-top-left">
+        <img src="https://nscet.org/main_images/College_logo.webp" alt="Left Icon" width="120px">
     </div>
+<div>
+<h2 class="text-center head_text" >ICRTT 2025 - Conference Paper Submission</h2>
+</div>
     <div class="fixed-top-right">
-        <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="Right Icon" width="190px">
+        <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="Right Icon" width="120px">
     </div>
-    <h2 class="text-center" style='color:#fff;'>ICRTT 2025 - Conference Paper Submission</h2>
-    <div style="display: flex;justify-content:center;" class="mt-5">
+ </nav>
+    <div style="display: flex;justify-content:center;" class="container main_content">
         <form method="POST" enctype="multipart/form-data" class="p-4 border rounded shadow" style="background-color:#ffffffc9;">
             <div class="mb-3">
                 <label class="form-label">Name Of Corresponding Author :</label>
@@ -175,14 +214,42 @@ $conn->close();
                 <input type="text" name="transaction_id" class="form-control" accept="application/pdf" required>
             </div>
 
-            <div class="qr-code mb-5">
-                <img src="./qr_Code.jpg" alt="" width="380px">
-            </div>
-
             <div class="mb-3">
                 <label class="form-label">Receipt:</label>
                 <input type="file" name="receipt" class="form-control" required>
             </div>
+
+            
+  <h2>Registration Fee</h2>
+  <table class="fee-table">
+    <tr>
+      <th>Category</th>
+      <th>Fee</th>
+    </tr>
+    <tr>
+      <td>UG Students</td>
+      <td>Rs. 1000/-</td>
+    </tr>
+    <tr>
+      <td>PG / Research Scholars / Faculty</td>
+      <td>Rs. 1500/-</td>
+    </tr>
+  </table>
+
+  <p class="note">* Maximum 5 participants allowed</p>
+            <div class="qr-code mb-5">
+                <img src="./qr_Code.jpg" alt="" width="380px">
+            </div>
+            <div class="qr-code mb-5">
+                <img src="./image_1.jpg" alt="" width="380px">
+            </div>
+            <div class="qr-code mb-5">
+                <img src=".//image_2.jpg" alt="" width="380px">
+            </div>
+
+
+
+            
 
             <button type="submit" class="btn btn-primary w-100">Submit</button>
         </form>
