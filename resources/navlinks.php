@@ -194,7 +194,14 @@
             <a href="/clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="/NIRF/" class="dropdown-item">NIRF</a>
             <a href="/assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
+            <a href="/naac/ssr/index.php" class="dropdown-item">SSR  </a>
 
         </div>
     </div>
 </li>
+
+
+
+
+
+
