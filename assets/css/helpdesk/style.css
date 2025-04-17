@@ -1,0 +1,65 @@
+/* Scoped CSS for the Help Desk Form */
+.help-desk-form {
+    font-family: Arial, sans-serif;
+    margin: 30px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-desk-form h1, 
+.help-desk-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.help-desk-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-desk-form label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.help-desk-form input, 
+.help-desk-form textarea, 
+.help-desk-form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.help-desk-form input[type="date"],
+.help-desk-form input[type="tel"],
+.help-desk-form input[type="email"],
+.help-desk-form input[type="url"],
+.help-desk-form input[type="number"],
+.help-desk-form textarea {
+    width: 100%;
+}
+
+.help-desk-form .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.help-desk-form .checkbox label {
+    margin-left: 5px;
+}
+
+.help-desk-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.help-desk-form button:hover {
+    background-color: #0056b3;
+}

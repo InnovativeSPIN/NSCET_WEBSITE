@@ -32,7 +32,7 @@
                 <ul>
                     <li><a href="#">Policy</a></li>
                     <li><a href="#">Term</a></li>
-                    <li><a href="#">Helpdesk</a></li>
+                    <li><a href="/helpdesk/">Helpdesk</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Site Map</a></li>
                 </ul>

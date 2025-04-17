@@ -39,7 +39,7 @@ include('./resources/conn.php');
     <h2>
         <strong>
         Counselling code : 
-        </strong> 9210
+        </strong> 5865
     </h2>
 </div>
   <!-- hero section -->
