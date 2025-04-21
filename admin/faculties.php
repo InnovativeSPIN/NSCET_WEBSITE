@@ -39,7 +39,7 @@ if (!isset($_SESSION['username'])) {
      $stmt->close();
 
 
-// ----------------
+
     
 $staff_query = "SELECT * FROM staff";
 $stmt_for_staff = $conn->prepare($staff_query);

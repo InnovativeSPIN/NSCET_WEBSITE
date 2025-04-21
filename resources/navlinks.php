@@ -14,7 +14,7 @@
             <!-- <a class="dropdown-item" href="#">Organisation</a> -->
             <a class="dropdown-item" href="/Idp/">IDP</a>
             <a class="dropdown-item" href="/assets/pdf/ANNUAL_REPORT.pdf">Annual Reports</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL_ACCOUNTS.pdf">Annual Accounds</a>
+            <a class="dropdown-item" href="/assets/pdf/ANNUAL_ACCOUNTS.pdf">Annual Accounts</a>
         </div>
     </div>
 

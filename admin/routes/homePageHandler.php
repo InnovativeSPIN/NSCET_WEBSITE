@@ -1,6 +1,6 @@
-<?php require_once("../../resources/connection.php")?>
+<?php require_once("../../resources/conn.php")?>
 
-<!-- marquee Section Delete button-->
+
 <?php
 
 if(isset($_GET["marqueeDeleteButton"])){
@@ -12,7 +12,7 @@ if(isset($_GET["marqueeDeleteButton"])){
 
     if (array_key_exists($key, $originaldata )) {
         unset($originaldata [$key]);
-        $originaldata = array_values($originaldata ); // Re-index the array
+        $originaldata = array_values($originaldata ); 
         print_r($originaldata);
     } else {
         echo "Index not found in the array.";
