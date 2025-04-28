@@ -87,9 +87,9 @@ include('../resources/conn.php');
         <p>
             NSCET Transport is a smart Bus Attendance System designed to ensure safe and efficient transportation for NSCET students and staff. It tracks real-time boarding and deboarding, minimizes errors, and provides instant updates. The app enhances safety, accountability, and convenience, ensuring a seamless commuting experience for all users.
         </p>
-        <a href='../assets/img/transport/app.apk' download >
+        <a href='../bus_attendance/app-release.apk' download >
         <button class='app_btn'>
-        Download
+        Update App
     </button>
      </a>
       <a href='https://nscet.org/bus_attendance/bus_attendance_admin/dashboard.html' target='_blank' >

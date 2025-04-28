@@ -26,74 +26,64 @@ function safe_htmlspecialchars($value)
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <link href="assets/css/style.css" rel="stylesheet">
 
     <style>
         .container {
-            width: 100%;
-            max-width: 1100px;
-            margin: 0 auto;
-            margin-right: 5rem;
-            margin-top: 5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: scroll;
-            height: 80vh;
-        }
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+}
 
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background: #fff;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+}
 
-        th,
-        td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
 
-        th {
-            background-color: #007BFF;
-            color: white;
-        }
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
 
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+a{
+    color: #fefefe;
+    text-decoration: none;
+    background: #104565;
+    padding: 3px 8px;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+   
+}
+a:hover{
+    color: #fefefe;
+}
 
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .logout-btn {
-            position: absolute;
-            left: 0;
-            bottom: 10;
-        }
     </style>
 </head>
 
 <body>
 
-    <?php require_once('./resources/header.php'); ?>
-    <?php require_once('./resources/sidebar.php'); ?>
     <div class="container">
         <h2>Research Papers</h2>
-        <table>
+        <a href="./">
+            Home
+        </a>
+        <table class="mt-2">
             <thead>
                 <tr>
                     <th>ID</th>

@@ -5,7 +5,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 7rem;
+    justify-content: space-between;
     padding: 14px;
     border-bottom: 1px solid var(--dark-color);
     border-top: 5px solid var(--primary-color);
@@ -18,19 +18,20 @@
 }
 
 .header_img img {
-    width: 360px;
+    width: 440px;
+    height: 110px;
 }
 
 .karmarajar_logo img {
-    width: 100px;
+    width: 70px;
 }
 
 .naac_logo img {
-    width: 130px;
+    width: 90px;
 }
 
 .rank_logo img {
-    width: 70px;
+    width: 50px;
 }
 
 .college_main_logo {
@@ -44,6 +45,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-right: 15rem;
 }
 .alerts_section{
     position: absolute;

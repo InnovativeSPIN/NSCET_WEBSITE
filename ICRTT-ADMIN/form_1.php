@@ -101,8 +101,7 @@ function safe_htmlspecialchars($value)
 
 <body>
 
-    <?php require_once('./resources/header.php'); ?>
-    <?php require_once('./resources/sidebar.php'); ?>
+   
     <div class="container">
     <h2>Research Papers</h2>
     <table>
