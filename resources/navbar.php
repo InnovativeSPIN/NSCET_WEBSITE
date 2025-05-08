@@ -4,11 +4,18 @@
             <a href="https://www.nscet.org/"> <img src="https://nscet.org/main_images/College_logo.webp" alt=""></a>
         </div>
 
-        <div class="header_img">
-            <a href="https://www.nscet.org/"> <img src="https://nscet.org/main_images/header.png" alt=""></a>
+        <div class="navbar_head_text">
+            <h2>
+            Theni Melapettai Hindu Nadargal Uravinmurai 
+            </h2>
+            <h2 class="college_name_head">
+            NADAR SARASWATHI 
+            COLLEGE OF ENGINEERING & TECHNOLOGY 
+            </h2>
         </div>
+       
     </div>
-    <div class="college_logos">
+    <!-- <div class="college_logos">
         <div class="karmarajar_logo">
             <img src="https://nscet.org/main_images/kamarajar_logo.webp" alt="">
         </div>
@@ -19,7 +26,7 @@
         <div class="rank_logo">
             <img src="https://nscet.org/main_images/rank.png" alt="">
         </div>
-    </div>
+    </div> -->
 
     <div class="social_media">
         <div class="top-social">

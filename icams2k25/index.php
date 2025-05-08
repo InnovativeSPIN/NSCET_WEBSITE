@@ -23,6 +23,7 @@
                     <li><a href="#CallforPapers">Call for Papers</a></li>
                     <li><a href="#dates">Important Dates</a></li>
                     <li><a href="#Registration">Registration</a></li>
+                    <li><a href="#proceedings">proceedings</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                     <li><a href="#guidelines">Author Guidelines</a></li>
                 </ul>
@@ -243,6 +244,12 @@
 
 </section>
 
+<div class="proceedings_pdf" id="proceedings">
+    <h2>
+    Proceedings ICAMS2K25
+    </h2>
+    <iframe src="./proceedings.pdf" frameborder="0"></iframe>
+</div>
 
 <section id="contacts">
     <h2>Contacts</h2>

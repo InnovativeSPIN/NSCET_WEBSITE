@@ -3,50 +3,43 @@
 /* navbar */
 .main_top_header {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 14px;
     border-bottom: 1px solid var(--dark-color);
     border-top: 5px solid var(--primary-color);
     position: relative;
 }
-
-.college_logo img {
-    width: 160px;
-
-}
-
-.header_img img {
-    width: 440px;
-    height: 110px;
-}
-
-.karmarajar_logo img {
-    width: 70px;
-}
-
-.naac_logo img {
-    width: 90px;
-}
-
-.rank_logo img {
-    width: 50px;
-}
-
-.college_main_logo {
+.college_main_logo{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-left: 3rem;
+
+}
+.navbar_head_text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.navbar_head_text h2{
+    font-size: clamp(22px,3vw,28px);
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.navbar_head_text h2:nth-child(1){
+    color: var(--dark-color);
+}
+.college_name_head{
+    margin-top: 2rem;
+    color: var(--primary-color);
+}
+.college_logo img{
+    width: 180px;
+}
+.college_logo{
+    margin-left: 2rem;
 }
 
-.college_logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-right: 15rem;
-}
 .alerts_section{
     position: absolute;
 right: 0;
