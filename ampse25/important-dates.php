@@ -54,19 +54,19 @@
     <table class="dates-table">
       <tr>
         <td>Submission of full paper</td>
-        <td>14th April, 2025</td>
+        <td>14th August, 2025</td>
       </tr>
       <tr>
         <td>Acceptance Deadline</td>
-        <td>17th April, 2025</td>
+        <td>17th August, 2025</td>
       </tr>
       <tr>
         <td>Payment Deadline</td>
-        <td>19th April, 2025</td>
+        <td>19th August, 2025</td>
       </tr>
       <tr>
         <td>Conference dates</td>
-        <td>25th April, 2025</td>
+        <td>29th September, 2025</td>
       </tr>
     </table>
   </div>

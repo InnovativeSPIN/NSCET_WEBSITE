@@ -144,7 +144,7 @@
 
     <p><strong>Dr. Sekar</strong><br>
        AAA College of Engineering & Technology.</p>
-       <a href="./review.pdf" target="_blank" style="color:  #0000FF;"><h5>AMPSE - 25 Reviewer List</h5></a>
+       <!-- <a href="./review.pdf" target="_blank" style="color:  #0000FF;"><h5>AMPSE - 25 Reviewer List</h5></a> -->
                                          
                                     </div>
                                 </div>

@@ -38,11 +38,11 @@
         <li><span class="highlight">Participants Only:</span> Rs 500/-</li>
     </ul>
   
-
+<!-- 
     <div class="qr-code">
       <img src="./static//img/registration.jpg" alt="" width="180px">
       <p>Registration Link : <a href="https://forms.gle/3F7BrUrB79o5JgQCA">Click</a></p>
-    </div>
+    </div> -->
 
   </div>
 </section>

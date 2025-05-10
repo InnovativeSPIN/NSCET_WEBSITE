@@ -25,11 +25,11 @@
     <!-- <h4>Engineering Perspectives for Sustainability -->
     </h4>
     <h4>AMPSE - 2025</h4>
-    <h4>25.04.2025</h4>
+    <h4>29.09.2025</h4>
     </div>
 </header>
-<div class="marquee">
+<!-- <div class="marquee">
     <div class="in-content">
     <marquee behavior="" direction="right">Last Date for AMPSE 12.04.2025</marquee>
     </div>
-</div>
+</div> -->

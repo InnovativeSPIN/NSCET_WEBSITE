@@ -113,7 +113,7 @@
 
                 <div itemprop="articleBody" class="content-body">
                   <p class="intro">
-                    Full paper submissions are invited for the International Conference on Multidisciplinary Technology Research to be held at Nadar Saraswathi College of Engineering and Technology, Theni, on 5th April 2024.
+                    Full paper submissions are invited for the International Conference on Multidisciplinary Technology Research to be held at Nadar Saraswathi College of Engineering and Technology, Theni, on 29th September 2024.
                   </p>
 
                   <p class="instruction">

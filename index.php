@@ -34,7 +34,63 @@ include('./resources/conn.php');
 
 
   ?>
+<div class="admission_open_container">
+  <div class="admission_open_head">
+    <div class="close_btn_admission">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+      <div class="college_admission_img">
+      <img src="./assets/img/main/College_logo_2.webp" alt="">
+    </div>
+    <div class="college_heading">
+      <h2>
+        NADAR SARASWATHI COLLEGE OF ENGINEERING & TECHNOLOGY 
+      </h2>
+    </div>
+    <div class="number_one">
+  <img src="./assets/img/main/rank.png" alt="">
+    </div>
+    <div class="karmarajar_logo_admission">
+      <img src="./assets/img/main/kamarajar_logo.webp" alt="">
+    </div>
+  </div>
+  
+  <div class="admission_container">
+    <h2>
+      Admissions Open for 2025 – Join NSCET Today!
+    </h2>
+    <h3>
+      Unlock your future with <br> world-class engineering education
+    </h3>
+    <div class="points_admission">
+      <ul>
+        <li>
+          AICTE Approved Courses
+        </li>
+        <li>
+          Industry-Relevant Curriculum
+        </li>
+      </ul>
+      <ul>
+        <li>
+          100% Placement Assistance
+        </li>
+        <li>
+          State-of-the-Art Infrastructure
+        </li>
+      </ul>
+    </div>
+    <div class="action_btn">
+     <a href="http://www.nscet.org/admission/">
+       <button>
+         Apply Now!
+      </button>
+     </a>
+    </div>
+  </div>
 
+
+</div>
 <div class="counselling_code">
     <h2>
         <strong>

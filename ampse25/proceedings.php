@@ -20,12 +20,9 @@
 
 <div class="main-content">
  
-
-<img src="./static/img/proceeding.jpg" alt="" class="mb-5">
-
-
-
-
+<h2 class="text-center">
+  Yet to be update.
+</h2>
 
 </div>
 
