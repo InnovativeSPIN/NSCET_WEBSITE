@@ -24,11 +24,11 @@
   <div class="container">
     <h2>Author Guidelines</h2>
     <p>
-      Authors are invited to submit original and unpublished review/research papers in single-column with min. 12 to 15 max. pages in length, subjected to similarity less than 15%. Paper submissions are accepted along with a plagiarism report (in Turnitin software only).
+      Authors are invited to submit original and unpublished review/research papers in single-column with min. 12 to 15 max. pages in length, subjected to similarity less than 10%. Paper submissions are accepted along with a plagiarism report (in Turnitin software only).
     </p>
     <p>
       After expert review, the authors may be asked to submit the camera-ready paper. All the authors must follow the guidelines mentioned in: 
-      <a href="https://www.atlantis-press.com/" target="_blank">Atlantis press springer nature Submission Guidelines</a>.
+      <a href="https://www.atlantis-press.com/" target="_blank">springer nature Submission Guidelines</a>.
     </p>
     <p>
       Please mention the most relevant one or two sub-theme(s) of the conference which fits your paper.

@@ -34,70 +34,73 @@ include('./resources/conn.php');
 
 
   ?>
-<div class="admission_open_container">
-  <div class="admission_open_head">
-    <div class="close_btn_admission">
-      <i class="fa-solid fa-xmark"></i>
-    </div>
+  <div class="admission_open_container">
+    <div class="admission_open_head">
+      <div class="close_btn_admission">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
       <div class="college_admission_img">
-      <img src="./assets/img/main/College_logo_2.webp" alt="">
+        <img src="./assets/img/main/College_logo_2.webp" alt="">
+      </div>
+      <div class="naac_logo_admission">
+        <img src="./assets/img/main/naac.png" alt="">
+      </div>
+      <div class="college_heading">
+        <h2>
+          NADAR SARASWATHI COLLEGE OF ENGINEERING & TECHNOLOGY
+        </h2>
+      </div>
+      <div class="number_one">
+        <img src="./assets/img/main/rank.png" alt="">
+      </div>
+      <div class="karmarajar_logo_admission">
+        <img src="./assets/img/main/kamarajar_logo.webp" alt="">
+      </div>
     </div>
-    <div class="college_heading">
+
+    <div class="admission_container">
       <h2>
-        NADAR SARASWATHI COLLEGE OF ENGINEERING & TECHNOLOGY 
+        Admissions Open for 2025 – Join NSCET Today!
       </h2>
+      <h3>
+        Unlock your future with <br> world-class engineering education
+      </h3>
+      <div class="points_admission">
+        <ul>
+          <li>
+            AICTE Approved Courses
+          </li>
+          <li>
+            Industry-Relevant Curriculum
+          </li>
+        </ul>
+        <ul>
+          <li>
+            100% Placement Assistance
+          </li>
+          <li>
+            State-of-the-Art Infrastructure
+          </li>
+        </ul>
+      </div>
+      <div class="action_btn">
+        <a href="http://www.nscet.org/admission/">
+          <button>
+            Apply Now!
+          </button>
+        </a>
+      </div>
     </div>
-    <div class="number_one">
-  <img src="./assets/img/main/rank.png" alt="">
-    </div>
-    <div class="karmarajar_logo_admission">
-      <img src="./assets/img/main/kamarajar_logo.webp" alt="">
-    </div>
-  </div>
-  
-  <div class="admission_container">
-    <h2>
-      Admissions Open for 2025 – Join NSCET Today!
-    </h2>
-    <h3>
-      Unlock your future with <br> world-class engineering education
-    </h3>
-    <div class="points_admission">
-      <ul>
-        <li>
-          AICTE Approved Courses
-        </li>
-        <li>
-          Industry-Relevant Curriculum
-        </li>
-      </ul>
-      <ul>
-        <li>
-          100% Placement Assistance
-        </li>
-        <li>
-          State-of-the-Art Infrastructure
-        </li>
-      </ul>
-    </div>
-    <div class="action_btn">
-     <a href="http://www.nscet.org/admission/">
-       <button>
-         Apply Now!
-      </button>
-     </a>
-    </div>
-  </div>
 
 
-</div>
-<div class="counselling_code">
+  </div>
+  <div class="counselling_code">
     <h2>
-        <strong>
-        Counselling code : 
-        </strong> 5865
+      <strong>
+        Counselling code :
+      </strong> 5865
     </h2>
-</div>
+  </div>
   <!-- hero section -->
 
   <div class="hero_section">
@@ -140,9 +143,9 @@ include('./resources/conn.php');
         VISION
       </h2>
       <div class="vision-content">
-      <ul>
+        <ul>
           <li>To establish ourselves as a leading technological institutions.</li>
-            </ul>
+        </ul>
 
       </div>
 
@@ -187,41 +190,41 @@ include('./resources/conn.php');
 
   <!-- news updates -->
   <div id="news_section">
-  <h2 class="news_section_title p-2">News & Updates</h2>
+    <h2 class="news_section_title p-2">News & Updates</h2>
     <div class="news_section">
-   
-    <div class="new_updates marquee-container">
-      
-    <div class="marquee-wrapper">
-    <?php
-    $data = mysqli_fetch_array(mysqli_query($conn, "SELECT `content` FROM `home_page` WHERE `sectionName`='newsSection'"));
-    $jsonData = json_decode($data['content'], true);
-    $jsonData = array_reverse($jsonData);
-    ?>
-    <?php foreach ($jsonData as $data) { ?>
-      <div class="new_updates_main_content ">
-        <div class="new_update_img">
-          <img src="./admin/<?php echo $data['imgUrl'] ?>" alt="" class="new_image">
-        </div>
-        <div class="new_updates_content">
-          <a href="#">
-            <?php echo $data['date'] ?>
-          </a>
-          <span class="mx-1">/</span>
-          <a href="#">
-            <?php echo $data['tags'] ?>
-          </a>
-          <h3 class="post-heading mt-2">
-            <a href="#">
-              <?php echo $data['title'] ?>
-            </a>
-          </h3>
+
+      <div class="new_updates marquee-container">
+
+        <div class="marquee-wrapper">
+          <?php
+          $data = mysqli_fetch_array(mysqli_query($conn, "SELECT `content` FROM `home_page` WHERE `sectionName`='newsSection'"));
+          $jsonData = json_decode($data['content'], true);
+          $jsonData = array_reverse($jsonData);
+          ?>
+          <?php foreach ($jsonData as $data) { ?>
+            <div class="new_updates_main_content ">
+              <div class="new_update_img">
+                <img src="./admin/<?php echo $data['imgUrl'] ?>" alt="" class="new_image">
+              </div>
+              <div class="new_updates_content">
+                <a href="#">
+                  <?php echo $data['date'] ?>
+                </a>
+                <span class="mx-1">/</span>
+                <a href="#">
+                  <?php echo $data['tags'] ?>
+                </a>
+                <h3 class="post-heading mt-2">
+                  <a href="#">
+                    <?php echo $data['title'] ?>
+                  </a>
+                </h3>
+              </div>
+            </div>
+          <?php } ?>
+
         </div>
       </div>
-    <?php } ?>
-    
-</div>
-</div>
       <!-- <div class="news_section_content">
         <h3 style="text-align: center;" class="news-wrapper-head">NSCET - NEWS</h3>
         <marquee height="360px" behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="padding:12px">
@@ -240,13 +243,13 @@ include('./resources/conn.php');
 
   <!-- facts section -->
 
-  
+
   <section class="fact-section spad set-bg " data-setbg="img/fact-bg.jpg">
     <div class="container">
       <div class="fact_section_main">
         <div class="fact">
           <div class="fact-icon">
-          <i class="fas fa-crown"></i>
+            <i class="fas fa-crown"></i>
           </div>
           <div class="fact-text">
             <h2>14</h2>
@@ -313,6 +316,18 @@ include('./resources/conn.php');
         delay: 2000,
       },
     });
+    let admission_container = document.querySelector(".admission_open_container")
+    let close_btn = document.querySelector(".close_btn_admission")
+
+    document.addEventListener("DOMContentLoaded", () => {
+      close_btn.addEventListener("click", () => {
+        admission_container.style.display = "none";
+      })
+      setTimeout(() => {
+        admission_container.classList.add('active')
+      }, 10);
+
+    })
   </script>
 </body>
 
