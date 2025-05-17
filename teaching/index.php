@@ -800,24 +800,15 @@ include('../resources/conn.php');
 
                 <tr>
                     <td>26</td>
-                    <td>Mr. J. Chakaravarthy Samy Durai</td>
-                    <td>M.E.</td>
+                    <td>Mr. S. Manimaran</td>
+                    <td>B.E.</td>
                     <td>General Engineering</td>
                     <td>Assistant Professor</td>
-                    <td>chakravarthysamydurai@nscet.org</td>
-                    <td>9710728061</td>
+                    <td>manimaran@nscet.org</td>
+                    <td>9566415081</td>
                 </tr>
 
 
-                <tr>
-                    <td>27</td>
-                    <td>Mr. J. Chakaravarthy Samy Durai</td>
-                    <td>M.E.</td>
-                    <td>General Engineering</td>
-                    <td>Assistant Professor</td>
-                    <td>chakravarthysamydurai@nscet.org</td>
-                    <td>9710728061</td>
-                </tr>
             </tbody>
         </table>
 

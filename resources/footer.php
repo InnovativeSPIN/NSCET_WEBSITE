@@ -43,8 +43,7 @@
                 DISCLOSURE
             </h2>
             <ul>
-                <li><a href="#">Mandatory Disclosure</a></li>
-                <li><a href="#">Minimum Disclosure</a></li>
+                <li><a href="./mandatory-disclosure/">Mandatory Disclosure</a></li>
                 <li><a href="#">Student Facilitation Services</a></li>
                 <li><a href="#">AICTE Approval Handbook</a></li>
                 <li><a href="#">AICTE Approval</a></li>

@@ -111,7 +111,7 @@ include('./resources/conn.php');
         $jsonData = json_decode($data['content'], true);
         foreach ($jsonData as $data) {
         ?>
-          <div class="swiper-slide " id="hero_main_content" style="background:url(./admin/<?php echo $data['image'] ?>) no-repeat center/cover">
+          <div class="swiper-slide " id="hero_main_content" style="background:url(./admin/<?php echo $data['image'] ?>) no-repeat top center/cover">
             <div class="hero_section_content">
               <h2>
                 <?php echo $data['heading'] ?>
