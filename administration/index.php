@@ -55,20 +55,20 @@ include('../resources/conn.php');
         <div class="card-grid">
           <div class="card">
             <div class="card-container">
-              <img src="../assets/img/administration/President-T.Rajmohan.jpg" alt="Mr. T. Rajamohan">
+              <img src="../assets/img/administration/ASG Dharmarajan - President.JPG" alt="Mr. T. Rajamohan">
                  <div class="card-content">
                  <h3>President</h3>
-              <p class='name'>Mr. T. Rajamohan, B.Sc.</p>
-        
+              <p class='name'>Mr. ASG. Dharmarajan, B.A</p>
+           
                  </div>
             </div>
           </div>
           <div class="card">
             <div class="card-container">
-              <img src="../assets/img/administration/Vice President-p.p.ganesh.jpg" alt="Mr. P.P. Ganesh">
+              <img src="../assets/img/administration/AS Jeevagan sir - Vice President.jpg" alt="Mr. P.P. Ganesh">
              <div class="card-content">
              <h3>Vice President</h3>
-              <p class='name'>Mr. P.P. Ganesh, B.Sc.</p>
+              <p class='name'>Mr. AS. Jeevagan</p>
             
              </div>
             </div>
@@ -85,10 +85,12 @@ include('../resources/conn.php');
           </div>
           <div class="card">
             <div class="card-container">
-              <img src="../assets/img/administration/tressurer-palaniappan.jpg" alt="Mr. Palaniappan">
+              <img src="../assets/img/administration/Ramachandran - Treasurer.jpg" alt="Mr. Palaniappan">
             <div class="card-content">
             <h3>Treasurer</h3>
-              <p class='name'>Mr. M.Palaniappan</p>
+              <p class='name'>Mr. B. Ramachandran,M.B.A</p>
+
+              <p class='name'></p>
           
             </div>
             </div>
@@ -100,7 +102,7 @@ include('../resources/conn.php');
     <!-- commiteee -->
 
     
-    <section class="committee-members">
+    <!-- <section class="committee-members">
     <h2 class="section-title text-center">Executive Committee Members of TMHNU</h2>
     <div class="committee-container">
         <ul>
@@ -144,7 +146,7 @@ include('../resources/conn.php');
             <li>Mr. K. Rajkumar, M.Sc. (CS & IT)</li>
         </ul>
     </div>
-</section>
+</section> -->
 
 <section class="prominent-personalities mt-5">
     <h2 class="heading title_text text-center">Prominent Personalities of NSCET</h2>
