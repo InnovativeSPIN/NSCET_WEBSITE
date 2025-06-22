@@ -3,29 +3,38 @@
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            About
+            Home
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="/about/">About Us</a>
-            <a class="dropdown-item" href="/principal/">Principal</a>
-            <a class="dropdown-item" href="/gallery/">Gallery</a>
-            <a class="dropdown-item" href="/mou/">Mou's</a>
+            <a class="dropdown-item" href="/about/">About us</a>
+            <a class="dropdown-item" href="/policy">Quality Policy</a>
+            <!--<a class="dropdown-item" href="/principal/">Principal</a>-->
+            
+            
             
             <!-- <a class="dropdown-item" href="#">Organisation</a> -->
             <a class="dropdown-item" href="/Idp/">IDP</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL_REPORT.pdf">Annual Reports</a>
-            <a class="dropdown-item" href="/assets/pdf/ANNUAL_ACCOUNTS.pdf">Annual Accounts</a>
+            <a class="dropdown-item" href="/aff_accr">Affiliation & Accrediation</a>
+            <a class="dropdown-item" href="/files/AR.pdf">Annual Reports</a>
+            <a class="dropdown-item" href="/files/AC.pdf">Annual Accounts</a>
         </div>
     </div>
 
 </li>
 <li>
-    
-    <button class="btn custom_dropdown " type="button" 
-         aria-haspopup="true" aria-expanded="false">
-        <a href="/administration/">  Administration</a>
-    </button>
-    
+    <div class="dropdown">
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Administration
+        </button>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/administration/">TMHNU Trust</a>
+            <a class="dropdown-item" href="/principal/">Principal</a>
+            <a class="dropdown-item" href="/control_of_exam">Controller of Examination</a>
+            <a class="dropdown-item" href="/files/ICC-NSCET.pdf">ICC</a>
+        </div>
+    </div>
+
 </li>
 
 <li>
@@ -81,13 +90,14 @@
             Academics
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Details of Academic</a>
+            <a class="dropdown-item" href="/detail_acadamics">Details of Academic Programs</a>
             <a class="dropdown-item" href="/academic_calendar/">Academic Calender</a>
             <a class="dropdown-item" href="/teaching/">Teaching Faculty</a>
             <a class="dropdown-item" href="/non-teaching/">Non-Teaching Faculty</a>
-            <a class="dropdown-item" href="#">UGc ODL online Programs</a>
+            <!--<a class="dropdown-item" href="#">UGc ODL online Programs</a>-->
             <a class="dropdown-item" href="/iqac/">IQAC</a>
-            <a class="dropdown-item" href="#">Academic Collab</a>
+            <a class="dropdown-item" href="/mou/">Academic Collaboration</a>
+            <!--<a class="dropdown-item" href="/mou/">Mou's</a>-->
             <a class="dropdown-item" href="/library/">Library</a>
 
 
@@ -108,7 +118,7 @@
             <a class="dropdown-item" href="/admission/#prospectus">Prospectus</a>
             <a class="dropdown-item" href="/admission/#process">Admission process</a>
             <a class="dropdown-item" href="/admission/#form">Enquiry Form</a>
-
+<a class="dropdown-item" href="/admission/refund_policy.php">Refund Policy</a>
 
         </div>
     </div>
@@ -116,36 +126,35 @@
 
 
 
-<li>
+<!--<li>-->
 
-    <div class="dropdown">
-        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Facilities
-        </button>
-        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="/infrastructure">Infrastructure</a>
-            <a class="dropdown-item" href="#">Administration Services</a>
-            <a class="dropdown-item" href="/sports_facilites/">Sports Facilities</a>
-            <a class="dropdown-item" href="/health/">Health Facilities</a>
-            <!-- <a class="dropdown-item" href="#">Library</a> -->
+<!--    <div class="dropdown">-->
+<!--        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"-->
+<!--            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--            Facilities-->
+<!--        </button>-->
+<!--        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+<!--        <a class="dropdown-item" href="/infrastructure">Infrastructure</a>-->
+            <!--<a class="dropdown-item" href="#">Administration Services</a>-->
+<!--            <a class="dropdown-item" href="/sports_facilites/">Sports Facilities</a>-->
+<!--            <a class="dropdown-item" href="/health/">Health Facilities</a>-->
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
-            <a class="dropdown-item" href="/transport/">Transport</a>
+<!--            <a class="dropdown-item" href="/transport/">Transport Facilities</a>-->
             <!-- <a class="dropdown-item" href="#">IT Infrastructure</a> -->
             <!-- <a class="dropdown-item" href="#">Health Centre</a> -->
             <!-- <a class="dropdown-item" href="#">Security</a> -->
             <!-- <a class="dropdown-item" href="#">Lecture Capturing System</a> -->
             <!-- <a class="dropdown-item" href="#">Green Campus</a>
-        <a class="dropdown-item" href="#">Energy Conservation</a>
-        <a class="dropdown-item" href="#">Water Conservation</a> -->
+<!--        <a class="dropdown-item" href="#">Energy Conservation</a>-->
+<!--        <a class="dropdown-item" href="#">Water Conservation</a> -->
             
             <!-- <a class="dropdown-item" href="#">Maintenance</a> -->
 
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
 
-</li>
+<!--</li>-->
 
 
 <li>
@@ -161,11 +170,18 @@
             <a class="dropdown-item" href="/hostel/boys_hostel/">Boys Hostel</a>
             <a class="dropdown-item" href="/hostel/girls_hostel/">Girls Hostel</a>
             <a class="dropdown-item" href="/sgrc/">SGRC</a>
-            <a class="dropdown-item" href="#">ICC</a>
             <a class="dropdown-item" href="/anti_ragging/">Anti-Ragging Cell</a>
             <a class="dropdown-item" href="#">EO cell</a>
+            <a class="dropdown-item" href="/files/ICC-NSCET.pdf">ICC</a>
             <!-- <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
+            
+            <a class="dropdown-item" href="/sports_facilites/">Sports Facilities</a>
+            <a class="dropdown-item" href="/health/">Health Facilities</a>
+            <!-- <a class="dropdown-item" href="#">Canteen</a> -->
+            <!-- <a class="dropdown-item" href="#">Hostel</a> -->
+            <a class="dropdown-item" href="/transport/">Transport Facilities</a>
+            
         </div>
     </div>
 
@@ -190,12 +206,13 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
             <a href="/research/" class="dropdown-item">Research</a>
+            <a href="/files/edc_cell.pdf" class="dropdown-item">EDC</a>
             <a href="/alumni/" class="dropdown-item">Alumni</a>
             <a href="/clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="/NIRF/" class="dropdown-item">NIRF</a>
             <a href="/assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
             <a href="/naac/ssr/index.php" class="dropdown-item">SSR  </a>
-
+            <a class="dropdown-item" href="/gallery/">Gallery</a>
         </div>
     </div>
 </li>

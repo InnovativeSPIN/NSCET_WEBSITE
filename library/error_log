@@ -1,0 +1,10 @@
+[19-Apr-2025 13:25:10 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 13:25:10 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 13:25:10 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 13:25:10 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 13:25:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/library/index.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16

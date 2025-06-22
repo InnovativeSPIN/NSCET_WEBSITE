@@ -42,10 +42,11 @@ include('../resources/conn.php');
   <div class="main_body_section">
     <div class="sidebar_navigate">
       <ul>
-        <li><a class="sidemenu_item" href="#overview" onclick="showSection('overview')">Admission details</a></li>
-        <li><a class="sidemenu_item" href="#prospectus" onclick="showSection('prospectus')">Prospectus</a></li>
-        <li><a class="sidemenu_item" href="#process" onclick="showSection('process')">Admission process</a></li>
-        <li><a class="sidemenu_item" href="#form" onclick="showSection('form')">Enquiry Form</a></li>
+        <li><a class="sidemenu_item" href="https://nscet.org/admission/#overview" onclick="showSection('overview')">Admission details</a></li>
+        <li><a class="sidemenu_item" href="https://nscet.org/admission/#prospectus" onclick="showSection('prospectus')">Prospectus</a></li>
+        <li><a class="sidemenu_item" href="https://nscet.org/admission/#process" onclick="showSection('process')">Admission process</a></li>
+        <li><a class="sidemenu_item" href="https://nscet.org/admission/#form" onclick="showSection('form')">Enquiry Form</a></li>
+             <li><a class="sidemenu_item" href="https://nscet.org/admission/refund_policy.php" onclick="showSection('form')">Refund Policy</a></li>
         <!-- <li><a class="sidemenu_item" href="#">Fee Refund Policy</a></li> -->
       </ul>
     </div>
@@ -87,21 +88,30 @@ include('../resources/conn.php');
           <section class="fee-structure">
             <h2>Undergraduate Programs (B.E./B.Tech) – ₹50,000 per year</h2>
             <ul>
-              <li>Computer Science & Engineering (CSE)</li>
-              <li>Civil Engineering</li>
-              <li>Electronics & Communication Engineering (ECE)</li>
-              <li>Electrical and Electronics Engineering (EEE)</li>
-              <li>Mechanical Engineering</li>
-              <li>Artificial Intelligence & Data Science (AI & DS)</li>
-              <li>Information Technology (IT)</li>
+             <li><a href="/department/?dept=cse">Computer Science & Engineering (CSE)</a></li>
+  <li><a href="/department/?dept=civil">Civil Engineering</a></li>
+  <li><a href="/department/?dept=ece">Electronics & Communication Engineering (ECE)</a></li>
+  <li><a href="/department/?dept=eee">Electrical and Electronics Engineering (EEE)</a></li>
+  <li><a href="/department/?dept=mech">Mechanical Engineering</a></li>
+  <li><a href="/department/?dept=ai-and-ds">Artificial Intelligence & Data Science (AI & DS)</a></li>
+  <li><a href="/department/?dept=it">Information Technology (IT)</a></li>
+  <li><a href="/department/?dept=s-and-h">Science and Humanities</a></li>
+
             </ul>
           </section>
 
           <section class="fee-structure">
             <h2>Postgraduate Programs (M.E./M.Tech) – ₹50,000 per year</h2>
             <ul>
-              <li>Structural Engineering</li>
-              <li>Manufacturing Engineering</li>
+             <li><a href="/department/?dept=se">Structural Engineering</a></li>
+  <li><a href="/department/?dept=mfe">Manufacturing Engineering</a></li>
+            </ul>
+          </section>
+          
+             <section class="fee-structure">
+            <h2>Ph.D.</h2>
+            <ul>
+            <li>Mechanical Engineering</li>
             </ul>
           </section>
 
@@ -113,6 +123,12 @@ include('../resources/conn.php');
               <li><strong>Library & Lab Fees:</strong> Included in the tuition fee, but additional charges may apply for specialized courses.</li>
             </ul>
           </section>
+        </div>
+        
+        <div class='prospectus_pdf margin-top:20px'>
+           <iframe src='./Prospectus.pdf' width='1000' height='678'>
+  <p>Your browser does not support viewing PDF files. <a href="./Prospectus.pdf" target="_blank">Download PDF</a>.</p>
+</iframe>
         </div>
       </div>
 

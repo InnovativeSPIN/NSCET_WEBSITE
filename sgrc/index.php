@@ -73,8 +73,8 @@ In our college, a Grievance Redressal mechanism aims to treat students fairly, r
             </tr>
             <tr>
                 <td>2</td>
-                <td>Mrs. K. Malar</td>
-                <td>AP/EEE</td>
+                <td>Dr. M. Sathya</td>
+                <td>Vice Principal Academic </td>
                 <td>Member</td>
             </tr>
             <tr>
@@ -91,10 +91,16 @@ In our college, a Grievance Redressal mechanism aims to treat students fairly, r
             </tr>
             <tr>
                 <td>5</td>
-                <td>Mr. C. Pandian</td>
+                <td>Mr. M. Ananth</td>
                 <td>LI/MECH</td>
                 <td>Member</td>
             </tr>
+            <!--<tr>-->
+            <!--    <td>5</td>-->
+            <!--    <td>Mr. C. Pandian</td>-->
+            <!--    <td>LI/MECH</td>-->
+            <!--    <td>Member</td>-->
+            <!--</tr>-->
         </table>
 
 

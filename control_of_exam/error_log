@@ -1,0 +1,23 @@
+[20-Jun-2025 17:13:26 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:13:26 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:13:26 Asia/Calcutta] PHP Warning:  Undefined variable $staff_list in /home/nscet/public_html/control_of_exam/index.php on line 114
+[20-Jun-2025 17:14:03 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:03 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:07 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:07 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:11 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:16 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:21 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:29 Asia/Calcutta] PHP Warning:  Undefined variable $department in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:29 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/control_of_exam/index.php on line 84
+[20-Jun-2025 17:14:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function safe_htmlspecialchars() in /home/nscet/public_html/control_of_exam/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/nscet/public_html/control_of_exam/index.php on line 38
+[20-Jun-2025 17:15:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function safe_htmlspecialchars() in /home/nscet/public_html/control_of_exam/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/nscet/public_html/control_of_exam/index.php on line 38

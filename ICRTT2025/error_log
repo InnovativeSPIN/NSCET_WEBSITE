@@ -1,0 +1,403 @@
+[21-Mar-2025 10:53:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:53:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:53:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:54:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:54:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:56:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:56:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:56:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:57:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:58:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:59:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:59:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 10:59:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nscet/public_html/ICRTT2025/registration.php:7
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(7): mysqli->__construct('localhost', 'root', '', 'nscet_conferenc...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 17:26:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/nscet/public_html/ICRTT2025/registration.php:47
+Stack trace:
+#0 /home/nscet/public_html/ICRTT2025/registration.php(47): mysqli->prepare('INSERT INTO pap...')
+#1 {main}
+  thrown in /home/nscet/public_html/ICRTT2025/registration.php on line 47
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "main_author_name" in /home/nscet/public_html/ICRTT2025/registration.php on line 5
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "paper_Id" in /home/nscet/public_html/ICRTT2025/registration.php on line 6
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "paper_title" in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "transaction_id" in /home/nscet/public_html/ICRTT2025/registration.php on line 8
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "phone_no" in /home/nscet/public_html/ICRTT2025/registration.php on line 9
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "college_Name" in /home/nscet/public_html/ICRTT2025/registration.php on line 10
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "department" in /home/nscet/public_html/ICRTT2025/registration.php on line 11
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "paper_pdf" in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "receipt" in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "paper_pdf" in /home/nscet/public_html/ICRTT2025/registration.php on line 38
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 38
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Undefined array key "receipt" in /home/nscet/public_html/ICRTT2025/registration.php on line 39
+[21-Mar-2025 18:15:57 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 39
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "main_author_name" in /home/nscet/public_html/ICRTT2025/registration.php on line 5
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "paper_Id" in /home/nscet/public_html/ICRTT2025/registration.php on line 6
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "paper_title" in /home/nscet/public_html/ICRTT2025/registration.php on line 7
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "transaction_id" in /home/nscet/public_html/ICRTT2025/registration.php on line 8
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "phone_no" in /home/nscet/public_html/ICRTT2025/registration.php on line 9
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "college_Name" in /home/nscet/public_html/ICRTT2025/registration.php on line 10
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "department" in /home/nscet/public_html/ICRTT2025/registration.php on line 11
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "paper_pdf" in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/nscet/public_html/ICRTT2025/registration.php on line 32
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "receipt" in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/nscet/public_html/ICRTT2025/registration.php on line 33
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "paper_pdf" in /home/nscet/public_html/ICRTT2025/registration.php on line 38
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 38
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Undefined array key "receipt" in /home/nscet/public_html/ICRTT2025/registration.php on line 39
+[21-Mar-2025 18:26:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/nscet/public_html/ICRTT2025/registration.php on line 39
+[21-Mar-2025 18:39:33 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[21-Mar-2025 18:40:41 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[13-Apr-2025 13:21:37 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 13:58:00 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 16:19:19 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 17:09:01 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 17:15:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 19:02:29 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 19:49:25 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 19:56:16 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 20:58:12 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 22:37:37 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 23:28:24 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 23:51:09 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[15-Apr-2025 23:56:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[16-Apr-2025 13:25:33 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[16-Apr-2025 16:31:53 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[19-Apr-2025 09:20:15 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:15 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:15 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:15 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:18 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:18 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:18 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:18 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:22 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:22 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:22 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:22 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:24 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:24 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:24 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:24 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:25 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:25 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:25 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:25 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:52 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:52 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:52 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:52 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:54 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:54 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:54 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:54 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:59 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:59 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:59 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:59 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:20:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:21:05 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:21:05 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:21:05 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:21:05 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 09:21:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 10:36:36 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 10:36:36 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 10:36:36 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 10:36:36 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 10:36:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 12:36:12 UTC] PHP Warning:  Undefined variable $db_host in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 12:36:12 UTC] PHP Warning:  Undefined variable $db_user in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 12:36:12 UTC] PHP Warning:  Undefined variable $db_pass in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 12:36:12 UTC] PHP Warning:  Undefined variable $db_name in /home/nscet/public_html/resources/conn.php on line 16
+[19-Apr-2025 12:36:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/nscet/public_html/resources/conn.php:16
+Stack trace:
+#0 /home/nscet/public_html/resources/conn.php(16): mysqli_connect(NULL, NULL, NULL, NULL)
+#1 /home/nscet/public_html/ICRTT2025/registration.php(3): include('/home/nscet/pub...')
+#2 {main}
+  thrown in /home/nscet/public_html/resources/conn.php on line 16
+[23-Apr-2025 12:30:33 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[23-Apr-2025 13:28:30 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[24-Apr-2025 14:12:18 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[24-Apr-2025 14:25:18 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[25-Apr-2025 16:07:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[25-Apr-2025 19:04:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[25-Apr-2025 22:21:04 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[25-Apr-2025 22:37:58 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[28-Apr-2025 18:35:20 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[28-Apr-2025 20:47:45 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[28-Apr-2025 21:05:06 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[28-Apr-2025 22:51:06 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 10:49:18 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 15:48:32 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 19:04:25 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 19:28:31 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 20:06:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 20:59:38 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 21:07:30 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 21:26:22 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 21:57:44 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 22:01:40 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 22:12:47 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 22:20:49 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[29-Apr-2025 23:18:12 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 00:11:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 10:24:40 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:04:12 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:06:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:17:00 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:31:43 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:48:04 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 11:49:06 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 12:03:59 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 12:11:33 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 12:30:22 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 13:08:44 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 14:39:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 15:10:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 15:35:31 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 16:05:33 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 16:09:41 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 16:57:30 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 17:05:30 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 18:21:39 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 18:44:08 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 18:57:22 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 19:10:51 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 20:49:11 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 21:10:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 21:29:28 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[30-Apr-2025 23:18:03 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[01-May-2025 11:09:37 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[01-May-2025 15:26:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[01-May-2025 16:17:15 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[01-May-2025 16:18:32 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56
+[01-May-2025 18:40:13 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nscet/public_html/ICRTT2025/registration.php:55) in /home/nscet/public_html/ICRTT2025/registration.php on line 56

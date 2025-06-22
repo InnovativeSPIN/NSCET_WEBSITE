@@ -41,7 +41,7 @@ include('../resources/conn.php');
         <div class="main">
 
         <h2>About the College</h2>
-        <img src="/assets/img/about/nscetmain.jpg" alt="">
+        <img src="/assets/img/1JI_0163.jpg" alt="">
 
         <p>
     Nadar Saraswathi College of Engineering and Technology (NSCET), located in Theni, Tamil Nadu, is a premier institution dedicated to academic excellence and technological advancements. The college is affiliated with Anna University and offers a world-class learning environment with state-of-the-art infrastructure, well-equipped laboratories, and a serene campus that fosters creativity and innovation. With a strong commitment to holistic education, NSCET provides a vibrant atmosphere for students to excel in both academics and extracurricular activities. The institution boasts seven specialized departments, each designed to equip students with industry-relevant knowledge and hands-on experience. The lush greenery, modern facilities, and student-friendly environment make NSCET a preferred choice for aspiring engineers.

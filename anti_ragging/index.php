@@ -87,44 +87,45 @@ include('../resources/conn.php');
             </tr>
             <tr>
                 <td>3</td>
+                <td>Dr. M. Sathya</td>
+                <td>Acadamic Vice Principal</td>
+                <td>Member</td>
+            </tr>
+            <tr>
+                <td>4</td>
                 <td>Mr. M. Kannan</td>
                 <td>Police Inspector</td>
                 <td>Member</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>5</td>
                 <td>Mr. A. Kadar Shareef</td>
                 <td>Tahsildar</td>
                 <td>Member</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>6</td>
                 <td>Mr. P. Mahendran</td>
                 <td>Business</td>
                 <td>Member</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>7</td>
                 <td>Ms. V. Dharshanpriya</td>
                 <td>IV CSE</td>
                 <td>Member</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td>8</td>
                 <td>Mr. M. Arunprakash</td>
                 <td>IV Mech</td>
                 <td>Member</td>
             </tr>
-            <tr>
-                <td>8</td>
-                <td>Mrs. K. Malar</td>
-                <td>AP / EEE</td>
-                <td>Deputy Warden Member</td>
-            </tr>
+
             <tr>
                 <td>9</td>
-                <td>Mrs. K. Deepa</td>
-                <td>Placement Co-ordinator & Student Counselor</td>
+                <td>Mrs. J. Preetha</td>
+                <td>Placement Co-ordinator</td>
                 <td>Member</td>
             </tr>
         </tbody>

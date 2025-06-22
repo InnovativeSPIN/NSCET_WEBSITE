@@ -154,35 +154,35 @@ include('../resources/conn.php');
         <div class="card-grid">
             <div class="card">
                 <div class="card-container">
-                    <img src="../assets/img/administration/Secretary-rajkumar.jpg" alt="Mr. A. Rajkumar">
+                    <img src="../assets/img/administration/SomaSundaram.jpeg" alt="Mr. A. Rajkumar">
                    <div class="card-content">
                    <h3>Secretary</h3>
-                    <p class="name">Mr. A. Rajkumar, B.B.A.</p>
+                    <p class="name">A.S.S.S.Soma Sundaram B.E.</p>
                
                    </div>
                   </div>
             </div>
-            <div class="card">
-                <div class="card-container">
-                    <img src="../assets/img/administration/secretary-A.S.R. Maheswaran.jpg" alt="Mr. A.S.R. Maheswaran">
-                    <div class="card-content">
-                    <h3>Secretary</h3>
-                    <p class="name">Mr. A.S.R. Maheswaran, B.Sc.</p>
+        <!--    <div class="card">-->
+        <!--        <div class="card-container">-->
+        <!--            <img src="../assets/img/administration/secretary-A.S.R. Maheswaran.jpg" alt="Mr. A.S.R. Maheswaran">-->
+        <!--            <div class="card-content">-->
+        <!--            <h3>Secretary</h3>-->
+        <!--            <p class="name">Mr. A.S.R. Maheswaran, B.Sc.</p>-->
               
-                    </div>
-                  </div>
-            </div>
-            <div class="card">
-                <div class="card-container">
-                    <img src="../assets/img/administration/jointsecretary-naveenram.jpg" alt="Er. S. Naveen Ram">
-                   <div class="card-content">
-                   <h3>Joint Secretary</h3>
-                    <p class="name">Er. S. Naveen Ram, B.E., MBA</p>
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--    </div>-->
+        <!--    <div class="card">-->
+        <!--        <div class="card-container">-->
+        <!--            <img src="../assets/img/administration/jointsecretary-naveenram.jpg" alt="Er. S. Naveen Ram">-->
+        <!--           <div class="card-content">-->
+        <!--           <h3>Joint Secretary</h3>-->
+        <!--            <p class="name">Er. S. Naveen Ram, B.E., MBA</p>-->
                
-                   </div>
-                  </div>
-            </div>
-        </div>
+        <!--           </div>-->
+        <!--          </div>-->
+        <!--    </div>-->
+        <!--</div>-->
     </div>
 </section>
 <section class="mt-5 person_ombuds">

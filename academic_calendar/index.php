@@ -59,6 +59,7 @@ include('../resources/conn.php');
   <li><a href="/assets/pdf/academic_calendars/Academic Calendar 23.docx">Academic Calendar 2023</a></li>
   <li><a href="/assets/pdf/academic_calendars/2023-24 ODD SEM.pdf">Academic Calendar 2023-2024 ODD Sem</a></li>
   <li><a href="/assets/pdf/academic_calendars/2023-24 EVEN SEM.pdf">Academic Calendar 2023-2024 Even Sem</a></li>
+  <li><a href="/files/Academic Calendar 2024 -25.pdf">Academic Calendar 2024-2025</a></li>
 </ul>
 
 
