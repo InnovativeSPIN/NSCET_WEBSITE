@@ -58,7 +58,7 @@ include('../resources/conn.php');
               <img src="../assets/img/administration/ASG Dharmarajan - President.JPG" alt="Mr. T. Rajamohan">
                  <div class="card-content">
                  <h3>President</h3>
-              <p class='name'>Mr. ASG. Dharmarajan, B.A</p>
+              <p class='name'>Mr. A. S. G. Dharmarajan, B.A</p>
            
                  </div>
             </div>
@@ -68,7 +68,7 @@ include('../resources/conn.php');
               <img src="../assets/img/administration/AS Jeevagan sir - Vice President.jpg" alt="Mr. P.P. Ganesh">
              <div class="card-content">
              <h3>Vice President</h3>
-              <p class='name'>Mr. AS. Jeevagan</p>
+              <p class='name'>Mr. A. S. Jeevagan</p>
             
              </div>
             </div>
@@ -194,7 +194,7 @@ include('../resources/conn.php');
   
 <img src="../assets/img/administration/Rajadurai .png" alt="" width="180px">
 
-<div class="card-content">
+<div class="card-content">  
                <h3>Ombudsperson</h3>
                 <p class="name">Dr. A. Rajadurai - Professor</p>
            

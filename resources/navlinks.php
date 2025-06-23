@@ -3,7 +3,7 @@
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ABOUT US
+            ABOUT US 
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./about/">About us: Overview</a>
@@ -28,8 +28,10 @@
             <a class="dropdown-item" href="./administration/">TMHNU Trust</a>
             <a class="dropdown-item" href="./principal/">Principal</a>
             <a class="dropdown-item" href="./administration/financeofficer.php">finance officer</a>
+            <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
-            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">ICC</a>
+            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
+            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
         </div>
     </div>
 
