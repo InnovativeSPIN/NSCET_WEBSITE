@@ -34,7 +34,7 @@ include('./resources/conn.php');
 
 
   ?>
-  <div class="admission_open_container">
+  <!-- <div class="admission_open_container">
     <div class="admission_open_head">
       <div class="close_btn_admission">
         <i class="fa-solid fa-xmark"></i>
@@ -101,7 +101,7 @@ include('./resources/conn.php');
       </strong> 5865
     </h2>
   </div>
-  <!-- hero section -->
+  hero section -->
 
   <div class="hero_section">
     <div class="swiper mySwiper hero_swiper">

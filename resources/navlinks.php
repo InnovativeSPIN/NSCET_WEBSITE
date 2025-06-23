@@ -3,17 +3,14 @@
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Home
+            ABOUT US
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./about/">About us</a>
+            <a class="dropdown-item" href="./about/">About us: Overview</a>
             <a class="dropdown-item" href="./policy">Quality Policy</a>
             <!--<a class="dropdown-item" href="./principal/">Principal</a>-->
-            
-            
-            
             <!-- <a class="dropdown-item" href="#">Organisation</a> -->
-            <a class="dropdown-item" href="./Idp/">IDP</a>
+            <a class="dropdown-item" href="./Idp/">Institutional Development Plan</a>
             <a class="dropdown-item" href="./aff_accr">Affiliation & Accrediation</a>
             <a class="dropdown-item" href="./files/AR.pdf">Annual Reports</a>
             <a class="dropdown-item" href="./files/AC.pdf">Annual Accounts</a>
@@ -30,6 +27,7 @@
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./administration/">TMHNU Trust</a>
             <a class="dropdown-item" href="./principal/">Principal</a>
+            <a class="dropdown-item" href="./administration/financeofficer.php">finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">ICC</a>
         </div>
@@ -118,7 +116,7 @@
             <a class="dropdown-item" href="./admission/#prospectus">Prospectus</a>
             <a class="dropdown-item" href="./admission/#process">Admission process</a>
             <a class="dropdown-item" href="./admission/#form">Enquiry Form</a>
-<a class="dropdown-item" href="./admission/refund_policy.php">Refund Policy</a>
+            <a class="dropdown-item" href="./admission/refund_policy.php">Refund Policy</a>
 
         </div>
     </div>
@@ -135,21 +133,21 @@
 <!--        </button>-->
 <!--        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">-->
 <!--        <a class="dropdown-item" href="./infrastructure">Infrastructure</a>-->
-            <!--<a class="dropdown-item" href="#">Administration Services</a>-->
+<!--<a class="dropdown-item" href="#">Administration Services</a>-->
 <!--            <a class="dropdown-item" href="./sports_facilites/">Sports Facilities</a>-->
 <!--            <a class="dropdown-item" href="./health/">Health Facilities</a>-->
-            <!-- <a class="dropdown-item" href="#">Canteen</a> -->
-            <!-- <a class="dropdown-item" href="#">Hostel</a> -->
+<!-- <a class="dropdown-item" href="#">Canteen</a> -->
+<!-- <a class="dropdown-item" href="#">Hostel</a> -->
 <!--            <a class="dropdown-item" href="./transport/">Transport Facilities</a>-->
-            <!-- <a class="dropdown-item" href="#">IT Infrastructure</a> -->
-            <!-- <a class="dropdown-item" href="#">Health Centre</a> -->
-            <!-- <a class="dropdown-item" href="#">Security</a> -->
-            <!-- <a class="dropdown-item" href="#">Lecture Capturing System</a> -->
-            <!-- <a class="dropdown-item" href="#">Green Campus</a>
+<!-- <a class="dropdown-item" href="#">IT Infrastructure</a> -->
+<!-- <a class="dropdown-item" href="#">Health Centre</a> -->
+<!-- <a class="dropdown-item" href="#">Security</a> -->
+<!-- <a class="dropdown-item" href="#">Lecture Capturing System</a> -->
+<!-- <a class="dropdown-item" href="#">Green Campus</a>
 <!--        <a class="dropdown-item" href="#">Energy Conservation</a>-->
 <!--        <a class="dropdown-item" href="#">Water Conservation</a> -->
-            
-            <!-- <a class="dropdown-item" href="#">Maintenance</a> -->
+
+<!-- <a class="dropdown-item" href="#">Maintenance</a> -->
 
 <!--        </div>-->
 <!--    </div>-->
@@ -165,7 +163,7 @@
             Student Life
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="./sports/">Sports</a>
+            <a class="dropdown-item" href="./sports/">Sports</a>
             <a class="dropdown-item" href="./nss/">Nss</a>
             <a class="dropdown-item" href="./hostel/boys_hostel/">Boys Hostel</a>
             <a class="dropdown-item" href="./hostel/girls_hostel/">Girls Hostel</a>
@@ -175,23 +173,23 @@
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">ICC</a>
             <!-- <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
-            
+
             <a class="dropdown-item" href="./sports_facilites/">Sports Facilities</a>
             <a class="dropdown-item" href="./health/">Health Facilities</a>
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
             <a class="dropdown-item" href="./transport/">Transport Facilities</a>
-            
+
         </div>
     </div>
 
 </li>
 
 <li>
-    <button class="btn custom_dropdown " 
+    <button class="btn custom_dropdown "
         aria-haspopup="true" aria-expanded="false">
         <a href="./placement/">
-        Placements
+            Placements
         </a>
     </button>
 
@@ -211,14 +209,8 @@
             <a href="./clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="./NIRF/" class="dropdown-item">NIRF</a>
             <a href="./assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
-            <a href="./naac/ssr/index.php" class="dropdown-item">SSR  </a>
+            <a href="./naac/ssr/index.php" class="dropdown-item">SSR </a>
             <a class="dropdown-item" href="./gallery/">Gallery</a>
         </div>
     </div>
 </li>
-
-
-
-
-
-

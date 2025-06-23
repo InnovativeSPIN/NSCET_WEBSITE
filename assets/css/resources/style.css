@@ -135,6 +135,7 @@ border-top-left-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 #navbar ul li a,
