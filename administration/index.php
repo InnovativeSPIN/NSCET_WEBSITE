@@ -55,7 +55,7 @@ include('../resources/conn.php');
         <div class="card-grid">
           <div class="card">
             <div class="card-container">
-              <img src="../assets/img/administration/ASG Dharmarajan - President.JPG" alt="Mr. T. Rajamohan">
+              <img src="./assets/img/Dharmarajan.jpeg" alt="Mr. T. Rajamohan">
                  <div class="card-content">
                  <h3>President</h3>
               <p class='name'>Mr. A. S. G. Dharmarajan, B.A</p>
