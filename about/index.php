@@ -135,6 +135,13 @@ gap: 2rem;
   scroll-snap-align: start;
 }
 
+@media screen  and (max-width:768px){
+  .awards-list {
+
+grid-template-columns: repeat(1,1fr);
+
+}
+}
 
   </style>
 

@@ -27,13 +27,13 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./administration/">TMHNU Trust</a>
-            <a class="dropdown-item" href="./principal/">Princ ipal</a>
+            <a class="dropdown-item" href="./principal/">Principal</a>
             <a class="dropdown-item" href="./administration/financeofficer.php">Finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
             <a class="dropdown-item" href="../governing_counseling/index.php">GOVERNING COUNSELING</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
-            <a class="dropdown-item" href="./leadership/">Academic Leadership</a>
+            <a class="dropdown-item" href="./administration/leadership.php">Academic Leadership</a>
         </div>
     </div>
 

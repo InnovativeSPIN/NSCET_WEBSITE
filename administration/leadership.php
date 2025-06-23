@@ -14,8 +14,18 @@ include('../resources/conn.php');
 
   <!-- custom css -->
   <link rel="stylesheet" href="../assets/css/resources/style.css">
-  <!-- <link rel="stylesheet" href="../assets/css/administration/style.css"> -->
+  <!-- <link rel="stylesheet" href="../assets/css/administration/style.css"> -->  
 
+  <style>
+  .card-grid{
+    grid-template-columns: repeat(3, 1fr)
+  }
+  @media screen and (max-width:768px) {
+    .card-grid{
+      grid-template-columns: repeat(1, 1fr)
+    }
+  }
+  </style>
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
@@ -52,7 +62,7 @@ include('../resources/conn.php');
           </div>
         </div>
         <!-- VP and Placement Officer in a 3-column grid -->
-        <div class="card-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; max-width: 900px; margin: 0 auto; justify-content: center; align-items: center;">
+        <div class="card-grid" style="display: grid; ; gap: 4rem; max-width: 900px; margin: 0 auto; justify-content: center; align-items: center;">
           <div class="card" style="width: 350px; min-height: 450px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 30px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); text-align: center; box-sizing: border-box;">
             <div class="card-container">
               <div style="width: 300px; height: 300px; overflow: hidden; margin: 0 auto 20px;">
