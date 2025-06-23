@@ -19,6 +19,34 @@ include('../resources/conn.php');
 
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
+
+
+<style>
+  
+.main-box-container{
+ max-width: 1200px;
+ margin: 0 auto;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+}
+.dept-page-content{
+  margin-top: 2rem;
+}
+.college_info a{
+   text-transform: uppercase;
+}
+.links-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+</style>
+
 </head>
 <body>
 
@@ -27,40 +55,9 @@ include('../resources/conn.php');
 include('../resources/navbar.php');
 ?>
 
-<style>
-    button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-</style>
 
 
-<!--<section class="hero-section" style="background: url('../assets/img/department/banner/') no-repeat center/cover;">-->
-<!--  <h1 class="dept-heading"><strong>Controller Of Examination</strong></h1>-->
-<!--</section>-->
-
-<div id="main-box-container">
-
-  <!--<section class="navigation-bar">-->
-  <!--  <nav class="page__menu menu">-->
-  <!--    <ul class="menu__list r-list">-->
-  <!--      <li class="menu__group">Affiliation & Accrediation</li>-->
-  <!--    </ul>-->
-  <!--  </nav>-->
-  <!--</section>-->
-  <!-- reposive icon -->
-
-
+<div class="main-box-container">
 
   <div class="dept-page-content">
     <!-- faculty section   -->
@@ -77,9 +74,23 @@ button:hover {
                 <p style="margin: 20px 0; line-height: 1.6;">
                   Nadar Saraswathi College of Engineering and Technology, established in 2010, is a renowned institution approved by AICTE, New Delhi, and affiliated to Anna University, Chennai. Since its inception, the college has maintained a strong commitment to quality education and academic excellence. It has been awarded the ISO 9001:2015 certification for its robust quality management systems and has earned an impressive NAAC A accreditation, reflecting its high standards in teaching, infrastructure, and student outcomes. Through its disciplined environment and student-centric approach, NSCET continues to be a leading choice for aspiring engineers.
                 </p>
-                <a href="/files/Approval%20and%20accrediation.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
-  Certificate
+              <div class="links-btn">
+                  <a href="./files/aicte.PDF" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
+  AICTE
 </a>
+ <a href="./files/aishe.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
+  AISHE
+</a>
+ <a href="./files/AU 2024-25.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
+  ANNA university
+</a>
+ <a href="./files/naac.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
+  naac
+</a>
+ <a href="./files/iso.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px;">
+  ISO
+</a>
+              </div>
               </section>
             </main>
           </section>
@@ -91,9 +102,9 @@ button:hover {
     </div>
 
   </div>
-</div>
 
 
+  </div>
 
 
 

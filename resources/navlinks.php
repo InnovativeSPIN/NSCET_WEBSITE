@@ -3,17 +3,18 @@
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ABOUT US 
+            ABOUT US
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./about/">About us: Overview</a>
-            <a class="dropdown-item" href="./policy">Quality Policy</a>
+            <a class="dropdown-item" href="./act_and_statutes/index.php">Act and Statutes</a>
+            <a class="dropdown-item" href="./Idp/">Institutional Development Plan</a>
             <!--<a class="dropdown-item" href="./principal/">Principal</a>-->
             <!-- <a class="dropdown-item" href="#">Organisation</a> -->
-            <a class="dropdown-item" href="./Idp/">Institutional Development Plan</a>
             <a class="dropdown-item" href="./aff_accr">Affiliation & Accrediation</a>
             <a class="dropdown-item" href="./files/AR.pdf">Annual Reports</a>
             <a class="dropdown-item" href="./files/AC.pdf">Annual Accounts</a>
+           
         </div>
     </div>
 
@@ -26,12 +27,13 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./administration/">TMHNU Trust</a>
-            <a class="dropdown-item" href="./principal/">Principal</a>
-            <a class="dropdown-item" href="./administration/financeofficer.php">finance officer</a>
-            <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
+            <a class="dropdown-item" href="./principal/">Princ ipal</a>
+            <a class="dropdown-item" href="./administration/financeofficer.php">Finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
+            <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
+            <a class="dropdown-item" href="../governing_counseling/index.php">GOVERNING COUNSELING</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
-            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
+            <a class="dropdown-item" href="./leadership/">Academic Leadership</a>
         </div>
     </div>
 
@@ -64,23 +66,23 @@
 
 </li>
 
-
 <li>
 
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Conference
+            Research
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./ICRTT2025/">ICRTT 25</a>
-            <a class="dropdown-item" href="./ampse25">AMPSE25 </a>
-            <a class="dropdown-item" href="./icams2k25/">ICAMS 2K25</a>
-
+            <a class="dropdown-item" href="./research">research</a>
+            <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
+            <a class="dropdown-item" href="./research/centre.php">research Centre</a>
+            <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
         </div>
     </div>
 
 </li>
+
 
 <li>
 
@@ -196,7 +198,15 @@
     </button>
 
 </li>
+<li>
+    <button class="btn custom_dropdown "
+        aria-haspopup="true" aria-expanded="false">
+        <a href="./placement/">
+            Gallery
+        </a>
+    </button>
 
+</li>
 
 <li>
     <div class="dropdown">
@@ -205,7 +215,7 @@
             More
         </button>
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
-            <a href="./research/" class="dropdown-item">Research</a>
+
             <a href="./files/edc_cell.pdf" class="dropdown-item">EDC</a>
             <a href="./alumni/" class="dropdown-item">Alumni</a>
             <a href="./clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
@@ -213,6 +223,102 @@
             <a href="./assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
             <a href="./naac/ssr/index.php" class="dropdown-item">SSR </a>
             <a class="dropdown-item" href="./gallery/">Gallery</a>
-        </div>
+            <a class="dropdown-item" href="./ICRTT2025/">ICRTT 25</a>
+            <a class="dropdown-item" href="./ampse25">AMPSE25 </a>
+            <a class="dropdown-item" href="./icams2k25/">ICAMS 2K25</a>
+
+
+    </div>
     </div>
 </li>
+
+
+<!-- <li style="position: relative; list-style: none;">
+    <input id="searchBox" type="text" placeholder="Search NSCET..." />
+    <ul id="results"></ul>
+</li> -->
+
+<style>
+    #searchBox {
+        width: 50%;
+        padding: 12px 15px;
+        font-size: 16px;
+        border: 2px solid #004085;
+        border-radius: 8px;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+        outline: none;
+    }
+
+    #searchBox:focus {
+        border-color: #0069d9;
+        box-shadow: 0 0 5px rgba(0, 105, 217, 0.5);
+    }
+
+    #results {
+        display: block !important;
+        position: absolute;
+        top: 110%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-height: 250px;
+        overflow-y: auto;
+        z-index: 1000;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    #results li {
+        display: block;
+        text-align: left;
+        padding: 12px 15px;
+        border-bottom: 1px solid #f1f1f1;
+        font-size: 15px;
+        font-family: 'Segoe UI', sans-serif;
+        transition: background-color 0.2s ease;
+        cursor: pointer;
+    }
+
+    #results li:last-child {
+        border-bottom: none;
+    }
+
+    #results li:hover {
+        background-color: #f8f9fa;
+    }
+
+    #results a {
+        text-decoration: none;
+        color: #212529;
+        display: block;
+    }
+
+    #results a:hover {
+        color: #0056b3;
+    }
+</style>
+
+<script>
+    let pages = [];
+    async function initSearch() {
+        const res = await fetch('/search.json');
+        pages = await res.json();
+        document.getElementById('searchBox').addEventListener('input', e => {
+            const q = e.target.value.trim().toLowerCase();
+            const results = q ?
+                pages.filter(p =>
+                    p.title.toLowerCase().includes(q) // ||p.content.toLowerCase().includes(q)
+                ) :
+                [];
+            document.getElementById('results').innerHTML = results.slice(0, 10)
+                .map(p => `<li><a href="${p.url}">${p.title}</a></li>`)
+                .join('') || '<li>No results found</li>';
+        });
+    }
+    window.onload = initSearch;
+</script>

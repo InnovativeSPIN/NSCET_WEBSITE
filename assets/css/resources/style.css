@@ -110,12 +110,9 @@ border-top-left-radius: 5px;
 /* second navbar */
 #navbar {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 5px;
-
-
-
 }
 
 #navbar ul {
@@ -129,7 +126,7 @@ border-top-left-radius: 5px;
 
 #navbar ul li,
 #navbar ul li button {
-    font-size: clamp(15px, 2vw, 18px);
+    font-size: clamp(15px, 2vw, 16px);
     font-family: 'Poppins', 'Roboto', sans-serif;
     padding: 4px;
     display: flex;

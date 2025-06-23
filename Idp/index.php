@@ -27,6 +27,17 @@ include('../resources/conn.php');
       color: #333;
       text-align: center;
     }
+    .viewplan{
+      margin: 10px;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .viewplan button{
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 2px;
+    }
     img {
       width: 95%;
       height: auto;
@@ -58,6 +69,9 @@ include('../resources/conn.php');
 
   <div class="main">
     <h1>Institutional Development Plan</h1>
+    <div class="viewplan">
+      <a href="./IDP.pdf" target="_blank"><button class="">View Plan</button></a>
+    </div>
     <img src="/assets/img/idp/idp.jpg" alt="idp">
   </div>
 

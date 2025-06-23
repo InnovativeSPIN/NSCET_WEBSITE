@@ -79,6 +79,7 @@
             </div>
         </div>
     </div>
+    
 
     <div class="alerts_section">
         <button class="btn custom_dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
