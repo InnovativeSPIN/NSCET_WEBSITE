@@ -184,7 +184,7 @@ include('../resources/conn.php');
         <!--</div>-->
     </div>
 </section>
-<section class="mt-5 person_ombuds">
+<!-- <section class="mt-5 person_ombuds">
   <h2 class="title_text text-center">
   Ombudsperson   
   </h2>
@@ -198,9 +198,9 @@ include('../resources/conn.php');
                 <p class="name">Dr. A. Rajadurai - Professor</p>
            
                </div>
-</div>
+</div> 
   </div>
-</section>
+</section> -->
 
 
   <?php include('../resources/footer.php'); ?>

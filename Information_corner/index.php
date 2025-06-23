@@ -1,207 +1,82 @@
 <?php
-
 include('../resources/conn.php');
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Information Corner</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-
-  <!-- custom css -->
-  <link rel="stylesheet" href="../assets/css/resources/style.css">
-  <link rel="stylesheet" href="../assets/css/informationcorner/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
-
-  <!-- custom js -->
-  <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Corner</title>
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/resources/style.css">
+    <link rel="stylesheet" href="../assets/css/informationcorner/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+    <?php include('../resources/navbar.php'); ?>
 
-  <?php
-
-  include('../resources/navbar.php');
-
-
-  ?>
-<div id="main_section">
-<div class="navigate_section">
-  <ul>
-    <li class="navigate_item"><a href="#circular">Circular and Notices</a></li>
-    <li class="navigate_item"><a href="#announcements">Announcements</a></li>
-    <li class="navigate_item"><a href="#Newsletters">Newsletters</a></li>
-    <li class="navigate_item"><a href="#News_Recent_events">News & Recent events</a></li>
-    <li class="navigate_item"><a href="#Job_Openings">Reservation Roster</a></li>
-    <li class="navigate_item"><a href="#Reservation_Roster">Job Openings</a></li>
-  </ul>
-</div>
-
-<div class="main">
-
-
-<div id="Circular" class="content-section">
-    <h2 class="info-h2">Circular Page</h2>
-    <p class="info-p">Recent updates and circulars from all departments</p>
-
-    <div class="departments-container">
-        <div class="department">
-            <img src="../assets/img/information/annual.jpg" alt="CSE Department">
-            <p>Computer Science & Engineering (CSE)</p>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Information Corner</h1>
+        <div class="row g-4">
+            <!-- Circular and Notices Card -->
+            <div class="col-md-3">
+                <a href="circular.php" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <i class="fas fa-bullhorn fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Circular and Notices</h5>
+                            <p class="card-text">Recent updates and circulars from all departments.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Announcements Card -->
+            <div class="col-md-3">
+                <a href="announcements.php" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <i class="fas fa-bell fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Announcements</h5>
+                            <p class="card-text">Latest announcements from the institution.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Newsletters Card -->
+            <div class="col-md-3">
+                <a href="newsletters.php" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <i class="fas fa-newspaper fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Newsletters</h5>
+                            <p class="card-text">Recent newsletters and publications.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Job Openings Card -->
+            <div class="col-md-3">
+                <a href="job_openings.php" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <i class="fas fa-briefcase fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Job Openings</h5>
+                            <p class="card-text">Available job opportunities for 2024 and 2025.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="department">
-            <img src="../assets/img/information/bus.jpg" alt="ECE Department">
-            <p>Electronics & Communication Engineering (ECE)</p>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div id="Announcements" class="content-section">
-    <h2 class="info-h2">Announcements Page</h2>
-    <p class="info-p">Recent Announcements</p>
-
-    <div class="departments-container">
-        <div class="department">
-            <img src="../assets/img/information/Announcements.jpg" alt="CSE Department">
-            
-        </div>  
-        <div class="department">
-            <img src="../assets/img/information/Anno.jpg" alt="ECE Department">
-            
-        </div>
-    </div>
-</div>
-
-<div id="Newsletters" class="content-section">
-    <h2 class="info-h2">Newsletters Page</h2>
-    <p class="info-p">Recent Newsletters</p>
-
-    <div class="departments-container">
-        <div class="department">
-            <img src="../assets/img/information/muhilan.jpg" alt="CSE Department">
-            
-        </div>  
-        
-    </div>
-</div>
-
-
-
-
-<div id="Reservation Roster" class="content-section" >
-    <h2 class="info-h2">Reservation Roster </h2>
-    <p class="info-p">Recent Reservation Roster</p>
-
-    <div class="departments-container">
-        <div class="department">
-            <img src="../assets/img/information/muhilan.jpg" alt="CSE Department">
-            
-        </div>  
-        
-    </div>
-</div>
-
-
-<div id="Job Openings" class="content-section" >
-    <h2 class="info-h2">Job Openings </h2>
-    <p class="info-p">Recent Job Openings</p>
-
-    <div class="departments-container">
-        <div class="department">
-            <img src="../assets/img/information/job.png" alt="CSE Department">
-            
-        </div>  
-        
-    </div>
-</div>
-
-
     </div>
 
+    <?php include('../resources/footer.php'); ?>
 
-    </div>
-
-
-
-
-  <?php
-
-  include('../resources/footer.php');
-
-
-  ?>
-
-
-
-
-  <!-- custom js -->
-  <script src="../assets/js/resources/script.js"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-    
-    document.querySelectorAll(".content-section").forEach(section => {
-        section.style.display = "none";
-    });
-
-    function showSection(sectionId) {
-        document.querySelectorAll(".content-section").forEach(section => {
-            section.style.display = "none"; 
-        });
-        document.getElementById(sectionId).style.display = "block"; 
-    }
-
-    
-    showSection("Circular");
-
-  
-    document.querySelectorAll(".navigate_item a").forEach(item => {
-    item.addEventListener("click", function (event) {
-        event.preventDefault();
-        let target = this.textContent.trim();
-
-        switch (target) {
-            case "Circular and Notices":
-                showSection("Circular");
-                break;
-            case "Announcements":
-                showSection("Announcements");
-                break;
-            case "Newsletters":
-                showSection("Newsletters");
-                break;
-            case "News & Recent events":
-                showSection("News_Recent_events"); 
-                break;
-            case "Job Openings":
-                showSection("Job_Openings");
-                break;
-            case "Reservation Roster":
-                showSection("Reservation_Roster");
-                break;
-        }
-    });
-});
-
-    });
-</script>
-
+    <!-- Custom JS -->
+    <script defer src="../assets/js/resources/script.js"></script>
 </body>
-
 </html>
