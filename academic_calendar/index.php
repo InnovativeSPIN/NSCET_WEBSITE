@@ -20,7 +20,20 @@ include('../resources/conn.php');
 <link rel="stylesheet" href="../assets/css/resources/style.css">
 <link rel="stylesheet" href="../assets/css/academic_calendar/style.css">
 
+<style>
+  .calender ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  @media screen and (max-width:768px) {
+    .calender ul{
+    grid-template-columns: repeat(1,1fr);
 
+    }
+  }
+</style>
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
@@ -48,19 +61,20 @@ include('../resources/conn.php');
 <h2>Academic Calendars List</h2>
 
     <ul class="ml-5">
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2018-2019 Even Sem.doc">Academic Calendar 2018-2019 Even Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2019-2020 ODD Sem.doc">Academic Calendar 2019-2020 ODD Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2019-2020 Even Sem.doc">Academic Calendar 2019-2020 Even Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Acade Calendar 2021-2022.doc">Academic Calendar 2021-2022</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2021-2022 ODD Sem.doc">Academic Calendar 2021-2022 ODD Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 ODD Sem.doc">Academic Calendar 2022-2023 ODD Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 EVEN Sem.doc">Academic Calendar 2022-2023 Even Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 Full.doc">Academic Calendar 2022-2023 </a></li>
-  <li><a href="/assets/pdf/academic_calendars/Academic Calendar 23.docx">Academic Calendar 2023</a></li>
-  <li><a href="/assets/pdf/academic_calendars/2023-24 ODD SEM.pdf">Academic Calendar 2023-2024 ODD Sem</a></li>
-  <li><a href="/assets/pdf/academic_calendars/2023-24 EVEN SEM.pdf">Academic Calendar 2023-2024 Even Sem</a></li>
   <li><a href="/files/Academic Calendar 2024 -25.pdf">Academic Calendar 2024-2025</a></li>
+  <li><a href="/assets/pdf/academic_calendars/2023-24 EVEN SEM.pdf">Academic Calendar 2023-2024 Even Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/2023-24 ODD SEM.pdf">Academic Calendar 2023-2024 ODD Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Academic Calendar 23.docx">Academic Calendar 2023</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 Full.doc">Academic Calendar 2022-2023</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 EVEN Sem.doc">Academic Calendar 2022-2023 Even Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2022-2023 ODD Sem.doc">Academic Calendar 2022-2023 ODD Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2021-2022 ODD Sem.doc">Academic Calendar 2021-2022 ODD Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Acade Calendar 2021-2022.doc">Academic Calendar 2021-2022</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2019-2020 Even Sem.doc">Academic Calendar 2019-2020 Even Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2019-2020 ODD Sem.doc">Academic Calendar 2019-2020 ODD Sem</a></li>
+  <li><a href="/assets/pdf/academic_calendars/Aca Calendar 2018-2019 Even Sem.doc">Academic Calendar 2018-2019 Even Sem</a></li>
 </ul>
+
 
 
 </div>

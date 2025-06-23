@@ -85,9 +85,7 @@
   <tr>
     <td>One member from the Management</td>
     <td>
-      Mr. A. Rajkumar, Secretary <br>
-      Mr. A.S.R. Maheshwaran, Secretary <br>
-      Er. S. Naveen Ram, Joint Secretary
+     A.S.S.S.Soma Sundaram B.E. 
     </td>
   </tr>
   <tr>
@@ -96,15 +94,19 @@
   </tr>
   <tr>
     <td>Nominee from local society</td>
-    <td>Mr. T. Rajmohan, President</td>
+    <td>
+      
+   Mr. A. S. G. Dharmarajan, B.A
+
+    </td> 
   </tr>
-  <tr>
+  <!-- <tr>
     <td>Nominee from student</td>
     <td>
       Mr. N. Sivabalan - ECE <br>
       Ms. R. Prathiksha - Civil
     </td>
-  </tr>
+  </tr> -->
   <tr>
     <td>Nominee from Alumni</td>
     <td>
@@ -125,11 +127,11 @@
 
     <h2>IQAC Meeting Records</h2>
     <div class="meeting-links">
-      <a href="/assets/pdf/iqac/18.pdf">2018</a>
-      <a href="/assets/pdf/iqac/19.pdf">2019</a>
-      <a href="/assets/pdf/iqac/20.pdf">2020</a>
-      <a href="/assets/pdf/iqac/21.pdf">2021</a>
-      <a href="/assets/pdf/iqac/22.pdf">2022</a>
+      <a href="/assets/pdf/iqac/19.pdf">2019-2020</a>
+      <a href="/assets/pdf/iqac/20.pdf">2020-2021</a>
+      <a href="/assets/pdf/iqac/21.pdf">2021-2022</a>
+      <a href="/assets/pdf/iqac/22.pdf">2022-2023</a>
+      <a href="./IQAC Circular.pdf">2023-2024</a>
     </div>
   </div>
 

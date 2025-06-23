@@ -31,8 +31,9 @@ include('../resources/conn.php');
           <div class="card-container">
             <img src="../assets/img/administration/vasanth.jpg" alt="Mr. D. Vasanthakumar" width="180px" style="border-radius: 50%; margin-bottom: 15px;">
             <div class="card-content">
+               <p class="name" style="color: #6c757d; font-size: 1.1rem; font-weight: 500;">Mr. D. Vasanthakumar</p>
               <h3 style="color: #343a40; font-size: 1.5rem; font-weight: 600; margin-bottom: 10px;">MCA</h3>
-              <p class="name" style="color: #6c757d; font-size: 1.1rem; font-weight: 500;">Mr. D. Vasanthakumar</p>
+             
             </div>
           </div>
         </div>

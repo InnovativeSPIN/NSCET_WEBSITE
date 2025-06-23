@@ -2,41 +2,41 @@
 
 
 
-table {
+#mou table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-family: Arial, sans-serif;
 
 }
-th, td {
+#mou th, #mou td {
     border: 1px solid #000000;
     padding: 8px;
     text-align: left;
 }
-th {
+#mou th {
     background-color: #3cbdf0;
     font-weight: bold;
 }
-tr:nth-child(even) {
+#mou tr:nth-child(even) {
     background-color: #f5f5f5;
 }
-tr:hover {
+#mou tr:hover {
     background-color: #a5def5;
 }
-a {
+#mou a {
     color: #0066cc;
     text-decoration: none;
 }
-a:hover {
+#mou a:hover {
     text-decoration: underline;
 }
 @media screen and (max-width: 600px) {
-    table {
+    #mou table {
         font-size: 12px;
         overflow-x:scroll ;
     }
-    th, td {
+    #mou th, #mou td {
         padding: 5px;
     }
 }

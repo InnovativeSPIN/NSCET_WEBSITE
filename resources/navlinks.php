@@ -31,7 +31,7 @@
             <a class="dropdown-item" href="./administration/financeofficer.php">Finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
-            <a class="dropdown-item" href="../governing_counseling/index.php">GOVERNING COUNSELING</a>
+            <a class="dropdown-item"  href="./governing_counseling/">GOVERNING COUNSELING</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
             <a class="dropdown-item" href="./administration/leadership.php">Academic Leadership</a>
         </div>
@@ -78,6 +78,7 @@
             <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="./research/centre.php">research Centre</a>
             <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
+            
         </div>
     </div>
 
@@ -94,6 +95,8 @@
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
             <a class="dropdown-item" href="./academic_calendar/">Academic Calender</a>
+            <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances pertaining</a>
+            
             <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
             <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
             <!--<a class="dropdown-item" href="#">UGc ODL online Programs</a>-->

@@ -153,6 +153,7 @@ grid-template-columns: repeat(1,1fr);
 
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -376,7 +377,6 @@ grid-template-columns: repeat(1,1fr);
   });
 </script>
 
-  </script>
 
 </body>
 
