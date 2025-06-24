@@ -283,8 +283,8 @@ $colle_Name = "NSCET";
       <div class="subsection-card">
         <h4 style="font-size: 1.2rem; color: #333; margin-top: 0; text-align: center;">Governing Legislation</h4>
         <ul class="animated-list" style="font-size: 1rem; color: #555; line-height: 1.6; text-align: justify;">
-          <li style="--i: 1;"><a href="../assets/pdf/icc/POSH_Act_2013.pdf" target="_blank" style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act)</a></li>
-          <li style="--i: 2;"><a href="../assets/pdf/icc/UGC_Guidelines_2015.pdf" target="_blank" style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">UGC Regulations, 2015</a></li>
+          <li style="--i: 1;"><a href="../assets/pdf/icc/1THE SEXUAL HARASSMENT OF WOMEN AT WORKPLACE  Act 2013-Act no.14 of 2013.pdf" target="_blank" style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act)</a></li>
+          <li style="--i: 2;"><a href="../assets/pdf/icc/2UGC_guidelines on_Sexual-Haressment.pdf" target="_blank" style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">UGC Regulations, 2015</a></li>
         </ul>
       </div>
       <div class="subsection-card">
@@ -330,7 +330,7 @@ $colle_Name = "NSCET";
           <h4 style="font-size: 1.2rem; color: #333; margin-top: 0; text-align: center;">Reporting Mechanisms</h4>
           <ul class="animated-list" style="font-size: 1rem; color: #555; line-height: 1.6; text-align: justify;">
             <li style="--i: 1;"><a href="../helpdesk/" style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">Online Complaint Form</a></li>
-            <li style="--i: 2;"><a href="../assets/pdf/icc/ICC_Offline_Complaint_Form.pdf" download style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">Downloadable Complaint Form (PDF)</a></li>
+            <li style="--i: 2;"><a href="../assets/pdf/icc/complain form.pdf" download style="color: #007bff; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">Downloadable Complaint Form (PDF)</a></li>
             <li style="--i: 3;">Physical Drop Box: Located at various places inside our college</li>
             <li style="--i: 4;">ICC Email: <span data-email="icc@nscet.org" style="color: #007bff; text-decoration: none; cursor: pointer; transition: color 0.3s;" onmouseover="this.style.color='#0056b3';" onmouseout="this.style.color='#007bff';">icc@nscet.org</span></li>
           </ul>
@@ -385,7 +385,7 @@ $colle_Name = "NSCET";
       <p style="font-size: 1rem; color: #555; line-height: 1.6; text-align: justify;">Submit your grievance through the following channels:</p>
       <div style="text-align: center;">
         <a href="../helpdesk/" style="display: inline-block; padding: 12px 20px; background: linear-gradient(135deg, #007bff, #0056b3); color: white; text-decoration: none; border-radius: 5px; margin: 10px; font-weight: bold; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='none'; this.style.transform='translateY(0)';">Submit Online Complaint</a>
-        <a href="../assets/pdf/icc/ICC_Offline_Complaint_Form.pdf" download style="display: inline-block; padding: 12px 20px; background: linear-gradient(135deg, #6c757d, #5a6268); color: white; text-decoration: none; border-radius: 5px; margin: 10px; font-weight: bold; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='none'; this.style.transform='translateY(0)';">Download Offline Complaint Form</a>
+        <a href="../assets/pdf/icc/complain form.pdf" download style="display: inline-block; padding: 12px 20px; background: linear-gradient(135deg, #6c757d, #5a6268); color: white; text-decoration: none; border-radius: 5px; margin: 10px; font-weight: bold; transition: all 0.3s;" onmouseover="this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='none'; this.style.transform='translateY(0)';">Download Offline Complaint Form</a>
       </div>
     </section>
   </main>

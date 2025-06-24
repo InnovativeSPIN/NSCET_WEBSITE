@@ -83,7 +83,7 @@ include('../resources/conn.php');
       </div>
       <div class="col-md-8">
         <div class="financial-content" style="background-color: #f8f9fa; padding: 20px; border-radius: 8px;">
-          <h4 style="color: #343a40; font-size: 1.25rem; font-weight: 600; margin-bottom: 15px;">Rules and Regulations</h4>
+          <h4 style="color: #343a40; font-size: 1.25rem; font-weight: 600; margin-bottom: 15px;">The Financial Officer shall be responsible for:</h4>
           <p style="color: #343a40; font-size: 1rem; line-height: 1.6; margin-bottom: 15px;">
             The Financial Officer shall be responsible for:
           </p>
