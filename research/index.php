@@ -68,6 +68,44 @@ include('../resources/conn.php');
     .research-statistics td {
  color: #121212;
     }
+
+    .research-statistics {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+
+            .section {
+                flex: 1 1 30%;
+                text-align: center;
+                padding: 15px;
+                background: #f9f9f9;
+                border-radius: 5px;
+            }
+
+            .section img {
+                max-width: 100%;
+                height: auto;
+                margin-top: 10px;
+            }
+
+            .section figcaption {
+                font-size: 0.9em;
+                color: #555;
+                margin-top: 5px;
+            }
+.main-columns{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+            @media screen  and (max-width:768px){
+                .section img{
+                    width: 280px;
+                }
+            }
 </style>
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
@@ -75,8 +113,8 @@ include('../resources/conn.php');
 <body>
 
 <?php include('../resources/navbar.php');?>
-
-<section class="hero-section" style="background: url('images/events/pongal25/pongal3.webp') no-repeat center/cover;">
+<div class="main-columns">
+<section class="hero-section" style="background: url('/research/files/herosection.JPG') no-repeat center/cover;">
 <h1>Mechanical Engineering Department</h1>
 <p>Recognized Research Centre by Anna University, Chennai</p>
 </section>
@@ -111,80 +149,31 @@ include('../resources/conn.php');
         </section>
 
         <section class="research-statistics">
-             <div class="section">
-    <h2>Journal Publications (Total: 232)</h2>
-    <img src="/research/files/journal.jpg" alt="Journal Count">
-    <table>
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Publications</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>2014–15</td><td>15</td></tr>
-        <tr><td>2015–16</td><td>27</td></tr>
-        <tr><td>2016–17</td><td>11</td></tr>
-        <tr><td>2017–18</td><td>11</td></tr>
-        <tr><td>2018–19</td><td>26</td></tr>
-        <tr><td>2019–20</td><td>22</td></tr>
-        <tr><td>2020–21</td><td>14</td></tr>
-        <tr><td>2021–22</td><td>38</td></tr>
-        <tr><td>2022–23</td><td>20</td></tr>
-        <tr><td>2023–24</td><td>32</td></tr>
-        <tr><td>2024–25</td><td>16</td></tr>
-      </tbody>
-    </table>
-  </div>
+            <div class="section">
+                <h2>Journal Publications</h2>
+                <figure>
+                    <img src="/research/files/journal.jpg" alt="Journal Publications">
+                    <figcaption>Total: 232</figcaption>
+                </figure>
+            </div>
 
-  <!-- Patent Count Section -->
-  <div class="section">
-    <h2>Patent Count (Total: 28)</h2>
-    <img src="/research/files/patent.jpg" alt="Patent Count">
-    <table>
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Patents</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>2014–15</td><td>0</td></tr>
-        <tr><td>2015–16</td><td>0</td></tr>
-        <tr><td>2016–17</td><td>1</td></tr>
-        <tr><td>2017–18</td><td>1</td></tr>
-        <tr><td>2018–19</td><td>1</td></tr>
-        <tr><td>2019–20</td><td>1</td></tr>
-        <tr><td>2020–21</td><td>5</td></tr>
-        <tr><td>2021–22</td><td>8</td></tr>
-        <tr><td>2022–23</td><td>1</td></tr>
-        <tr><td>2023–24</td><td>2</td></tr>
-        <tr><td>2024–25</td><td>8</td></tr>
-      </tbody>
-    </table>
-  </div>
+            <div class="section">
+                <h2>Patent Count</h2>
+                <figure>
+                    <img src="/research/files/patent.jpg" alt="Patent Count">
+                    <figcaption>Total: 28</figcaption>
+                </figure>
+            </div>
 
-  <!-- Ph.D. Statistics Section -->
-  <div class="section">
-    <h2>Ph.D. Statistics - Teaching Staff</h2>
-    <img src="/research/files/phd.jpg" alt="Ph.D. Stats">
-    <table>
-      <thead>
-        <tr>
-          <th>Qualification</th>
-          <th>Count</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Ph.D. Completed</td><td>18</td></tr>
-        <tr><td>Ph.D. Pursuing</td><td>28</td></tr>
-        <tr><td>M.E., M.Sc., & Other</td><td>47</td></tr>
-      </tbody>
-    </table>
-  </div>
+            <div class="section">
+                <h2>Ph.D. Statistics - Teaching Staff</h2>
+                <figure>
+                    <img src="/research/files/phd.jpg" alt="Ph.D. Statistics">
+                    <figcaption>Ph.D. Statistics for Teaching Staff</figcaption>
+                </figure>
+            </div>
         </section>
-
-        <section class="faculty">
+        <!-- <section class="faculty">
             <h2>Faculty and Specializations</h2>
             <ul>
                 <li>Highly qualified faculty specializing in areas like thermal engineering, industrial engineering, material science, design, and manufacturing.</li>
@@ -227,43 +216,12 @@ include('../resources/conn.php');
                 <p>Professor</p>
                 <p>AU Supervisor Ref. Number: 3720001</p>
             </div>
-        </section>
+        </section> -->
 
-        <section class="publications">
-            <h2>Publications</h2>
-            <p><strong>Science Citation Indexed & Scopus Indexed:</strong></p>
-            <div class="publication">
-                <p>C. Mathalai Sundaram et al., "Studies on the catalytic activity of CuO/TiO2/ZnO ternary nanocomposites prepared via one step hydrothermal green approach." <em>Materials Research Express</em>, (2019).</p>
-            </div>
-            <div class="publication">
-                <p>Paper accepted in <em>HEMIJSKA INDUSTRIJA</em>. "Surface Modification Method of Duplex Types Stainless Steels by Pack Boriding Process to Reduce Catastrophic Failure of Industrial Components" (2021). Science Citation Index (SCI)</p>
-            </div>
-            <div class="publication">
-                <p>C. Mathalai Sundaram, Balan, K.N., Arunkumar, T., Ganesan, S. and Rameshbabu, A., 2019. "Emission study on the outcome of DMC on neem bio-diesel-ignited diesel engine." <em>Energy Sources, Part A: Recovery, Utilization, and Environmental Effects</em>, pp.1-10.</p>
-            </div>
-            <div class="publication">
-                <p>Radha Krishnan Beemaraj, Mathalai Sundaram Chandra Sekar, and Venkatraman Vijayan. "Computer vision measurement and optimization of surface roughness using soft computing approaches." <em>Transactions of the Institute of Measurement and Control</em>, (2020).</p>
-            </div>
-            <div class="publication">
-                <p>Parthiban, A., A. Mohana Krishnan, B. Radha Krishnan, and V. Vijayan. "Experimental Investigation of Mechanical and Wear Properties of AL7075/Al 2 O 3/MICA Hybrid Composite." <em>Journal of Inorganic and Organometallic Polymers and Materials</em> (2020): 1-9.</p>
-            </div>
-            <div class="publication">
-                <p>Radha Krishnan, B., Vijayan, V., Parameshwaran Pillai, T. and Sathish, T., 2019. "Influence of surface roughness in turning process—an analysis using artificial neural network." <em>Transactions of the Canadian Society for Mechanical Engineering</em>, 43(4), pp.509-514.</p>
-            </div>
-            <div class="publication">
-                <p>Dr. Radha Krishnan B, Harikishore S, and V. Vijayan. "Wear Behavior of B4C reinforced Al6063 matrix composites electrode fabricated by stir casting method" (2020). <em>Transactions of the Canadian Society for Mechanical Engineering</em> DOI: 10.1139/tcsme-2019-0294</p>
-            </div>
-            <div class="publication">
-                <p>Radha Krishnan B, Mathalai Sundaram C, and V. Vijayan. "Experimental Investigation And Parameter Analysis of Solar Still with the Different Wick Materials" (2021). <em>Iranian Journal of Chemistry and Chemical Engineering</em>. DOI: 10.30492/IJCCE.2021.120944.3951</p>
-            </div>
-            <div class="publication">
-                <p>B. Radha Krishnan., V. Vijayan, and G. Senthilkumar. "Performance analysis of surface roughness modelling using soft computing approaches." <em>Applied Mathematics and Information Sci</em> 12, no. 6 (2018): 1209-1217. (Web of Science)</p>
-            </div>
-        </section>
     </main>
    
 </div>
-
+</div>
 
 <?php include('../resources/footer.php'); ?>
 

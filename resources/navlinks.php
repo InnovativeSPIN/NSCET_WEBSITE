@@ -78,7 +78,7 @@
             <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="./research/centre.php">research Centre</a>
             <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
-            <a class="dropdown-item" href="./mou/">Academic Collaboration</a>
+            <a class="dropdown-item" href="./mou/">Industry Collaboration</a>
 
         </div>
     </div>
@@ -121,6 +121,8 @@
             <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
             <a class="dropdown-item" href="./iqac/">IQAC</a>
             <a class="dropdown-item" href="./library/">Library</a>
+                        <a class="dropdown-item" href="./mou/">Industry Collaboration</a>
+
         </div>
     </div>
 </li>
