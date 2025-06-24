@@ -96,6 +96,24 @@ include('../resources/conn.php');
         line-height: 1.8;
         font-size: 1em;
     }
+    .images{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-top:2rem;
+      gap: 2rem;
+
+    }
+    .images img{
+      width: 280px;
+      height:280px;
+      object-fit: cover;
+    }
+    @media screen and (max-width:768px){
+     .images{ 
+      grid-template-columns: repeat(1,1fr);
+    }
+
+    }
 </style>
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
@@ -144,6 +162,12 @@ include('../resources/conn.php');
     <li><strong>Dr. C. MathalaiSundaram:</strong> "Automation in Portable Oil Seal Assembly Machine", Patent No. 2017/123456.</li>
     <li><strong>Dr. B. Radha Krishnan:</strong> "Movable Staircase and Lifting Setup in Vehicle", Patent No. 2023/654321.</li>
   </ul>
+
+  <div class="images">
+    <img src="/research/img/img_1.JPG" alt="">
+    <img src="/research/img/img_2.JPG" alt="">
+    <img src="/research/img/img_3.JPG" alt="">
+  </div>
 
 </div>
 

@@ -56,18 +56,20 @@ include('../resources/conn.php');
           <div class="card">
             <div class="card-container">
               <img src="../assets/img/administration/Dharmarajan.jpeg" alt="A. S. G. Dharmarajan, B.A">
-                 <div class="card-content">
+                 <div class="card-content text-center text-center">
+                    <p class='name'>Mr. A. S. G. Dharmarajan, B.A</p>
                  <h3>President</h3>
-              <p class='name'>Mr. A. S. G. Dharmarajan, B.A</p>
+            
                  </div>
             </div>
           </div>
           <div class="card">
             <div class="card-container">
               <img src="../assets/img/administration/AS Jeevagan sir - Vice President.jpg" alt="Mr. P.P. Ganesh">
-             <div class="card-content">
+             <div class="card-content text-center">
+                <p class='name'>Mr. A. S. Jeevagan</p>
              <h3>Vice President</h3>
-              <p class='name'>Mr. A. S. Jeevagan</p>
+            
             
              </div>
             </div>
@@ -75,9 +77,10 @@ include('../resources/conn.php');
           <div class="card">
             <div class="card-container">
               <img src="../assets/img/administration/General Secretary-M.M.Anandhavel.jpg" alt="Mr. M.M. Anandhavel">
-              <div class="card-content">
+              <div class="card-content text-center">
+                      <p class='name'>Mr. M.M. Anandhavel,M.B.A</p>
               <h3>General Secretary</h3>
-              <p class='name'>Mr. M.M. Anandhavel,M.B.A</p>
+        
            
               </div>
             </div>
@@ -85,11 +88,9 @@ include('../resources/conn.php');
           <div class="card">
             <div class="card-container">
               <img src="../assets/img/administration/Ramachandran - Treasurer.jpg" alt="Mr. Palaniappan">
-            <div class="card-content">
-            <h3>Treasurer</h3>
-              <p class='name'>Mr. B. Ramachandran,M.B.A</p>
-
-              <p class='name'></p>
+            <div class="card-content text-center">
+                            <p class='name'>Mr. B. Ramachandran,M.B.A</p>
+            <h3>Treasurer</h3> 
           
             </div>
             </div>
@@ -152,11 +153,11 @@ include('../resources/conn.php');
 <section class="prominent-personalities mt-5">
     <h2 class="heading title_text text-center">Prominent Personalities of NSCET</h2>
     <div class="container">
-        <div class="card-grid">
+        <div class="card-grid-sec ">
             <div class="card">
                 <div class="card-container">
                     <img src="../assets/img/administration/SomaSundaram.jpeg" alt="Mr. A. Rajkumar">
-                   <div class="card-content">
+                   <div class="card-content text-center">
                    <h3>Secretary</h3>
                     <p class="name">A.S.S.S.Soma Sundaram B.E.</p>
                
@@ -166,7 +167,7 @@ include('../resources/conn.php');
         <!--    <div class="card">-->
         <!--        <div class="card-container">-->
         <!--            <img src="../assets/img/administration/secretary-A.S.R. Maheswaran.jpg" alt="Mr. A.S.R. Maheswaran">-->
-        <!--            <div class="card-content">-->
+        <!--            <div class="card-content text-center">-->
         <!--            <h3>Secretary</h3>-->
         <!--            <p class="name">Mr. A.S.R. Maheswaran, B.Sc.</p>-->
               
@@ -176,7 +177,7 @@ include('../resources/conn.php');
         <!--    <div class="card">-->
         <!--        <div class="card-container">-->
         <!--            <img src="../assets/img/administration/jointsecretary-naveenram.jpg" alt="Er. S. Naveen Ram">-->
-        <!--           <div class="card-content">-->
+        <!--           <div class="card-content text-center">-->
         <!--           <h3>Joint Secretary</h3>-->
         <!--            <p class="name">Er. S. Naveen Ram, B.E., MBA</p>-->
                
@@ -195,7 +196,7 @@ include('../resources/conn.php');
   
 <img src="../assets/img/administration/Rajadurai .png" alt="" width="180px">
 
-<div class="card-content">  
+<div class="card-content text-center">  
                <h3>Ombudsperson</h3>
                 <p class="name">Dr. A. Rajadurai - Professor</p>
            

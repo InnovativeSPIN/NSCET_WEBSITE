@@ -43,7 +43,7 @@ include('../../resources/conn.php');
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Incharge</th>
+                            <th>Warden</th>
                         </tr>
                     </thead>
                     <tbody>

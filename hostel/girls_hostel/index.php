@@ -46,18 +46,7 @@ include('../../resources/conn.php');
 
             <!-- Hostel Management Table -->
             <div class="table-responsive ">
-                <table class="table ">
-                    <thead>
-                        <tr>
-                            <th>Incharge</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>J. Preetha (M.Sc., M.Phil., M.Ed., PGDCA)</td>
-                        </tr>
-                    </tbody>
-                </table>
+               
 
                 <table class="table ">
                     <thead>
@@ -70,17 +59,18 @@ include('../../resources/conn.php');
                             <td>Mrs. R. Uma (Ph.D)</td>
                         </tr>
                     </tbody>
-
+ <table class="table ">
                     <thead>
                         <tr>
-                            <th>Deputy Warden</th>
+                            <th>Incharge</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Dr. T. Deborah Paripuranam (M.Sc., M.Ed., Ph.D)</td>
+                            <td>J. Preetha (M.Sc., M.Phil., M.Ed., PGDCA)</td>
                         </tr>
                     </tbody>
+                </table>
                 </table>
             </div>
         </div>

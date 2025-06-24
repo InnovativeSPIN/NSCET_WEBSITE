@@ -134,6 +134,11 @@ gap: 2rem;
 .awards-list li {
   scroll-snap-align: start;
 }
+.awards-list li img{
+  width: 280px;
+  height: 300px;
+  object-fit: cover;
+}
 
 @media screen  and (max-width:768px){
   .awards-list {
@@ -202,13 +207,47 @@ grid-template-columns: repeat(1,1fr);
       <section class="awards-section content-main">
   <h2>Achievements & Awards</h2>
   <ul class="awards-list">
-    <li><span class="year">2022</span> CAPTAIN TV Best College Award</li>
-    <li><span class="year">2021</span> Best College Award</li>
-    <li><span class="year">2019</span> Best Engineering College Award</li>
-    <li><span class="year">2019</span> Intellectual Property Awards</li>
-    <li><span class="year">2018</span> Best Engineering College Award</li>
+    <li><span class="year">2022</span> <span>
+      CAPTAIN TV Best College Award
+    </span>
+  <span>
+    <img src="/about/img/CAPTAINTV.png" alt="">
+  </span></li>
+    <li><span class="year">2021</span>
+  <span>
+     Best College Award
+  </span>
+<span>
+   <img src="/about/img/BESTCOLLEGE.png" alt="">
+</span></li>
+    <li><span class="year">2019</span> <span>
+      Best Engineering College Award
+    </span>
+    <span>
+       <img src="/about/img/BESTCOLLEGE2019.png" alt="">
+    </span>
+  </li>
+    <li><span class="year">2019</span> <span>
+      Intellectual Property Awards
+    </span>
+  <span>
+    <img src="/about/img/IntellectualProperty.png" alt="">
+  </span></li>
+    <li><span class="year">2018</span> <span>
+      Best Engineering College Award
+    </span>
+    <span>
+      <img src="/about/img/BESTENGINEERING2018.png" alt="">
+    </span>
+  </li>
     
-    <li><span class="year">2016</span> Best Educational Institution Award</li>
+    <li><span class="year">2016</span> <span>
+      Best Educational Institution Award
+    </span>
+  <span>
+    <img src="/about/img/y2016.png" alt="">
+  </span>
+  </li>
   
   </ul>
 </section>

@@ -80,6 +80,10 @@
         </div>
     </div>
     
+    <div id="search-main_box">
+    <input id="searchBox" type="text" placeholder="Search NSCET..." />
+    <ul id="results"></ul>
+    </div>
 
     <div class="alerts_section">
         <button class="btn custom_dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"

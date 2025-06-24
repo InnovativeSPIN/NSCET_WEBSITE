@@ -21,6 +21,85 @@ include('../resources/conn.php');
 <link rel="stylesheet" href="../assets/css/alumni/style.css">
 
 
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<style>
+    #gallerry {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+  width:768px;
+
+}
+
+.alumni-swiper-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.03);
+}
+
+.swiper-slide img { 
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1e3a8a;
+  font-size: 20px;
+}
+
+/* Pagination Dots */
+.swiper-pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #1e3a8a;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.swiper-slide img{
+width: 880px;
+height: 880px;
+}
+
+
+
+</style>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
@@ -42,6 +121,7 @@ include('../resources/conn.php');
             <li><a href="#office_bearers" onclick="showSection('office_bearers')"><i class="fas fa-user-graduate"></i>OFFICE BEARERS</a></li>
             <li><a href="#alumni_meets" onclick="showSection('alumni_meets')"><i class="fas fa-users"></i>Alumni Meets</a></li>
             <li><a href="#distinguished" onclick="showSection('distinguished')"><i class="fas fa-star"></i>Distinguished Alumni</a></li>
+            <li><a href="#distinguished" onclick="showSection('gallerry')"><i class="fas fa-star"></i>Gallery</a></li>
         </ul>
   </div>
 <!-- side contents -->
@@ -248,9 +328,40 @@ Alumni Meets
 
 </div>
 
+
+
 <div id="distinguished" class="content-section" >
   <img src="../assets/img/alumni/Distinguished_Alumni.jpg" alt="">
 </div>
+
+
+
+<div id="gallerry" class="main_shadows content-section">
+
+
+<section class="alumni-swiper-section">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/alumni/img/img1.jpg" alt="Alumni 1" /></div>
+      <div class="swiper-slide"><img src="/alumni/img/img2.png" alt="Alumni 2" /></div>
+      <div class="swiper-slide"><img src="/alumni/img/img3.jpg" alt="Alumni 3" /></div>
+      <div class="swiper-slide"><img src="/alumni/img/img4.png" alt="Alumni 4" /></div>
+      <!-- Add more images as needed -->
+    </div>
+
+    <!-- Optional Navigation Buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- Optional Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+</div>
+
+
 
 </div>
 
@@ -274,5 +385,34 @@ Alumni Meets
       document.getElementById(sectionId).style.display = 'block';
     }
   </script>
+  <script>
+ 
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 1,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 1,
+      },
+    },
+  });
+</script>
+
 </body>
 </html>

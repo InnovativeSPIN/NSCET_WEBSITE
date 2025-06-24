@@ -31,7 +31,7 @@
             <a class="dropdown-item" href="./administration/financeofficer.php">Finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
-            <a class="dropdown-item" href="./governing_counseling/">GOVERNING COUNSELING</a>
+            <a class="dropdown-item" href="./governing_counseling/">governing council</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
             <a class="dropdown-item" href="./administration/leadership.php">Academic Leadership</a>
         </div>
@@ -39,7 +39,52 @@
 
 </li>
 
-<!-- <li>
+
+
+
+<li>
+    <div class="dropdown">
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+        </button>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
+            <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
+            <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
+         
+            <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
+            <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
+            <a class="dropdown-item" href="./iqac/">IQAC</a>
+            <a class="dropdown-item" href="./library/">Library</a>
+            <a class="dropdown-item" href="./mou/">Industry Collaboration</a>
+
+        </div>
+    </div>
+</li>
+
+
+
+
+<li>
+
+    <div class="dropdown">
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Admissions & Fee
+        </button>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./admission/#overview">Admission details</a>
+            <a class="dropdown-item" href="./admission/#prospectus">Prospectus</a>
+            <a class="dropdown-item" href="./admission/#process">Admission process</a>
+            <a class="dropdown-item" href="./admission/#form">Enquiry Form</a>
+            <a class="dropdown-item" href="./admission/refund_policy.php">Refund Policy</a>
+
+        </div>
+    </div>
+</li>
+
+<li>
 
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
@@ -64,8 +109,7 @@
         </div>
     </div>
 
-</li> -->
-
+</li>
 <li>
 
     <div class="dropdown">
@@ -74,8 +118,9 @@
             Research
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="./research">research statistics</a>
-            <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
+          
             <a class="dropdown-item" href="./research/centre.php">research Centre</a>
             <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
             <a class="dropdown-item" href="./mou/">Industry Collaboration</a>
@@ -85,58 +130,16 @@
 
 </li>
 
-
 <li>
     <div class="dropdown">
-        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Academics
-        </button>
-        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
-            <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
-            <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
-
-            
-
-            <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
-            <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
-            <a class="dropdown-item" href="./iqac/">IQAC</a>
-            <a class="dropdown-item" href="./library/">Library</a>
-                        <a class="dropdown-item" href="./mou/">Industry Collaboration</a>
-
-        </div>
-    </div>
-</li>
-
-
-<li>
-
-    <div class="dropdown">
-        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Admissions & Fee
-        </button>
-        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./admission/#overview">Admission details</a>
-            <a class="dropdown-item" href="./admission/#prospectus">Prospectus</a>
-            <a class="dropdown-item" href="./admission/#process">Admission process</a>
-            <a class="dropdown-item" href="./admission/#form">Enquiry Form</a>
-            <a class="dropdown-item" href="./admission/refund_policy.php">Refund Policy</a>
-
-        </div>
-    </div>
-</li>
-
-<li>
-     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             E - Learning
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="./e-learning/infosys_springboard.php">infosys springboard</a>
-            <a class="dropdown-item" href="./admission/#prospectus">Prospectus</a>
+            <a class="dropdown-item" href="./e-learning/nptel.php">NPTEl</a>
+
         </div>
     </div>
 </li>
@@ -189,7 +192,7 @@
             <a class="dropdown-item" href="./sgrc/">SGRC</a>
             <a class="dropdown-item" href="./anti_ragging/">Anti-Ragging Cell</a>
             <a class="dropdown-item" href="#">EO cell</a>
-            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">ICC</a>
+         
             <!-- <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
 
@@ -199,6 +202,7 @@
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
             <a class="dropdown-item" href="./transport/">Transport Facilities</a>
+            <a class="dropdown-item" href="./sedg/">SEDG</a>
 
         </div>
     </div>
@@ -208,13 +212,32 @@
 <li>
     <button class="btn custom_dropdown dropdown"
         aria-haspopup="true" aria-expanded="false">
-        <a href="./gallery/" class="text-decoration-none" >
-            Gallery
+        <a href="./alumni" class="text-decoration-none">
+            Alumni
         </a>
-        </button>
+    </button>
 
 </li>
 
+<li>
+    <button class="btn custom_dropdown dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <a href="./gallery/" class="text-decoration-none">
+            Gallery
+        </a>
+    </button>
+
+</li>
+
+<li>
+    <button class="btn custom_dropdown dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <a href="/contact/" class="text-decoration-none">
+            contacts
+        </a>
+    </button>
+
+</li>
 <li>
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
@@ -224,7 +247,7 @@
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
 
             <a href="./files/edc_cell.pdf" class="dropdown-item">EDC</a>
-            <a href="./alumni/" class="dropdown-item">Alumni</a>
+         
             <a href="./clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="./NIRF/" class="dropdown-item">NIRF</a>
             <a href="./assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
@@ -234,27 +257,30 @@
             <a class="dropdown-item" href="./ampse25">AMPSE25 </a>
             <a class="dropdown-item" href="./icams2k25/">ICAMS 2K25</a>
 
-
         </div>
     </div>
 </li>
 
 
-<!-- <li style="position: relative; list-style: none;">
-    <input id="searchBox" type="text" placeholder="Search NSCET..." />
-    <ul id="results"></ul>
-</li> -->
+
 
 <style>
     #searchBox {
-        width: 50%;
-        padding: 12px 15px;
+        width: 100%;
+        padding: 5px 8px;
         font-size: 16px;
         border: 2px solid #004085;
         border-radius: 8px;
         box-sizing: border-box;
         font-family: 'Segoe UI', sans-serif;
         outline: none;
+        
+    }
+    #search-main_box{
+position: absolute;
+z-index: 1;
+right:10.7%;
+top: 85%;
     }
 
     #searchBox:focus {
@@ -268,8 +294,7 @@
         top: 110%;
         left: 0;
         right: 0;
-        background-color: #ffffff;
-        border: 1px solid #dee2e6;
+        
         border-radius: 0 0 8px 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         max-height: 250px;
@@ -294,7 +319,8 @@
     #results li:last-child {
         border-bottom: none;
     }
-    title{
+
+    title {
         text-transform: uppercase;
     }
 
@@ -310,7 +336,8 @@
 
     #results a:hover {
         color: #0056b3;
-    }
+    } 
+    
 </style>
 
 <script>
