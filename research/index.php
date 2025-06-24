@@ -113,40 +113,9 @@ include('../resources/conn.php');
 <body>
 
 <?php include('../resources/navbar.php');?>
-<div class="main-columns">
-<section class="hero-section" style="background: url('/research/files/herosection.JPG') no-repeat center/cover;">
-<h1>Mechanical Engineering Department</h1>
-<p>Recognized Research Centre by Anna University, Chennai</p>
-</section>
 
-<div class="main_contents">
-    <!-- <aside>
-    <nav class="side-nav">
-    <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#vision-mission">Vision & Mission</a></li>
-        <li><a href="#faculty">Faculty and Specializations</a></li>
-        <li><a href="#student-development">Student Development</a></li>
-        <li><a href="#facilities">Facilities & Learning Environment</a></li>
-        <li><a href="#supervisors">Approved Supervisors</a></li>
-        <li><a href="#publications">Publications</a></li>
-    </ul>
-</nav>
-    </aside>
-     -->
 <main>
-        <section class="overview">
-            <h2>Overview</h2>
-            <p>The Mechanical Engineering Department has been recognized as the first Research Centre in Mechanical Engineering in Theni District Engineering Colleges by Anna University, Chennai, since November 2016. Established in the academic year 2010-2011, the department introduced the M.E. (Manufacturing Engineering) program in 2014-2015. The department plays a key role in developing an "Engineering Science"-based curriculum that equips students with a blend of practical skills and theoretical knowledge.</p>
-        </section>
-
-        <section class="vision-mission">
-            <h2>Vision & Mission</h2>
-            <h3>Vision</h3>
-            <p>To become an advanced center of research, producing innovative solutions and skilled doctorates in Mechanical Engineering.</p>
-            <h3>Mission</h3>
-            <p>We partner with the research community to foster high achievement, ethical conduct, and enhance grant management capabilities.</p>
-        </section>
+       
 
         <section class="research-statistics">
             <div class="section">

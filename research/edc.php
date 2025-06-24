@@ -139,7 +139,7 @@ include('../resources/conn.php');
 
         <section id="documents">    
             <h2>Document Archives</h2>
-            <p>Click on a year below to view the corresponding IIC document:</p>
+            <p>Click on a year below to view the corresponding IIC Ranking document:</p>
             <ul>
                 <li><a href="/research/documents/IIC_Appreciation_Letter_AY_2023_24.pdf" target="_blank">2023-24</a></li>
                 <li><a href="/research/documents/RatingCertificate_2019-20.pdf" target="_blank">2019-20</a></li>

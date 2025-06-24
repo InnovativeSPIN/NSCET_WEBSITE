@@ -39,7 +39,7 @@
 
 </li>
 
-<li>
+<!-- <li>
 
     <div class="dropdown">
         <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
@@ -64,7 +64,7 @@
         </div>
     </div>
 
-</li>
+</li> -->
 
 <li>
 
@@ -88,7 +88,7 @@
 
 <li>
     <div class="dropdown">
-        <button class="btn custom_dropdown dropdown-toggle" type="button" id="dropdownMenuButton"
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Academics
         </button>
@@ -97,25 +97,7 @@
             <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
             <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
 
-            <!-- Nested Dropdown using dropright -->
-            <div class="dropdown dropright">
-                <a class="dropdown-item dropdown-toggle" href="#" id="departmentDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Department
-                </a>
-                <div class="dropdown-menu" aria-labelledby="departmentDropdown">
-                    <a class="dropdown-item" href="./department/?dept=cse">Computer Science & Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=civil">Civil Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=ece">Electronics & Communication Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=eee">Electrical and Electronics Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=mech">Mechanical Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=ai-and-ds">Artificial Intelligence & Data Science</a>
-                    <a class="dropdown-item" href="./department/?dept=it">Information Technology</a>
-                    <a class="dropdown-item" href="./department/?dept=s-and-h">Science and Humanities</a>
-                    <a class="dropdown-item" href="./department/?dept=se">Structural Engineering</a>
-                    <a class="dropdown-item" href="./department/?dept=mfe">Manufacturing Engineering</a>
-                </div>
-            </div>
+            
 
             <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
             <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
@@ -146,6 +128,18 @@
     </div>
 </li>
 
+<li>
+     <div class="dropdown">
+        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            E - Learning
+        </button>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./e-learning/infosys_springboard.php">infosys springboard</a>
+            <a class="dropdown-item" href="./admission/#prospectus">Prospectus</a>
+        </div>
+    </div>
+</li>
 
 
 <!--<li>-->
@@ -299,6 +293,9 @@
 
     #results li:last-child {
         border-bottom: none;
+    }
+    title{
+        text-transform: uppercase;
     }
 
     #results li:hover {
