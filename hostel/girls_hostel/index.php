@@ -11,7 +11,7 @@ include('../../resources/conn.php');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | <?php echo $colle_Name; ?></title>
+  <title>Girls Hostel | <?php echo $colle_Name; ?></title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
@@ -88,7 +88,8 @@ include('../../resources/conn.php');
 
     <!-- Facilities Section -->
         <div class="facilities">
-            <h3>Facilities</h3>
+          <div>
+              <h3>Facilities</h3>
             <ul>
                 <li>Well-equipped gym with modern exercise machines and weights.</li>
                 <li>Common room with a TV, comfortable seating, and entertainment options.</li>
@@ -96,6 +97,55 @@ include('../../resources/conn.php');
                 <li>Mess with a variety of nutritious meals served at convenient timings.</li>
                 <li>Security with CCTV cameras and a hostel warden available 24/7.</li>
             </ul>
+          </div>
+          <div>
+            
+<div class="container mt-5">
+ <h3 class="mb-4">Strength</h3>
+  <table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th>DESCRIPTION</th>
+        <th>QUANTITY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Total Rooms</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Number of Blocks</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td>Number of Students in a Room</td>
+        <td>03</td>
+      </tr>
+      <tr>
+        <td>Sick Rooms</td>
+        <td>01</td>
+      </tr>
+      <tr>
+        <td>Toilets in Hostel</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>Bathrooms in Hostel</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>Study Room</td>
+        <td>02</td>
+      </tr>
+      <tr>
+        <td>Total Number of Students</td>
+        <td>29</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+          </div>
         </div>
 
     <!-- Hostel Events Section -->

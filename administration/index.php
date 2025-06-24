@@ -101,27 +101,29 @@ include('../resources/conn.php');
     <!-- commiteee -->
 
     
-    <!-- <section class="committee-members">
+<section class="committee-members">
     <h2 class="section-title text-center">Executive Committee Members of TMHNU</h2>
     <div class="committee-container">
-        <ul>
-            <li>Mr. P.M.P. Arul Prakasam</li>
-            <li>Mr. K.K. Jeyaram Nadar</li>
-            <li>Mr. A.S.G. Dharma Rajan, B.A.</li>
-            <li>Mr. P. Kannaiyiram, Ex.Mc.</li>
-            <li>Mr. K. Gnanaprakasam</li>
-            <li>Mr. K.K. Sekar</li>
-        </ul>
-        <ul>
-            <li>Mr. G.N. Jawahar</li>
-            <li>Mr. B. Ramachandran, M.B.A.</li>
-            <li>Er. R.T. Jawahar, B.E.</li>
-            <li>Mr. G.K. Vijayakumar, B.Com.</li>
-            <li>Mr. A.S. Jeevagan</li>
-        </ul>
+       <ul >
+      <li>Mr. B. Ashokan</li>
+      <li>Mr. K.T. Balasubramanian</li>
+      <li>Mr. V.K.P. Gobi</li>
+      <li>Mr. K.A.T. Karthikeyan</li>
+      <li>Mr. R. Pandikumar</li>
+      <li>Mr. G.S. Raja</li>
+     
+    </ul>
+    <ul>
+        <li>Mr. A. Ramakrishnan</li>
+      <li>Mr. T.M. Sampath</li>
+      <li>Mr. M. Senthilkumar</li>
+      <li>Mr. C. Sundarapandian</li>
+      <li>Mr. O.K.T. Vijay</li>
+      <li>Mr. R.V. Vijayakumar</li>
+    </ul>
     </div>
 </section>
-
+    <!-- 
 <section class="college-committee mt-4 text-underline">
     <h2 class="section-title text-center">College Committee Members of NSCET</h2>
     <div class="committee-container">

@@ -74,10 +74,11 @@
             Research
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./research">research</a>
+            <a class="dropdown-item" href="./research">research statistics</a>
             <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="./research/centre.php">research Centre</a>
             <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
+             <a class="dropdown-item" href="./mou/">Academic Collaboration</a>
             
         </div>
     </div>
@@ -86,30 +87,44 @@
 
 
 <li>
+  <div class="dropdown">
+    <button class="btn custom_dropdown dropdown-toggle" type="button" id="dropdownMenuButton"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Academics
+    </button>
+    <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
+      <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
+      <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
 
-    <div class="dropdown">
-        <button class="btn custom_dropdown " type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Academics
-        </button>
-        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
-            <a class="dropdown-item" href="./academic_calendar/">Academic Calender</a>
-            <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances pertaining</a>
-            
-            <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
-            <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
-            <!--<a class="dropdown-item" href="#">UGc ODL online Programs</a>-->
-            <a class="dropdown-item" href="./iqac/">IQAC</a>
-            <a class="dropdown-item" href="./mou/">Academic Collaboration</a>
-            <!--<a class="dropdown-item" href="./mou/">Mou's</a>-->
-            <a class="dropdown-item" href="./library/">Library</a>
-
-
+      <!-- Nested Dropdown using dropright -->
+      <div class="dropdown dropright">
+        <a class="dropdown-item dropdown-toggle" href="#" id="departmentDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Department
+        </a>
+        <div class="dropdown-menu" aria-labelledby="departmentDropdown">
+          <a class="dropdown-item" href="./department/?dept=cse">Computer Science & Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=civil">Civil Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=ece">Electronics & Communication Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=eee">Electrical and Electronics Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=mech">Mechanical Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=ai-and-ds">Artificial Intelligence & Data Science</a>
+          <a class="dropdown-item" href="./department/?dept=it">Information Technology</a>
+          <a class="dropdown-item" href="./department/?dept=s-and-h">Science and Humanities</a>
+          <a class="dropdown-item" href="./department/?dept=se">Structural Engineering</a>
+          <a class="dropdown-item" href="./department/?dept=mfe">Manufacturing Engineering</a>
         </div>
-    </div>
+      </div>
 
+      <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
+      <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
+      <a class="dropdown-item" href="./iqac/">IQAC</a>
+      <a class="dropdown-item" href="./library/">Library</a>
+    </div>
+  </div>
 </li>
+
 
 <li>
 
@@ -325,3 +340,7 @@
     }
     window.onload = initSearch;
 </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
