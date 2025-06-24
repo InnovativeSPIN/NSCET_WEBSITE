@@ -14,7 +14,7 @@
             <a class="dropdown-item" href="./aff_accr">Affiliation & Accrediation</a>
             <a class="dropdown-item" href="./files/AR.pdf">Annual Reports</a>
             <a class="dropdown-item" href="./files/AC.pdf">Annual Accounts</a>
-           
+
         </div>
     </div>
 
@@ -31,7 +31,7 @@
             <a class="dropdown-item" href="./administration/financeofficer.php">Finance officer</a>
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
-            <a class="dropdown-item"  href="./governing_counseling/">GOVERNING COUNSELING</a>
+            <a class="dropdown-item" href="./governing_counseling/">GOVERNING COUNSELING</a>
             <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
             <a class="dropdown-item" href="./administration/leadership.php">Academic Leadership</a>
         </div>
@@ -78,8 +78,8 @@
             <a class="dropdown-item" href="./research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="./research/centre.php">research Centre</a>
             <a class="dropdown-item" href="./research/edc.php">Entrepreneurship Development Cell</a>
-             <a class="dropdown-item" href="./mou/">Academic Collaboration</a>
-            
+            <a class="dropdown-item" href="./mou/">Academic Collaboration</a>
+
         </div>
     </div>
 
@@ -87,42 +87,42 @@
 
 
 <li>
-  <div class="dropdown">
-    <button class="btn custom_dropdown dropdown-toggle" type="button" id="dropdownMenuButton"
-      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Academics
-    </button>
-    <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
-      <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
-      <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
+    <div class="dropdown">
+        <button class="btn custom_dropdown dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+        </button>
+        <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./detail_acadamics">Details of Academic Programs</a>
+            <a class="dropdown-item" href="./academic_calendar/">Academic Calendar</a>
+            <a class="dropdown-item" href="./detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
 
-      <!-- Nested Dropdown using dropright -->
-      <div class="dropdown dropright">
-        <a class="dropdown-item dropdown-toggle" href="#" id="departmentDropdown" role="button"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Department
-        </a>
-        <div class="dropdown-menu" aria-labelledby="departmentDropdown">
-          <a class="dropdown-item" href="./department/?dept=cse">Computer Science & Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=civil">Civil Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=ece">Electronics & Communication Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=eee">Electrical and Electronics Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=mech">Mechanical Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=ai-and-ds">Artificial Intelligence & Data Science</a>
-          <a class="dropdown-item" href="./department/?dept=it">Information Technology</a>
-          <a class="dropdown-item" href="./department/?dept=s-and-h">Science and Humanities</a>
-          <a class="dropdown-item" href="./department/?dept=se">Structural Engineering</a>
-          <a class="dropdown-item" href="./department/?dept=mfe">Manufacturing Engineering</a>
+            <!-- Nested Dropdown using dropright -->
+            <div class="dropdown dropright">
+                <a class="dropdown-item dropdown-toggle" href="#" id="departmentDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Department
+                </a>
+                <div class="dropdown-menu" aria-labelledby="departmentDropdown">
+                    <a class="dropdown-item" href="./department/?dept=cse">Computer Science & Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=civil">Civil Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=ece">Electronics & Communication Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=eee">Electrical and Electronics Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=mech">Mechanical Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=ai-and-ds">Artificial Intelligence & Data Science</a>
+                    <a class="dropdown-item" href="./department/?dept=it">Information Technology</a>
+                    <a class="dropdown-item" href="./department/?dept=s-and-h">Science and Humanities</a>
+                    <a class="dropdown-item" href="./department/?dept=se">Structural Engineering</a>
+                    <a class="dropdown-item" href="./department/?dept=mfe">Manufacturing Engineering</a>
+                </div>
+            </div>
+
+            <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
+            <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
+            <a class="dropdown-item" href="./iqac/">IQAC</a>
+            <a class="dropdown-item" href="./library/">Library</a>
         </div>
-      </div>
-
-      <a class="dropdown-item" href="./teaching/">Teaching Faculty</a>
-      <a class="dropdown-item" href="./non-teaching/">Non-Teaching Faculty</a>
-      <a class="dropdown-item" href="./iqac/">IQAC</a>
-      <a class="dropdown-item" href="./library/">Library</a>
     </div>
-  </div>
 </li>
 
 
@@ -189,6 +189,7 @@
             <a class="dropdown-item" href="./nss/">Nss</a>
             <a class="dropdown-item" href="./hostel/boys_hostel/">Boys Hostel</a>
             <a class="dropdown-item" href="./hostel/girls_hostel/">Girls Hostel</a>
+            <a class="dropdown-item" href="./placement/">Placements</a>
             <a class="dropdown-item" href="./sgrc/">SGRC</a>
             <a class="dropdown-item" href="./anti_ragging/">Anti-Ragging Cell</a>
             <a class="dropdown-item" href="#">EO cell</a>
@@ -196,8 +197,9 @@
             <!-- <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
 
-            <a class="dropdown-item" href="./sports_facilites/">Sports Facilities</a>
+            <!-- <a class="dropdown-item" href="./sports_facilites/">Sports Facilities</a> -->
             <a class="dropdown-item" href="./health/">Health Facilities</a>
+            <a class="dropdown-item" href="./medical_facility/">Medical Facility</a>
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
             <a class="dropdown-item" href="./transport/">Transport Facilities</a>
@@ -208,21 +210,12 @@
 </li>
 
 <li>
-    <button class="btn custom_dropdown "
+    <button class="btn custom_dropdown dropdown"
         aria-haspopup="true" aria-expanded="false">
-        <a href="./placement/">
-            Placements
-        </a>
-    </button>
-
-</li>
-<li>
-    <button class="btn custom_dropdown "
-        aria-haspopup="true" aria-expanded="false">
-        <a href="./placement/">
+        <a href="./gallery/" class="text-decoration-none" >
             Gallery
         </a>
-    </button>
+        </button>
 
 </li>
 
@@ -246,7 +239,7 @@
             <a class="dropdown-item" href="./icams2k25/">ICAMS 2K25</a>
 
 
-    </div>
+        </div>
     </div>
 </li>
 
@@ -331,8 +324,7 @@
             const results = q ?
                 pages.filter(p =>
                     p.title.toLowerCase().includes(q) // ||p.content.toLowerCase().includes(q)
-                ) :
-                [];
+                ) : [];
             document.getElementById('results').innerHTML = results.slice(0, 10)
                 .map(p => `<li><a href="${p.url}">${p.title}</a></li>`)
                 .join('') || '<li>No results found</li>';
@@ -343,4 +335,4 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">

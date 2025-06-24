@@ -20,7 +20,55 @@ include('../resources/conn.php');
 <link rel="stylesheet" href="../assets/css/resources/style.css">
 <link rel="stylesheet" href="../assets/css/research/style.css">
 
+<style>
+      .research-statistics {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: var(--text-color);
+      padding: 20px;
+    }
 
+    .research-statistics h2 {
+      color: var(--dark-color);
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .research-statistics .section {
+      margin-bottom: 60px;
+    }
+
+    .research-statistics .section img {
+      display: block;
+      margin: 0 auto;
+      max-width: 480px;
+      border: 2px solid var(--light-primary);
+      border-radius: 8px;
+    }
+
+    .research-statistics table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: var(--light-primary);
+    }
+
+    .research-statistics th,
+    .research-statistics td {
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .research-statistics th {
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    .research-statistics td {
+ color: #121212;
+    }
+</style>
 <!-- custom js -->
 <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
 </head>
@@ -60,6 +108,80 @@ include('../resources/conn.php');
             <p>To become an advanced center of research, producing innovative solutions and skilled doctorates in Mechanical Engineering.</p>
             <h3>Mission</h3>
             <p>We partner with the research community to foster high achievement, ethical conduct, and enhance grant management capabilities.</p>
+        </section>
+
+        <section class="research-statistics">
+             <div class="section">
+    <h2>Journal Publications (Total: 232)</h2>
+    <img src="/research/files/journal.jpg" alt="Journal Count">
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Publications</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2014–15</td><td>15</td></tr>
+        <tr><td>2015–16</td><td>27</td></tr>
+        <tr><td>2016–17</td><td>11</td></tr>
+        <tr><td>2017–18</td><td>11</td></tr>
+        <tr><td>2018–19</td><td>26</td></tr>
+        <tr><td>2019–20</td><td>22</td></tr>
+        <tr><td>2020–21</td><td>14</td></tr>
+        <tr><td>2021–22</td><td>38</td></tr>
+        <tr><td>2022–23</td><td>20</td></tr>
+        <tr><td>2023–24</td><td>32</td></tr>
+        <tr><td>2024–25</td><td>16</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Patent Count Section -->
+  <div class="section">
+    <h2>Patent Count (Total: 28)</h2>
+    <img src="/research/files/patent.jpg" alt="Patent Count">
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Patents</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2014–15</td><td>0</td></tr>
+        <tr><td>2015–16</td><td>0</td></tr>
+        <tr><td>2016–17</td><td>1</td></tr>
+        <tr><td>2017–18</td><td>1</td></tr>
+        <tr><td>2018–19</td><td>1</td></tr>
+        <tr><td>2019–20</td><td>1</td></tr>
+        <tr><td>2020–21</td><td>5</td></tr>
+        <tr><td>2021–22</td><td>8</td></tr>
+        <tr><td>2022–23</td><td>1</td></tr>
+        <tr><td>2023–24</td><td>2</td></tr>
+        <tr><td>2024–25</td><td>8</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Ph.D. Statistics Section -->
+  <div class="section">
+    <h2>Ph.D. Statistics - Teaching Staff</h2>
+    <img src="/research/files/phd.jpg" alt="Ph.D. Stats">
+    <table>
+      <thead>
+        <tr>
+          <th>Qualification</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Ph.D. Completed</td><td>18</td></tr>
+        <tr><td>Ph.D. Pursuing</td><td>28</td></tr>
+        <tr><td>M.E., M.Sc., & Other</td><td>47</td></tr>
+      </tbody>
+    </table>
+  </div>
         </section>
 
         <section class="faculty">

@@ -31,6 +31,11 @@ include('../resources/conn.php');
             font-weight: bold;
             text-transform: uppercase;
         }
+        .main_table{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
     </style>
     <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

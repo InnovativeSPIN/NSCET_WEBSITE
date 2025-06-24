@@ -1,6 +1,6 @@
 <?php 
 
-include('./resources/conn.php');
+include('../resources/conn.php');
 
 
 ?>
@@ -17,7 +17,7 @@ include('./resources/conn.php');
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
 <!-- custom css -->
-<link rel="stylesheet" href="./assets/css/resources/style.css">
+<link rel="stylesheet" href="../assets/css/resources/style.css">
 
 
 <!-- custom js -->
@@ -25,13 +25,13 @@ include('./resources/conn.php');
 </head>
 <body>
 
-<?php include('./resources/navbar.php');?>
+<?php include('../resources/navbar.php');?>
 
 
 
 
 
-<?php include('./resources/footer.php'); ?>
+<?php include('../resources/footer.php'); ?>
 
 <!-- custom js -->
 <script src="./assets/js/resources/script.js"></script>
