@@ -133,7 +133,7 @@ function safe_htmlspecialchars($value) {
                     <img alt="Mr. C. Prathap" class="card__image" src="../assets/img/department/staff/s-and-h/prathap.jpg">
                   </div>
                   <div class="faculties-content">
-                    <p style="text-align:center;"><b>Mr. C. Prathap M.Tech., (Ph.D) <br> Controller of Examination</b></p>
+                    <p style="text-align:center;"><b>Mr. C. Prathap M.Tech.,(Ph.D)<br>Controller of Examination</b></p>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ function safe_htmlspecialchars($value) {
                   <img alt="Mr. K. Ganesh" class="card__image" src="../assets/img/department/staff/eee/ganesh.jpg">
                 </div>
                 <div class="faculties-content">
-                  <p style="text-align:center;"><b>Mr. K. Ganesh M.E (Ph.D.) Deputy <br> Controller of Examination</b></p>
+                  <p style="text-align:center;"><b>Mr. K. Ganesh M.E(Ph.D.)<br>Deputy Controller of Examination</b></p>
                 </div>
               </div>
               <div class="faculties-details">
@@ -150,7 +150,7 @@ function safe_htmlspecialchars($value) {
                   <img alt="Mr. V. Sivaganesan" class="card__image" src="../assets/img/department/staff/mech/sivaganesan.jpg">
                 </div>
                 <div class="faculties-content">
-                  <p style="text-align:center;"><b>Mr. V. Sivaganesan M.E., MISTE. Deputy <br> Controller of Examination</b></p>
+                  <p style="text-align:center;"><b>Mr. V. Sivaganesan M.E.,MISTE.<br>Deputy Controller of Examination</b></p>
                 </div>
               </div>
               <div class="faculties-details">
@@ -158,7 +158,7 @@ function safe_htmlspecialchars($value) {
                   <img alt="Mrs. M. Mahalakshmi" class="card__image" src="../assets/img/department/staff/s-and-h/mahalakshmi.jpg">
                 </div>
                 <div class="faculties-content">
-                  <p style="text-align:center;"><b>Mrs. M. Mahalakshmi M.Sc., M.Phil., SET Deputy <br> Controller of Examination</b></p>
+                  <p style="text-align:center;"><b>Mrs. M. Mahalakshmi M.Sc.,M.Phil.,SET<br>Deputy Controller of Examination</b></p>
                 </div>
               </div>
             </div>

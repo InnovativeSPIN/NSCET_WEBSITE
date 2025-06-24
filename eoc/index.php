@@ -112,6 +112,27 @@ function safe_htmlspecialchars($value) {
       line-height: 1.8;
       margin-bottom: 20px;
     }
+    /* Members Table */
+    .members-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .members-table th,
+    .members-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #dee2e6;
+      font-size: clamp(16px, 1.6vw, 18px);
+      color: #343a40;
+    }
+    .members-table th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+    }
+    .members-table tr:hover {
+      background-color: #f1f3f5;
+    }
     /* Responsive Adjustments */
     @media (max-width: 767px) {
       .hero-section {
@@ -147,6 +168,11 @@ function safe_htmlspecialchars($value) {
       .divider {
         width: 80px;
       }
+      .members-table th,
+      .members-table td {
+        padding: 10px;
+        font-size: clamp(14px, 1.4vw, 16px);
+      }
     }
     @media (prefers-reduced-motion: reduce) {
       ul.animated-list li {
@@ -176,6 +202,8 @@ function safe_htmlspecialchars($value) {
     <h2 class="section-title">Introduction</h2>
     <div class="divider"></div>
     <p><?php echo safe_htmlspecialchars("The Equal Opportunity Cell (EOC) at Nadar Saraswathi College of Engineering & Technology (NSCET) has been established to ensure that all students, regardless of caste, gender, religion, region, language, disability, or socio-economic background, have equal access to academic, co-curricular, and support opportunities. The cell proactively works towards creating an inclusive, safe, and motivating environment that nurtures student potential and promotes equity across all aspects of campus life."); ?></p>
+        <div class="button-section  d-flex justify-content-start ">
+   <a href="../assets/pdf/Equal Opportunity Cell (EOC).pdf"><button class="btn btn-primary">Minutes of Meeting</button></a>
   </div>
 
   <!-- Objectives -->
@@ -228,6 +256,32 @@ function safe_htmlspecialchars($value) {
       <li style="--i: 9;">Gender Sensitization & Disability Inclusion</li>
       <li style="--i: 10;">Grievance Redressal & Feedback Mechanism</li>
     </ul>
+  </div>
+
+  <!-- Members -->
+  <div class="content-card" id="section-5" aria-label="Members">
+    <h2 class="section-title">Members</h2>
+    <div class="divider"></div>
+    <table class="members-table">
+      <tr>
+        <th>Role</th>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>Chairperson</td>
+        <td>Dr. C. Mathalaisundaram, Principal</td>
+      </tr>
+      <tr>
+        <td>Members</td>
+        <td>
+          Dr. M. Sathya – Vice Principal, Academic - Coordinator / EOC,<br>
+          Dr. C. Karthikeyan – Placement and Training Officer,<br>
+          Dr. V. Ananthi – Assistant Professor / Mathematics,<br>
+          Mr. N. Keesamoorthy – Assistant Professor / CSE,<br>
+          Mr. A. MuniKumar – Junior Assistant / Admin
+        </td>
+      </tr>
+    </table>
   </div>
 </section>
 

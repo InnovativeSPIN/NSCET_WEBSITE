@@ -42,6 +42,9 @@ include('../resources/conn.php');
           <p style="color: #343a40; font-size: 1rem; line-height: 1.6;">
             The Ombudsperson serves as an impartial and independent resource for students, faculty, and staff at the institution. This role is dedicated to addressing concerns, grievances, and disputes in a fair and confidential manner. The Ombudsperson listens to all parties involved, provides guidance on institutional policies, and facilitates resolutions to promote a harmonious and equitable campus environment. By upholding principles of fairness and transparency, the Ombudsperson ensures that all members of the college community are heard and supported.
           </p>
+          <div class="button-section  d-flex justify-content-start ">
+   <a href="../assets/img/Ombudsperson.jpeg"><button class="btn btn-primary">Approval Mail</button></a>
+  </div>
         </div>
       </div>
     </div>

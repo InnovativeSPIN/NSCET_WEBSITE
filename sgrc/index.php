@@ -54,7 +54,7 @@ In our college, a Grievance Redressal mechanism aims to treat students fairly, r
         </ul>
 
         <div class="w-25 mb-5 mt-5 d-flex justify-content-center">
-        <a href="../assets/pdf/cell/grc.pdf"> <button>Minutes of Meeting</button></a>
+        <a href="../assets/pdf/Grievance Redressal Cell.pdf"> <button>Minutes of Meeting</button></a>
 
         </div>
         <h3>Members:</h3>

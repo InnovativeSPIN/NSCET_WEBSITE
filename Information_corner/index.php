@@ -7,15 +7,51 @@ include('../resources/conn.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Corner</title>
-    <!-- Bootstrap 5.3.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Information Corner | <?php echo isset($colle_Name) ? $colle_Name : 'NSCET'; ?></title>
+    <!-- Bootstrap 5.0.0-alpha1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/resources/style.css">
     <link rel="stylesheet" href="../assets/css/informationcorner/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
+    <!-- Favicon Placeholder -->
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <style>
+        /* Navbar Fix */
+        /* .navbar { */
+            /* z-index: 1000; */
+            /* background: #fff !important; */
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        /* } */
+        .navbar-toggler {
+            border: none;
+            padding: 0.5rem;
+        }
+        .navbar-collapse {
+            background: #fff;
+        }
+        body {
+            padding-top: 70px;
+        }
+        @media (max-width: 767px) {
+            .navbar-collapse {
+                max-height: 80vh;
+                overflow-y: auto;
+            }
+            body {
+                padding-top: 60px;
+            }
+        }
+        /* Card Hover Effect */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+        }
+    </style>
 </head>
 <body>
     <?php include('../resources/navbar.php'); ?>
@@ -76,7 +112,24 @@ include('../resources/conn.php');
 
     <?php include('../resources/footer.php'); ?>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script defer src="../assets/js/resources/script.js"></script>
+    <!-- Fallback for Navbar Toggler -->
+    <script>
+        (function() {
+            document.addEventListener('DOMContentLoaded', () => {
+                const toggler = document.querySelector('.navbar-toggler');
+                const collapse = document.querySelector('.navbar-collapse');
+                if (toggler && collapse) {
+                    toggler.addEventListener('click', () => {
+                        collapse.classList.toggle('show');
+                    });
+                }
+            });
+        })();
+    </script>
 </body>
 </html>

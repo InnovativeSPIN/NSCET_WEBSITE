@@ -41,7 +41,7 @@ include('../resources/conn.php');
 <div class="anti-ragging">
     <h2>Ragging Free Campus</h2>
     <div class="button-section  d-flex justify-content-start ">
-   <a href="/assets/pdf/cell/antiragging.pdf"><button class="btn btn-primary">Minutes of Meeting</button></a>
+   <a href="/assets/pdf/Anti Ragging Committee.pdf"><button class="btn btn-primary">Minutes of Meeting</button></a>
 </div>
     <h3>Main Objectives</h3>
   
