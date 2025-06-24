@@ -34,11 +34,14 @@ include('../resources/conn.php');
   line-height: 1.7;
 }
 
-.iiqa-declaration h2 {
+.main-cotainer h2 {
   font-size: 28px;
   margin-bottom: 20px;
   color: #1e3a8a;
   text-align: center;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .iiqa-declaration p {
@@ -59,6 +62,12 @@ include('../resources/conn.php');
   font-family: monospace;
   color: #334155;
 }
+.main-cotainer{
+  max-width: 1200px ;
+  margin: 0 auto;
+  width: 100%;
+
+}
 
 </style>
 
@@ -69,10 +78,15 @@ include('../resources/conn.php');
 
 <?php include('../resources/navbar.php');?>
 
+<div class="main-cotainer">
+<h2>
+  Right to Information Act
+</h2>
+<div style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.8; color: #333;">
+  Nadar Saraswathi College of Engineering and Technology, Vadapudupatti, Theni - 625531, Tamilnadu, is registered under the Tamilnadu Societies Act XXI of 1860. Affiliated to Anna University, Chennai, and approved by AICTE, New Delhi, the college operates per the rules and regulations of the Directorate of Higher Education, Government of Tamilnadu, and Statutory Regulatory Authorities (SRAs). As a government-aided institution, it is included under sections 2(f) and 12(B) of the UGC since 31.3.2006. The Principal, contactable at <strong>04546-263900/263901</strong> or <a href="mailto:principal@nscet.org">principal@nscet.org</a>, heads the institution. The college office operates from <strong>9:00 AM to 4:40 PM</strong>, with class timings from <strong>9:15 AM to 4:40 PM</strong>, and is closed on Sundays and public holidays. The library is open from <strong>8:30 AM to 6:00 PM</strong> on working days. Financial transactions are audited by the Joint Directorate of Collegiate Education and UGC. All cells/committees comply with section 4(1)(b) of the RTI Act, 2005. RTI applications, accompanied by a <strong>Rs. 100</strong> demand draft favoring the Principal, are promptly addressed. All college information under the RTI Act is publicly accessible to Indian citizens via <a href="https://www.nscet.org" target="_blank">www.nscet.org</a>.
+</div>
 
-
-
-
+</div>
 
 
 <?php include('../resources/footer.php'); ?>

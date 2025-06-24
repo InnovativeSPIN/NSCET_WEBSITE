@@ -32,7 +32,7 @@
             <a class="dropdown-item" href="./control_of_exam">Controller of Examination</a>
             <a class="dropdown-item" href="./administration/ombudsperson.php">ombudsperson</a>
             <a class="dropdown-item" href="./governing_counseling/">governing council</a>
-            <a class="dropdown-item" href="./files/ICC-NSCET.pdf">Internal Complaints Committee</a>
+            <a class="dropdown-item" href="./icc/">Internal Complaints Committee</a>
             <a class="dropdown-item" href="./administration/leadership.php">Academic Leadership</a>
         </div>
     </div>
@@ -250,7 +250,7 @@
          
             <a href="./clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="./NIRF/" class="dropdown-item">NIRF</a>
-            <a href="./assets/pdf/naac/RTI.pdf" class="dropdown-item">RTI</a>
+            <a href="./rti" class="dropdown-item">RTI</a>
             <a href="./naac/ssr/index.php" class="dropdown-item">SSR </a>
             <a class="dropdown-item" href="./gallery/">Gallery</a>
             <a class="dropdown-item" href="./ICRTT2025/">ICRTT 25</a>
@@ -278,9 +278,10 @@
     }
     #search-main_box{
 position: absolute;
-z-index: 1;
+z-index: 3;
 right:10.7%;
 top: 85%;
+
     }
 
     #searchBox:focus {
@@ -294,7 +295,7 @@ top: 85%;
         top: 110%;
         left: 0;
         right: 0;
-        
+        background: white;
         border-radius: 0 0 8px 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         max-height: 250px;

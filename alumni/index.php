@@ -91,7 +91,7 @@ include('../resources/conn.php');
 }
 .swiper-slide img{
 width: 880px;
-height: 880px;
+height: 480px;
 }
 
 
@@ -122,6 +122,7 @@ height: 880px;
             <li><a href="#alumni_meets" onclick="showSection('alumni_meets')"><i class="fas fa-users"></i>Alumni Meets</a></li>
             <li><a href="#distinguished" onclick="showSection('distinguished')"><i class="fas fa-star"></i>Distinguished Alumni</a></li>
             <li><a href="#distinguished" onclick="showSection('gallerry')"><i class="fas fa-star"></i>Gallery</a></li>
+            <li><a href="#distinguished" onclick="showSection('Certificate')"><i class="fas fa-star"></i>Certificate</a></li>
         </ul>
   </div>
 <!-- side contents -->
@@ -361,6 +362,9 @@ Alumni Meets
 
 </div>
 
+<div id="Certificate" class="main_shadows content-section">
+<iframe src="/alumni/main.pdf" frameborder="0" width="600 " height="800"></iframe>
+</div>
 
 
 </div>
