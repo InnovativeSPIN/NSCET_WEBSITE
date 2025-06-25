@@ -9,7 +9,7 @@
     position: relative;
 }
 .college_main_logo{
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -19,7 +19,7 @@
     width:100px;
 }
 .naac_logo img{
-    width:130px;
+    width:180px;
 }
 .college_logos{
     display:flex;
@@ -51,7 +51,7 @@
     color: var(--primary-color);
 }
 .college_logo img{
-    width: 180px;
+    width: 220px;
 }
 .college_logo{
     margin-left: 2rem;
@@ -299,7 +299,6 @@ font-size: clamp(15px,2em,18px);
 .mobile_counselling_code{
     display: none;
 }
-
 
 
 
