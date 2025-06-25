@@ -66,6 +66,7 @@ include('../resources/conn.php');
           grid-template-columns: repeat(3,1fr);
           gap: 2rem;
           justify-content: center;
+          text-align: justify;
       }
 
       /* Added Table Styling */
@@ -93,6 +94,9 @@ include('../resources/conn.php');
         transition: background-color 0.3s ease;
       }
     }
+    .edc-main{
+      text-align: justify;
+    }
   </style>
   <!-- custom js -->
   <script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
@@ -104,7 +108,7 @@ include('../resources/conn.php');
   <header>
     <h3>Entrepreneurship Development Cell (EDC) <br> Institution’s Innovation Council (IIC)</h3>
   </header>
-  <div class="container mt-5 ">
+  <div class="container mt-5  ">
     <section id="about">
       <h2>About EDC & IIC</h2>
       <p>
@@ -179,6 +183,7 @@ include('../resources/conn.php');
             </tr>
           </thead>
           <tbody>
+            
             <tr>
               <td>Coordinator</td>
               <td>Mr. P. Surulimani, AP/Mech</td>
@@ -190,6 +195,10 @@ include('../resources/conn.php');
             <tr>
               <td>Coordinator</td>
               <td>Mr. V. Sivaganesan, AP/Mech</td>
+            </tr>
+             <tr>
+              <td>Member</td>
+              <td>Mrs.K.Benita Merlin Isabella , AP/CIVIl</td>
             </tr>
             <tr>
               <td>Member</td>
@@ -215,6 +224,7 @@ include('../resources/conn.php');
               <td>Member</td>
               <td>Mrs. G. Keerthana, AP/IT</td>
             </tr>
+             
           </tbody>
         </table>
       </div>
