@@ -31,9 +31,7 @@ include('../resources/conn.php');
         .navbar-collapse {
             background: #fff;
         }
-        body {
-            padding-top: 70px;
-        }
+      
         @media (max-width: 767px) {
             .navbar-collapse {
                 max-height: 80vh;

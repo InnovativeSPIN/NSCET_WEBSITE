@@ -22,19 +22,15 @@
             </h2>
             <div class="usefull_links_list">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Features</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./about/">About Us</a></li>
+                    <li><a href="./Information_corner/">Events</a></li>
 
                 </ul>
                 <ul>
-                    <li><a href="#">Policy</a></li>
-                    <li><a href="#">Term</a></li>
+                    <li><a href="./act_and_statutes/">Policy</a></li>
                     <li><a href="/helpdesk/">Helpdesk</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Site Map</a></li>
+                    <li><a href="./gallery/">Gallery</a></li>
                 </ul>
             </div>
         </div>
@@ -44,11 +40,10 @@
             </h2>
             <ul>
                 <li><a href="./mandatory-disclosure/">Mandatory Disclosure</a></li>
-                <li><a href="#">Student Facilitation Services</a></li>
-                <li><a href="#">AICTE Approval Handbook</a></li>
-                <li><a href="#">AICTE Approval</a></li>
-                <li><a href="#">AU Affiliation</a></li>
-                <li><a href="#">NIRF 2024</a></li>
+                
+                <li><a href="./aff_accr/files/aicte.PDF">AICTE Approval </a></li>
+                <li><a href="./aff_accr/files/AU 2024-25.pdf">AU Affiliation</a></li>
+                <li><a href="./NIRF/">NIRF 2024</a></li>
             </ul>
 
         </div>
