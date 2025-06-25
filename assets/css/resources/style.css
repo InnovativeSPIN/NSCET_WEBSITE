@@ -47,7 +47,8 @@
 
 }
 .college_name_head{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: clamp(38px,3rem,48px);
     color: var(--primary-color);
 }
 .college_logo img{

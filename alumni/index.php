@@ -94,6 +94,9 @@ width: 880px;
 height: 480px;
 }
 
+.alumni-list li a{
+  text-decoration: none;
+}
 
 
 </style>
@@ -121,8 +124,8 @@ height: 480px;
             <li><a href="#office_bearers" onclick="showSection('office_bearers')"><i class="fas fa-user-graduate"></i>OFFICE BEARERS</a></li>
             <li><a href="#alumni_meets" onclick="showSection('alumni_meets')"><i class="fas fa-users"></i>Alumni Meets</a></li>
             <li><a href="#distinguished" onclick="showSection('distinguished')"><i class="fas fa-star"></i>Distinguished Alumni</a></li>
-            <li><a href="#distinguished" onclick="showSection('gallerry')"><i class="fas fa-star"></i>Gallery</a></li>
-            <li><a href="#distinguished" onclick="showSection('Certificate')"><i class="fas fa-star"></i>Certificate</a></li>
+            <li><a href="#gallery" onclick="showSection('gallerry')"><i class="fa-solid fa-image"></i>Gallery</a></li>
+            <li><a href="#Certificate" onclick="showSection('Certificate')"><i class="fa-solid fa-certificate"></i>Certificate</a></li>
         </ul>
   </div>
 <!-- side contents -->
@@ -282,7 +285,24 @@ Alumni Meets
 
 <section class="alumni_meets_container">
         <h1 class="content_text" >AANSCET Alumni Meet – 2K22 & 2K24</h1>
-
+        <div class="alumni-meet">
+            <h2>Alumni Meet 2K25</h2>
+            <p><strong>Date:</strong> 30.03.2025</p>
+            <p><strong>Venue:</strong> Sir C.V. Raman Auditorium</p>
+            <p>This year's meet continued the tradition, bringing alumni together to share success stories and strengthen connections with the institution.</p>
+            <div class="images">
+                <img src="../assets/img/alumni/2k25.png" alt="Alumni Meet 2K24">
+            </div>
+        </div>
+<div class="alumni-meet">
+            <h2>Alumni Meet 2K24</h2>
+            <p><strong>Date:</strong> 20.04.2024</p>
+            <p><strong>Venue:</strong> Sir C.V. Raman Auditorium</p>
+            <p>This year's meet continued the tradition, bringing alumni together to share success stories and strengthen connections with the institution.</p>
+            <div class="images">
+                <img src="../assets/img/alumni/main_1.jpg" alt="Alumni Meet 2K24">
+            </div>
+        </div>
         <div class="alumni-meet">
             <h2>Alumni Meet 2K22</h2>
             <p><strong>Date:</strong> 12.11.2022</p>
@@ -314,15 +334,7 @@ Alumni Meets
             </div>
         </div>
 
-        <div class="alumni-meet">
-            <h2>Alumni Meet 2K24</h2>
-            <p><strong>Date:</strong> 20.04.2024</p>
-            <p><strong>Venue:</strong> Sir C.V. Raman Auditorium</p>
-            <p>This year's meet continued the tradition, bringing alumni together to share success stories and strengthen connections with the institution.</p>
-            <div class="images">
-                <img src="../assets/img/alumni/main_1.jpg" alt="Alumni Meet 2K24">
-            </div>
-        </div>
+        
 
     </section>
 
@@ -363,7 +375,7 @@ Alumni Meets
 </div>
 
 <div id="Certificate" class="main_shadows content-section">
-<iframe src="/alumni/main.pdf" frameborder="0" width="600 " height="800"></iframe>
+<iframe src="/alumni/main.pdf" frameborder="0" width="900 " height="800"></iframe>
 </div>
 
 

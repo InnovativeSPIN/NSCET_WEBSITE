@@ -66,9 +66,9 @@ include('../resources/conn.php');
           <div class="card" style="width: 350px; min-height: 450px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 30px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); text-align: center; box-sizing: border-box;">
             <div class="card-container">
               <div style="width: 300px; height: 300px; overflow: hidden; margin: 0 auto 20px;">
-                <img src="../assets/img/department/staff/ece/Mathavan.jpg" alt="Mr. N. Mathavan" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px; background: transparent;">
+                <img src="../assets/img/department/staff/ece/Mathavan.jpg" alt="Dr. N. Mathavan" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px; background: transparent;">
               </div>
-              <p class="name" style="font-size: 1.5rem; color: #343a40; margin: 15px 0;">Mr. N. Mathavan</p>
+              <p class="name" style="font-size: 1.5rem; color: #343a40; margin: 15px 0;">Dr. N. Mathavan</p>
               <div class="card-content">
                 <h3 style="font-size: 1.3rem; color: #005cbf; margin: 10px 0;">Vice Principal & Admin</h3>
                 <p style="font-size: 1.1rem; color: #6c757d;">M.E., M.B.A., (Ph.D)</p>

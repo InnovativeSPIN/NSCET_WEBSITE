@@ -86,6 +86,70 @@ include('../resources/conn.php');
   margin: 0 auto;
   width: 100%;
 }
+
+.health {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.health-intro {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.health-img {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.section-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.incharge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.incharge-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 250px;
+}
+
+.incharge-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #1a1a1a;
+}
+
+.incharge-title {
+  font-size: 14px;
+  color: #555;
+}
+
     @media (max-width: 768px) {
       .image-gallery {
         flex-direction: column;
@@ -102,12 +166,26 @@ include('../resources/conn.php');
 
 
   <div class="Medical_Facility">
-    <h2 class="text-center text-uppercase">Medical Facility</h2>
+    <h2 class="text-center text-uppercase">Health & Medical Facility</h2>
 
     <p>
       NSCET ensures comprehensive medical support for all students and staff through a well-equipped first aid center and dedicated medical room within the campus. Each department and lab is stocked with essential medicines and first aid kits. A qualified medical doctor and trained nurse/paramedic are available during working hours. The college regularly conducts health camps, including eye/dental check-ups and blood donation drives, alongside health and hygiene awareness programs. In case of emergencies, NSCET has a tie-up with TMHNU Trust Hospital. Emergency contact numbers are clearly displayed across campus, and all medical incidents are properly documented for timely follow-up and care.
     </p>
 
+      <div class="health">
+        <h2 class="section-heading">Incharge</h2>
+
+        <div class="incharge-container">
+
+            <div class="incharge-item">
+                                        <img src="../assets/img/sports/Malaini.jpg" alt="Health Facility" class="health-img" width="180px">
+
+                <p class="incharge-name">Mrs. R. Malini</p>
+                <p class="incharge-title">Physical Directress,Health Incharge</p>
+            </div>
+            <!-- Add more incharge members if needed -->
+        </div>
+    </div>
     <!-- Image Section -->
     <div class="image-gallery">
       <img src="./files/img1.png" alt="Medical Room at NSCET">

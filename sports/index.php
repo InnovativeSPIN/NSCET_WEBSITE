@@ -89,7 +89,7 @@ include('../resources/conn.php');
     <div class="incharge-item">
         <img src="../assets/img/sports/Nethaji.jpg" alt="Selva Kumar" class="incharge-img">
         <h3 class="incharge-name">Mr.Nethaji</h3>
-        <!-- <p class="incharge-details">BPES., M.P.Ed., M.Phil., <br>Physical Director</p> -->
+        <p class="incharge-details">B.Sc.,M.P.Ed.,<br>Physical Director</p>
     </div>
     <div class="incharge-item">
         <img src="../assets/img/sports/Malaini.jpg" alt="Malini" class="incharge-img">

@@ -40,13 +40,16 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.main-container h2 {
+.main-container h2{
   text-align: center;
   font-size: 24px;
   font-weight: 700;
   color: #222;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+.main-text h2 {
+color: #0077cc;
 }
 
 .academics h3 {
@@ -104,6 +107,14 @@
     flex: 1 1 100%;
   }
 }
+.main-text p{
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: clamp(16px,2rem,18px);
+}
 
 
     </style>
@@ -138,13 +149,17 @@
               </section>
             </div>
           </div>
-        </div>
+        </div> 
 
 
+      <div class="mt-5 main-text">
+          <h2 class="text-center text-uppercase fw-bolder">
+          Statutes/Ordinances Pertaining
+        </h2>
+       <p class="mt-5">
+        The NSCET website provides access to statutes and ordinances that govern academic regulations, student conduct, faculty responsibilities, and institutional policies, ensuring transparency and adherence to educational standards.
+       </p>
         <div class="main-container" id="Statutes">
-
-        
-       
         <div class="regulations">
 
           <h2>
@@ -199,6 +214,7 @@
 
 
       </div>
+       </div>
 
     </div>
 

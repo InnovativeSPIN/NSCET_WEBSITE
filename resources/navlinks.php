@@ -52,7 +52,7 @@
             <a class="dropdown-item" href="/detail_acadamics">Details of Academic Programs</a>
             <a class="dropdown-item" href="/academic_calendar/">Academic Calendar</a>
             <a class="dropdown-item" href="/detail_acadamics/#Statutes">Statutes/Ordinances Pertaining</a>
-         
+
             <a class="dropdown-item" href="/teaching/">Teaching Faculty</a>
             <a class="dropdown-item" href="/non-teaching/">Non-Teaching Faculty</a>
             <a class="dropdown-item" href="/iqac/">IQAC</a>
@@ -118,9 +118,9 @@
             Research
         </button>
         <div class="dropdown-menu custome-dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="/research/rndcell.php">research and development cell</a>
+            <a class="dropdown-item" href="/research/rndcell.php">research and development cell</a>
             <a class="dropdown-item" href="/research">research statistics</a>
-          
+
             <a class="dropdown-item" href="/research/centre.php">research Centre</a>
             <a class="dropdown-item" href="/research/edc.php">Entrepreneurship Development Cell</a>
             <a class="dropdown-item" href="/mou/">Industry Collaboration</a>
@@ -191,14 +191,14 @@
             <a class="dropdown-item" href="/placement/">Placements</a>
             <a class="dropdown-item" href="/sgrc/">SGRC</a>
             <a class="dropdown-item" href="/anti_ragging/">Anti-Ragging Cell</a>
-            <a class="dropdown-item" href="#">EO cell</a>
-         
+            <a class="dropdown-item" href="./eoc/">Equal Opportunity Cell</a>
+
             <!-- <a class="dropdown-item" href="#">SEDG</a>
             <a class="dropdown-item" href="#"> Specially-Abled Support </a> -->
 
             <!-- <a class="dropdown-item" href="/sports_facilites/">Sports Facilities</a> -->
-            <a class="dropdown-item" href="/health/">Health Facilities</a>
-            <a class="dropdown-item" href="/medical_facility/">Medical Facility</a>
+            <a class="dropdown-item" href="/medical_facility/">Health & Medical Facilities</a>
+            <!-- <a class="dropdown-item" href="/"> Facility</a> -->
             <!-- <a class="dropdown-item" href="#">Canteen</a> -->
             <!-- <a class="dropdown-item" href="#">Hostel</a> -->
             <a class="dropdown-item" href="/transport/">Transport Facilities</a>
@@ -246,13 +246,13 @@
         </button>
         <div class="dropdown-menu custome-dropdown-menu naac_dropdown" aria-labelledby="dropdownMenuButton">
 
-            <a href="/files/edc_cell.pdf" class="dropdown-item">EDC</a>
-         
+
+
             <a href="/clubs_and_chapters/" class="dropdown-item">Clubs & Chapters</a>
             <a href="/NIRF/" class="dropdown-item">NIRF</a>
             <a href="/rti" class="dropdown-item">RTI</a>
             <a href="/naac/ssr/index.php" class="dropdown-item">SSR </a>
-            <a class="dropdown-item" href="/gallery/">Gallery</a>
+
             <a class="dropdown-item" href="/ICRTT2025/">ICRTT 25</a>
             <a class="dropdown-item" href="/ampse25">AMPSE25 </a>
             <a class="dropdown-item" href="/icams2k25/">ICAMS 2K25</a>
@@ -274,13 +274,14 @@
         box-sizing: border-box;
         font-family: 'Segoe UI', sans-serif;
         outline: none;
-        
+
     }
-    #search-main_box{
-position: absolute;
-z-index: 3;
-right:10.7%;
-top: 85%;
+
+    #search-main_box {
+        position: absolute;
+        z-index: 3;
+        right: 10.7%;
+        top: 85%;
 
     }
 
@@ -337,8 +338,7 @@ top: 85%;
 
     #results a:hover {
         color: #0056b3;
-    } 
-    
+    }
 </style>
 
 <script>

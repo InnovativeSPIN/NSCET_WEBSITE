@@ -60,7 +60,6 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: bold;
-    border-bottom: 4px solid var(--primary-color);
     border-radius: 5px;
     display: inline-block;
     margin-bottom: 20px;
@@ -75,6 +74,37 @@
   line-height: 1.4rem;
     
 }
+
+.main_coor table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+.sub_coor{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.sub_coor h2{
+    font-size: clamp(18px,2rem,28px);
+    
+}
+
+.main_coor th,.main_coor td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+.main_coor th {
+    color: white;
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+
 
 
 /* Highlight Section */
@@ -93,7 +123,7 @@
 .hight_h2 {
     margin-left: 100px;
     margin-top: 20px;
-    border-bottom: 4px solid var(--primary-color);
+  
     border-radius: 5px;
     display: inline-block;
 }
@@ -600,19 +630,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-h2{
+.about_head{
     border-bottom: 4px solid var(--primary-color);
     border-radius: 5px;
     display: inline-block;

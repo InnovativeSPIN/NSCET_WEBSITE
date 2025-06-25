@@ -46,7 +46,7 @@ include('../resources/conn.php');
   
 <div class="main_coor">
   <div class="coordinator">
-    <h2 class="about">Coordinator</h2>
+    <h2 class="about about_head">Placement Officer</h2>
     <img class="coordinator_img" src="../assets/img/placement/dr_karthikeyan.png" alt="Mr. Karthikeyan">
     <p class="text-center">DR.C.Karthikeyan <br>Training and Placement Officer</p>
   </div>
@@ -56,6 +56,88 @@ include('../resources/conn.php');
     <p class="main_coor_p">The Training and Placement Department, guided by a set of rules and principles, strives to maintain a good relationship with industries. The department endeavors to successfully carry out all the processes related to training, placement, and career guidance methodically throughout the year.</p>
   </div>
 </div>
+</div>
+<div class="main_coor sub_coor">
+    <div class="coordinator">
+    <h2 class="about">Placement Coordinators</h2>
+
+
+    <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mr. R. Shanmugapriyan</td>
+      <td>Placement Coordinator</td>
+    </tr>
+    <tr>
+      <td>Ms. J. Preetha</td>
+      <td>Placement Coordinator</td>
+    </tr>
+    <tr>
+      <td>Ms. T. Subathamani</td>
+      <td>Placement Coordinator</td>
+    </tr>
+    <tr>
+      <td>Ms. Megha Sagayaraj</td>
+      <td>Placement Coordinator</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+    <div class="coordinator">
+       <h2 class="about">Department Coordinators</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Department</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td>AI&DS</td>
+      <td>Ms.Nagajothi</td>
+      
+    </tr>
+    <tr>
+      <td>CIVIL</td>
+      <td>Ms. S. Gayathri</td>
+      
+    </tr>
+    <tr>
+      <td>CSE</td>
+      <td>Ms. Deepiga</td>
+      
+    </tr>
+    <tr>
+      <td>ECE</td>
+      <td>Ms. P. Gowthami</td>
+      
+    </tr>
+    <tr>
+      <td>EEE</td>
+      <td>Ms. A. Nishetha Jeflin Nixon</td>
+      
+    </tr>
+    <tr>
+      <td>MECH</td>
+      <td>Mr. A. Vennimalairajan</td>
+      
+    </tr>
+    <tr>
+      <td>IT</td>
+      <td>Ms. B. Sai Suganya</td>
+      
+    </tr>
+  </tbody>
+</table>
+
+  </div>
 </div>
 <!-- 
 <div class="hightlight">
